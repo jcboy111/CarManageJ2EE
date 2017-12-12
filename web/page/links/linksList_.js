@@ -6,10 +6,11 @@ layui.config({
 		laypage = layui.laypage,
 		$ = layui.jquery;
 
-	//加载页面数据
+
+    var baseUrl="http://localhost:8074/";	//加载页面数据
 	var linksData = '';
 	$.ajax({
-		url : "http://localhost:8080/people/people",
+		url : baseUrl+"people/people",
 		type : "get",
 		dataType : "json",
 		success : function(data){
@@ -34,7 +35,7 @@ layui.config({
 			var index = layer.msg('查询中，请稍候',{icon: 16,time:false,shade:0.8});
             setTimeout(function(){
             	$.ajax({
-					url : "http://localhost:8080/people/people",
+					url : baseUrl+"people/people",
 					type : "get",
 					dataType : "json",
 					success : function(data){
@@ -171,7 +172,7 @@ layui.config({
 			for(var i=0;i<linksData.length;i++){
 				if(linksData[i].id == _this.attr("data-id")){
                     $.ajax({
-                        url : "http://localhost:8080/people/delete",
+                        url : baseUrl+"people/delete",
                         type : "get",
 						data:{id:linksData[i].id },
                         dataType : "json",
