@@ -102,6 +102,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 }
             });
         }
+
         //以普通用户身份登录
         if ($('#user').is(':checked')) {
             // do something
@@ -115,18 +116,18 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                     //   alert(code);
                     if (code === "200") {
                         alert("登陆成功^_^");
-                        window.location.href = "user_main.html?id=" + data.data[0].id;
+                        alert("还没有调用后台数据库中的user表暂时使用的还是admin表");
+                        /* 这里我没有修改user_main.html，而是先改成跳转到user_main_page.html */
+                        window.location.href = "user_main_page.html?id=" + data.data[0].username;
                     } else {
                         alert("账号或密码错误");
                     }
-
                 },
                 error: function () {
                     alert("登录失败>_<检查一下网络吧");
                 }
             });
         }
-
     });
 </script>
 </body>

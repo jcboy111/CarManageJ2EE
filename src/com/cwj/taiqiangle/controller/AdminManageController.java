@@ -29,7 +29,6 @@ public class AdminManageController {
             } else {
                 jsonMsg.setCode("200");
             }
-
             jsonMsg.setData(adminService.getAdminByNamePassword(username, password));
         } catch (Exception e) {
             jsonMsg.setCode("404");
@@ -111,6 +110,12 @@ public class AdminManageController {
         jsonMsg.setCode("200");
         jsonMsg.setData(1);
         return jsonMsg;
+    }
+
+    @RequestMapping(value="/userLogin",method=RequestMethod.GET)
+    @ResponseBody
+    public JsonMsg userLogin(String username, String password){
+        return null;
     }
 
 }
