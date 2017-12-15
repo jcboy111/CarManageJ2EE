@@ -44,17 +44,17 @@ public class test{
         }
     }
     public static void queryAdmin() {
-        AdminService adminService=new AdminService();
-        List<AdminBean> adminBeans=new ArrayList<AdminBean>();
-        System.out.println("The Results Of testBeans Are:");
-        try {
-            adminBeans= adminService.getAdminByNamePassword("admin","admin");
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-        for(AdminBean testBeans1:adminBeans){
-            System.out.println(testBeans1.toString());
-        }
+//        AdminService adminService=new AdminService();
+//        List<AdminBean> adminBeans=new ArrayList<AdminBean>();
+//        System.out.println("The Results Of testBeans Are:");
+//        try {
+//            adminBeans= adminService.getAdminByNamePassword("admin","admin");
+//        } catch (SQLException e) {
+//            e.printStackTrace();
+//        }
+//        for(AdminBean testBeans1:adminBeans){
+//            System.out.println(testBeans1.toString());
+//        }
     }
 
     public static void deleteTestBean() {

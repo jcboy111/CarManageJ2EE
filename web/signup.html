@@ -70,7 +70,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     var baseUrl = "http://localhost:8074/";
     $(".submit").click(function () {
         $.ajax({
-            url: baseUrl + "admin/sendEmail",
+            url: baseUrl + "user/sendEmail",
             type: "get",
             dataType: "json",
             data: {email: $(".email").val(), username: $(".user").val()},
@@ -80,19 +80,18 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 if (code === "200") {
                     alert("已发送邮件");
                     $.ajax({
-                        url: baseUrl + "admin/registerUser",
+                        url: baseUrl + "user/userRegist",
                         type: "get",
                         dataType: "json",
                         data: {username: $(".user").val(), password: $(".password").val(), email: $(".email").val()},
                         success: function (data) {
-                            //var code = data.data;
-                            //alert(code);
-                            //if (code === 1) {
-                            //    alert("注册成功");
-                            //} else {
-                            //    alert("注册失败");
-                            //}
-                            alert("这个注册普通用户的后台Java还没有实现");
+                            var code = data.code;
+                            alert(code);
+                            if (code === "200") {
+                                alert("注册成功");
+                            } else {
+                                alert("注册失败");
+                            }
                         },
                         error: function () {
                             alert("123注册失败>_<检查一下网络吧1");
