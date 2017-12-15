@@ -7,7 +7,7 @@ layui.config({
 		$ = layui.jquery;
 
 
-    var baseUrl="http://localhost:8075/";	//加载页面数据
+    var baseUrl="http://localhost:8074/";	//加载页面数据
 	var linksData = '';
 	$.ajax({
 		url : baseUrl+"people/people",
