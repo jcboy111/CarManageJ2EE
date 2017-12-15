@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1 class="aaa"></h1>
+</body>
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript">
+    window.onload = function () {
+        $.ajax({
+            url: "http://localhost:8074/car/getCarRentIn",
+            type: "get",
+            dataType: "json",
+            success: function (data) {
+                // alert(data.data[0].title);
+                $(".aaa").text(data.data[0].title);
+            },
+            error: function () {
+                alert("aaaa");
+            }
+        });
+    }
+</script>
+</html>
