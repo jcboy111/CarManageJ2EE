@@ -1,3 +1,10 @@
+/*除了左侧导航栏之外
+* 锁屏
+* 屏幕适配
+* 添加新窗口
+* 公告层
+* */
+
 var $,tab,skyconsWeather;
 layui.config({
 	base : "js/"
