@@ -2,6 +2,7 @@
  * 存储用户界面的左侧导航栏的结构
  * author 陈杰
  */
+/*这是全局的变量*/
 var navs = [{
     "title" : "后台首页",
     "icon" : "icon-computer",
@@ -78,5 +79,4 @@ var navs = [{
     "icon" : "&#xe631;",
     "href" : "page/car/car_rent_out.jsp",
     "spread" : false
-}
-]
+}]

@@ -7,6 +7,7 @@ function navBar(data){
 		}else{
 			ulHtml += '<li class="layui-nav-item">';
 		}
+
 		if(data[i].children != undefined && data[i].children.length > 0){
 			ulHtml += '<a href="javascript:;">';
 			if(data[i].icon != undefined && data[i].icon != ''){

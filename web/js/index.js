@@ -4,7 +4,7 @@
 * 添加新窗口
 * 公告层
 * */
-
+/*全局变量*/
 var $,tab,skyconsWeather;
 layui.config({
 	base : "js/"
@@ -25,10 +25,12 @@ layui.config({
 			shade : 0.9
 		})
 	}
+
 	$(".lockcms").on("click",function(){
 		window.sessionStorage.setItem("lockcms",true);
 		lockPage();
 	})
+
 	// 判断是否显示锁屏
 	if(window.sessionStorage.getItem("lockcms") == "true"){
 		lockPage();
