@@ -19,7 +19,7 @@
     <!--引入JQuery-->
     <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
     <!--其他script-->
-    <script type="text/javascript" src="js/nav2.js"></script>
+    <script type="text/javascript" src="js/nav.js"></script>
     <script type="text/javascript" src="js/leftNav.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
 </head>
@@ -28,7 +28,7 @@
     <!-- 顶部 -->
     <div class="layui-header header">
         <div class="layui-main">
-            <a href="#" class="logo">车辆与车位管理系统（普通用户）</a>
+            <a href="#" class="logo">车辆与车位后台管理系统（管理员）</a>
             <!-- 搜索 -->
             <div class="layui-form component">
                 <select name="modules" lay-verify="required" lay-search="">
@@ -105,32 +105,9 @@
         <div class="user-photo">
             <a class="img" title="我的头像"><img src="images/userface2.jpg"></a>
             <!--这里的userName的class可以通过JQuery来从服务端读取已登录的用户的名字-->
-            <p>管理员：<span class="userName"></span>[userName]</p>
+            <p>管理员：<span class="userName"></span>[userName2]</p>
         </div>
-        <div class="navBar layui-side-scroll">
-            <ul class="layui-nav layui-nav-tree" lay-filter="demo">
-                <li class="layui-nav-item"><a href="javascript:;">后台首页</a></li>
-                <li class="layui-nav-item"><a href="javascript:;">注册用户管理</a></li>
-                <li class="layui-nav-item"><a href="javascript:;">停车位信息管理</a></li>
-                <li class="layui-nav-item"><a href="javascript:;">停车位订单审核</a></li>
-                <li class="layui-nav-item"><a href="javascript:;">新闻动态管理</a></li>
-                <li class="layui-nav-item"><a href="javascript:;">车辆求租信息审核</a></li>
-                <li class="layui-nav-item"><a href="javascript:;">车辆出租信息审核</a></li>
-                <li class="layui-nav-item layui-nav-itemed">
-                    <a href="javascript:;">车辆及车位租赁信息</a>
-                    <dl class="layui-nav-child">
-                        <dd><a href="javascript:;">车辆求租信息</a></dd>
-                        <dd><a href="javascript:;">车辆出租信息</a></dd>
-                        <dd><a href="javascript:;">停车位信息</a></dd>
-                    </dl>
-                </li>
-                <li class="layui-nav-item"><a href="javascript:;">留言管理</a></li>
-                <li class="layui-nav-item"><a href="javascript:;">系统基本参数</a></li>
-
-
-            </ul>
-        </div>
-
+        <div class="navBar layui-side-scroll"></div>
     </div>
 
 

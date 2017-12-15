@@ -1,3 +1,4 @@
+/*调用nav2.js和nav.js里面结构的一个中间件*/
 function navBar(data){
 	var ulHtml = '<ul class="layui-nav layui-nav-tree">';
 	for(var i=0;i<data.length;i++){

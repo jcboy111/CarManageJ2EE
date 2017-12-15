@@ -4,6 +4,9 @@
 	@Tittle: tab
 	@Description: 点击对应按钮添加新窗口
 */
+/*
+* 通过这个js，来达到一些动态显示的效果,包括左侧导航栏
+* */
 var tabFilter,menu=[],liIndex,curNav,delMenu;
 layui.define(["element","jquery"],function(exports){
 	var element = layui.element(),
@@ -20,6 +23,9 @@ layui.define(["element","jquery"],function(exports){
 	//显示左侧菜单
 	if($(".navBar").html() === ''){
 		var _this = this;
+		/*这里的navBar(navs)使用的是leftNav.js的方法navBar(data)和nav.js or nav2.js里面的var navs
+		* 陈杰
+		* */
 		$(".navBar").html(navBar(navs)).height($(window).height()-230);
 		element.init();  //初始化页面元素
 		$(window).resize(function(){
