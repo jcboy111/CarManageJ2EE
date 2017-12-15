@@ -8,7 +8,7 @@ layui.config({
         layer = parent.layer === undefined ? layui.layer : parent.layer,
         laypage = layui.laypage,
         $ = layui.jquery;
-    var baseUrl="http://localhost:8074/";
+    var baseUrl="http://localhost:8075/";
     //加载页面数据
     var newsData = '';
     $.get(baseUrl+"car/getCarRentIn", function(data){

@@ -19,13 +19,14 @@
     <!--引入JQuery-->
     <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
     <!--其他script-->
-    <script type="text/javascript" src="js/nav.js"></script>
+    <script type="text/javascript" src="js/nav_admin.js"></script>
     <script type="text/javascript" src="js/leftNav.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
-    <script type="text/javascript" src="js/bodyTab.js"></script>
+
 </head>
 <body class="main_body">
 <div class="layui-layout layui-layout-admin">
+
     <!-- 顶部 -->
     <div class="layui-header header">
         <div class="layui-main">
@@ -109,6 +110,21 @@
             <p>管理员：<span class="userName"></span>[userName]</p>
         </div>
         <div class="navBar layui-side-scroll"></div>
+    </div>
+
+
+    <!-- 右侧内容 -->
+    <div class="layui-body layui-form">
+        <div class="layui-tab marg0" lay-filter="bodyTab">
+            <ul class="layui-tab-title top_tab">
+                <li class="layui-this" lay-id=""><i class="iconfont icon-computer"></i> <cite>后台首页</cite></li>
+            </ul>
+            <div class="layui-tab-content clildFrame">
+                <div class="layui-tab-item layui-show">
+                    <iframe src="page/main.html"></iframe>
+                </div>
+            </div>
+        </div>
     </div>
 
 
