@@ -1,4 +1,5 @@
 /*
+ * 后台
  * 存储后台管理系统的左侧导航栏的结构
  * author 陈杰
  */
@@ -72,11 +73,6 @@ var navs = [{
     "spread": false
 }, {
     "title": "系统基本参数",
-    "icon": "&#xe631;",
-    "href": "page/car/car_rent_out.jsp",
-    "spread": false
-}, {
-    "title": "显示修改专用",
     "icon": "&#xe631;",
     "href": "page/car/car_rent_out.jsp",
     "spread": false

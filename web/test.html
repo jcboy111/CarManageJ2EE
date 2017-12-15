@@ -9,16 +9,16 @@
 </body>
 <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
 <script type="text/javascript">
-    window.onload=function(){
+    window.onload = function () {
         $.ajax({
-            url : "http://localhost:8074/car/getCarRentIn",
-            type : "get",
-            dataType : "json",
-            success : function(data){
-               // alert(data.data[0].title);
+            url: "http://localhost:8075/car/getCarRentIn",
+            type: "get",
+            dataType: "json",
+            success: function (data) {
+                // alert(data.data[0].title);
                 $(".aaa").text(data.data[0].title);
             },
-            error:function () {
+            error: function () {
                 alert("aaaa");
             }
         });
