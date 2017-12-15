@@ -2,15 +2,14 @@ package com.cwj.taiqiangle.controller;
 
 import com.cwj.taiqiangle.model.JsonMsg;
 import com.cwj.taiqiangle.model.UserBean;
-import com.cwj.taiqiangle.service.UserService;
 import com.cwj.taiqiangle.service.SendMailService;
+import com.cwj.taiqiangle.service.UserService;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.sql.SQLException;
-import java.util.Vector;
 
 @Controller
 @RequestMapping(value = "/user")
