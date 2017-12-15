@@ -4,79 +4,59 @@
  */
 /*这是全局的变量*/
 var navs = [{
-    "title" : "后台首页",
+    "title" : "个人信息管理",
     "icon" : "icon-computer",
-    "href" : "page/main.html",
-    "spread" : false
-},{
-    "title":"注册用户管理",
-    "icon" : "icon-computer",
-    "href" : "page/main.html",
-    "spread" : false
-},{
-    "title":"停车位信息管理",
-    "icon" : "icon-computer",
-    "href" : "page/main.html",
-    "spread" : false
-},{
-    "title":"停车位订单审核",
-    "icon" : "icon-computer",
-    "href" : "page/main.html",
-    "spread" : false
-},{
-    "title":"新闻动态管理",
-    "icon" : "icon-computer",
-    "href" : "page/main.html",
-    "spread" : false
-},{
-    "title":"车辆求租信息审核",
-    "icon" : "icon-computer",
-    "href" : "page/main.html",
-    "spread" : false
-},{
-    "title":"车辆出租信息审核",
-    "icon" : "icon-computer",
-    "href" : "page/main.html",
-    "spread" : false
-},{
-
-    "title" : "车辆及车位租赁信息",
-    "icon" : "&#xe61c;",
     "href" : "",
+    "spread" : false
+},{
+    "title":"租入订单",
+    "icon" : "icon-computer",
+    "href" : "page/main.html",
     "spread" : false,
-    "children" : [
+    "children":[
         {
-            "title" : "车辆求租信息",
-            "icon" : "&#xe631;",
-            "href" : "page/car/car_rent_in.jsp",
-            "spread" : false
-        },
-        {
-            "title" : "车辆出租信息",
-            "icon" : "&#xe631;",
-            "href" : "page/car/car_rent_out.jsp",
-            "spread" : false
-        },
-        {
-            "title" : "停车位信息",
-            "icon" : "&#xe631;",
-            "href" : "page/car/car_rent_out.jsp",
-            "spread" : false
+            "title":"租入的车",
+            "icon" : "icon-computer",
+            "href" : "page/main.html",
+            "spread" : false,
+        },{
+            "title":"租入的车位",
+            "icon" : "icon-computer",
+            "href" : "page/main.html",
+            "spread" : false,
         }
     ]
 },{
-    "title" : "留言管理",
-    "icon" : "&#xe631;",
-    "href" : "page/car/car_rent_out.jsp",
+    "title":"租出订单",
+    "icon" : "icon-computer",
+    "href" : "",
+    "spread" : false,
+    "children":[
+        {
+            "title":"租出订单",
+            "icon" : "icon-computer",
+            "href" : "",
+            "spread" : false,
+        }
+    ]
+},{
+    "title":"发布车辆出租信息",
+    "icon" : "icon-computer",
+    "href" : "page/main.html",
     "spread" : false
 },{
-    "title" : "系统基本参数",
-    "icon" : "&#xe631;",
-    "href" : "page/car/car_rent_out.jsp",
+    "title":"我要租车",
+    "icon" : "icon-computer",
+    "href" : "page/main.html",
     "spread" : false
 },{
-    "title" : "显示修改专用",
-    "icon" : "&#xe631;",
-    "href" : "page/car/car_rent_out.jsp",
+    "title":"我要租车位",
+    "icon" : "icon-computer",
+    "href" : "page/main.html",
+    "spread" : false
+},{
+    "title":"留言系统",
+    "icon" : "icon-computer",
+    "href" : "page/main.html",
     "spread" : false
 }]
