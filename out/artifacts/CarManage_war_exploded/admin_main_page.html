@@ -142,6 +142,7 @@
                 /*如果这个用户是一个普通用户，那么就要跳转到登陆界面*/
                 /*如果是管理员，那么才可以进入这个界面*/
                 var name = $.cookie('username');
+                /* $.ajax的语法一定要搞清楚，不然会出神bug */
                 $.ajax(
                     {
                         url: baseUrl + "userAll/checkUser",

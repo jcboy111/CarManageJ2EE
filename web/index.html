@@ -82,6 +82,7 @@
                 success: function (data) {
                     var code = data.code;
                     //   alert(code);
+                    var newURL;
                     if (code === "200") {
                         alert("登陆成功");
                         $.cookie('username', $(".user").val());
@@ -110,11 +111,11 @@
                 data: {username: $(".user").val(), password: $(".password").val()},
                 success: function (data) {
                     var code = data.code;
-                    //   alert(code);
+                    var newURL;
                     if (code === "200") {
                         alert("登陆成功");
                         $.cookie('username', $(".user").val());
-                        alert("username cookie is set");
+                        alert("username cookie is set:" + $.cookie('username'));
                         newURL = baseUrl + "user_main_page.html";
                         $(window).attr('location', newURL);
                     } else {
