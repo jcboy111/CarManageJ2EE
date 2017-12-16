@@ -19,7 +19,6 @@
     <link rel="stylesheet" href="css/main.css" media="all"/>
     <!--引入JQuery-->
     <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
-    <script type="text/javascript" src="js/jquery.cookie.js"></script>
     <!--其他script-->
     <script type="text/javascript" src="js/nav_user.js"></script>
     <script type="text/javascript" src="js/leftNav.js"></script>
@@ -107,7 +106,7 @@
         <div class="user-photo">
             <a class="img" title="我的头像"><img src="images/userface1.jpg"></a>
             <!--这里的userName的class可以通过JQuery来从服务端读取已登录的用户的名字-->
-            <p>你好呀！<span class="userName"></span>[userName2]</p>
+            <p>你好呀！<span id="userName"></span></p>
         </div>
         <div class="navBar layui-side-scroll"></div>
     </div>
@@ -127,8 +126,20 @@
     </div>
 
 </div>
+<script type="text/javascript" src="js/jquery.cookie.js"></script>
 <script type="text/javascript">
-
+    $(document).ready(
+        function(){
+            var baseUrl="http://localhost:8074/";
+            if (!$.cookie('username')) {
+                /*没有登陆，请先登陆*/
+                $(window).attr('location',baseUrl);
+            } else {
+                /*已经登陆，直接修改html页面*/
+                $("#userName").text($.cookie('username'));
+            }
+        }
+    )
 </script>
 
 </body>
