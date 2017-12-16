@@ -8,8 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a1007eb6-ddad-498e-8ab0-b2f2c3c4ae0d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/web/admin_main_page.html" afterPath="$PROJECT_DIR$/web/admin_main_page.html" />
-      <change beforePath="$PROJECT_DIR$/web/user_main_page.html" afterPath="$PROJECT_DIR$/web/user_main_page.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -599,11 +597,18 @@
       <option name="project" value="LOCAL" />
       <updated>1513391242141</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="实现了cookie登陆">
+      <created>1513391761595</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1513391761595</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54130000" />
+    <option name="totallyTimeSpent" value="54142000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-291" y="760" width="1936" height="1096" extended-state="6" />
@@ -747,7 +752,8 @@
     <MESSAGE value="对中间的tabs进行了修改" />
     <MESSAGE value="修改index.html" />
     <MESSAGE value="修复了这个bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="修复了这个bug" />
+    <MESSAGE value="实现了cookie登陆" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现了cookie登陆" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
