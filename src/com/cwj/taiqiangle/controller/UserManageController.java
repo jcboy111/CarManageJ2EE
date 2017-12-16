@@ -67,15 +67,16 @@ public class UserManageController {
 
     /**
      * 注册用户
-     * Code=200，Data=1（int）则注册成功
-     * Code=202，Data=0 (int)注册失败，用户已经存在
-     * Code=404  Data=-1页面丢失
+     * Code="200"，Data=1（int）则注册成功
+     * Code="202"，Data=0 (int)注册失败，用户已经存在
+     * Code="404"  Data=-1页面丢失
      * @param username
      * @param password
      * @param email
      * @return
      */
-    @RequestMapping(value = "/userRegist", method = RequestMethod.GET)
+
+    @RequestMapping(value = "/userRegister", method = RequestMethod.GET)
     @ResponseBody
     public JsonMsg addUser(String username,String password,String email)
     {
