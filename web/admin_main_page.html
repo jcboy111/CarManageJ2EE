@@ -150,8 +150,6 @@
                         dataType: "json",
                         data: {username: $.cookie('username')},
                         success: function (data) {
-                            alert($.cookie('username'));
-                            alert(data.code);
                             if (data.code == "1") {
                                 /*是管理员*/
                                 $(".userName").text($.cookie('username'));

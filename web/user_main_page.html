@@ -131,19 +131,15 @@
     $(document).ready(
         function () {
             var baseUrl = "http://localhost:8074/";
-            alert("P0");
             if (!$.cookie('username')) {
                 /*没有登陆，请先登陆*/
-                alert($.cookie('username'));
-                /*$(window).attr('location',baseUrl);*/
+                $(window).attr('location',baseUrl);
             } else {
                 /*已经登陆，直接修改html页面*/
                 /*因为这里是普通用户界面*/
                 /*如果这个用户是一个普通用户，那么可以进入这个界面*/
                 /*如果是管理员，那么去登陆界面*/
-                alert("p1");
                 var name = $.cookie('username');
-                alert("陈杰在debug" + name);
                 $.ajax(
                     {
                         url: baseUrl + "userAll/checkUser",
@@ -157,13 +153,11 @@
                             }
                             else {
                                 /*是管理员用户以及数据库错误*/
-                                alert("p2");
-                                /*$(window).attr('location', baseUrl);*/
+                                $(window).attr('location', baseUrl);
                             }
                         },
                         error: function () {
                             alert("登录失败,检查一下网络吧");
-
                         }
                     }
                 )
