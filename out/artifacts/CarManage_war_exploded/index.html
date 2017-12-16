@@ -44,7 +44,8 @@
     <div class="form-w3-agile">
         <h2 class="sub-agileits-w3layouts">登录</h2>
         <form method="post">
-            <input class="user" type="text" name="Eamil" placeholder="用户" required=""/>
+            <!--下面的这个input是一个神级的bug，type如果不是email就会崩溃-->
+            <input class="user" type="email" name="Eamil" placeholder="用户" required=""/>
             <input class="password" type="password" name="Password" placeholder="密码" required=""/>
             <a href="#" class="forgot-w3layouts">忘记密码 ?</a>
             <div class="submit-w3l">
@@ -62,8 +63,10 @@
     <p> © 2017</a></p>
 </div>
 <!-- //copyright -->
-<script type="text/javascript" src="js/jquery.cookie.js"></script>
+<!--jQuery,同一个html，不能导入大于1次-->
 <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<!--jquery.cookie.js 必须在jquery-x.x.x.js后面引入-->
+<script type="text/javascript" src="js/jquery.cookie.js"></script>
 <script type="text/javascript" src="js/nav.js"></script>
 <!--处理登陆信息-->
 <script type="text/javascript">
