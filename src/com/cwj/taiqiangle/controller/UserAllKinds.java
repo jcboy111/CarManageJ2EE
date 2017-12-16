@@ -1,7 +1,6 @@
 package com.cwj.taiqiangle.controller;
 
 
-import com.cwj.taiqiangle.model.AdminBean;
 import com.cwj.taiqiangle.model.JsonMsg;
 import com.cwj.taiqiangle.service.AdminService;
 import com.cwj.taiqiangle.service.UserService;
@@ -11,7 +10,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.sql.SQLException;
-import java.util.List;
 
 @Controller
 @RequestMapping(value = "/userAll")
@@ -38,12 +36,8 @@ public class UserAllKinds {
     public JsonMsg checkUser(String username) {
         JsonMsg jsonMsg = new JsonMsg();
         try {
-            System.out.println(username);
-            List<AdminBean> adminBeans = adminService.getAdminByName(username);
-            System.out.println(this.getClass().getName()+"陈杰在Debug：在数据库中查找"+username+"。有多少条："+adminBeans.size());
-            for (int i = 0; i < adminBeans.size(); i++) {
-                System.out.println(i+" "+adminBeans.get(i).getUsername());
-            }
+            System.out.println("CJ debug:"+username);
+
             if (adminService.getAdminByName(username).size() == 1) {
                 jsonMsg.setCode("1");
                 System.out.println(jsonMsg.getCode());

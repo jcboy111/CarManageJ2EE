@@ -26,6 +26,9 @@
     <!--这些script的引入和顺序有关系，因为有类库的依赖-->
 </head>
 <body class="main_body">
+
+
+
 <div class="layui-layout layui-layout-admin">
     <!-- 顶部 -->
     <div class="layui-header header">
@@ -72,7 +75,7 @@
                 </li>
 
                 <li class="layui-nav-item" mobile>
-                    <a href="javascript:;"><i class="iconfont icon-loginout"></i> 退出</a>
+                    <a href="javascript:;" class="logout"><i class="iconfont icon-loginout logout"></i> 退出</a>
                 </li>
 
                 <!--PC端-->
@@ -95,7 +98,7 @@
                             <a href="javascript:;" data-url="page/user/changePwd.html"><i class="iconfont icon-shezhi1"
                                                                                           data-icon="icon-shezhi1"></i><cite>[stud]修改密码</cite></a>
                         </dd>
-                        <dd><a href="javascript:;"><i class="iconfont icon-loginout"></i><cite>[stub]退出</cite></a></dd>
+                        <dd><a href="javascript:;" class="logout"><i class="iconfont icon-loginout"></i><cite>退出</cite></a></dd>
                     </dl>
                 </li>
             </ul>
@@ -127,10 +130,13 @@
 
 </div>
 <script type="text/javascript" src="js/jquery.cookie.js"></script>
+<!--处理退出操作，跳转到登陆界面.   要放在jquery包后面，因为有依赖关系-->
+<script type="text/javascript" src="js/logout.js"></script>
+
 <script type="text/javascript">
     $(document).ready(
-        function(){
-            var baseUrl="http://localhost:8074/";
+        function () {
+            var baseUrl = "http://localhost:8074/";
             if (!$.cookie('username')) {
                 /*没有登陆，请先登陆*/
                 $(window).attr('location',baseUrl);
@@ -139,12 +145,13 @@
                 /*因为这里是普通用户界面*/
                 /*如果这个用户是一个普通用户，那么可以进入这个界面*/
                 /*如果是管理员，那么去登陆界面*/
+                var name = $.cookie('username');
                 $.ajax(
                     {
                         url: baseUrl + "userAll/checkUser",
                         type: "get",
                         dataType: "json",
-                        data: {id: $.cookie('username')},
+                        data: {username: $.cookie('username')},
                         success: function (data) {
                             if (data.code == "2") {
                                 /*是普通用户*/
@@ -157,7 +164,6 @@
                         },
                         error: function () {
                             alert("登录失败,检查一下网络吧");
-
                         }
                     }
                 )
