@@ -107,7 +107,7 @@
         <div class="user-photo">
             <a class="img" title="我的头像"><img src="images/userface2.jpg"></a>
             <!--这里的userName的class可以通过JQuery来从服务端读取已登录的用户的名字-->
-            <p>管理员：<span class="userName"></span>[userName]</p>
+            <p>管理员：<span id="userName">[userName]</span></p>
         </div>
         <div class="navBar layui-side-scroll"></div>
     </div>
@@ -126,8 +126,25 @@
             </div>
         </div>
     </div>
-
-
 </div>
+
+<script type="text/javascript" src="js/jquery.cookie.js.js"></script>
+<script type="text/javascript">
+    $(document).ready(
+        function(){
+            var baseUrl="http://localhost:8075/";
+            alert("position 1");
+            if (!$.cookie('username')) {
+                alert("Please login first.");
+                $(window).attr('location',baseUrl);
+                alert("position 2");
+            } else {
+                alert("username is got.");
+                $("#userName").text($.cookie('username'));
+                alert("position 3");
+            }
+        }
+    )
+</script>
 </body>
 </html>

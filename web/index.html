@@ -1,35 +1,28 @@
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Internship Sign In & Sign Up Form a Responsive Widget Template :: w3layouts</title>
+    <title>deng'lu注冊</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta name="keywords"
           content="Internship Sign In & Sign Up Form Responsive Widget,Login form widgets, Sign up Web forms , Login signup Responsive web form, Flat Pricing table,Flat Drop downs, Registration Forms,News letter Forms,Elements"/>
-    <script type="application/x-javascript"> addEventListener("load", function () {
-        setTimeout(hideURLbar, 0);
-    }, false);
+    <script type="application/x-javascript">
+        addEventListener(
+            "load",
+            function () {
+                setTimeout(hideURLbar, 0);
+            },
+            false);
 
-    function hideURLbar() {
-        window.scrollTo(0, 1);
-    } </script>
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    </script>
     <!-- Custom Theme files -->
     <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
     <link href="css/snow.css" rel="stylesheet" type="text/css" media="all"/>
     <link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
 
-    <!-- //Custom Theme files -->
-    <!-- web font -->
-    <!--<link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
-    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">-->
-
-    <!-- //web font -->
 </head>
 <body>
 <div class="snow-container">
@@ -69,12 +62,68 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <p> © 2017</a></p>
 </div>
 <!-- //copyright -->
+<script type="text/javascript" src="js/jquery.cookie.js"></script>
 <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
 
-
-<script type="text/javascript" src="js/nav.js"></script>
-<script type="text/javascript" src="js/jquery.cookie.js"></script>
 <!--处理登陆信息-->
-<script type="text/javascript" src="js/loginWithCookie.js"></script>
+<script type="text/javascript">
+    var baseUrl = "http://localhost:8075/";
+    $(".submit").click(function () {
+        //以管理员身份登录
+        if ($('#admin').is(':checked')) {
+            $.ajax({
+                url: baseUrl + "admin/adminLogin",
+                type: "get",
+                dataType: "json",
+                data: {username: $(".user").val(), password: $(".password").val()},
+                success: function (data) {
+                    var code = data.code;
+                    //   alert(code);
+                    if (code === "200") {
+                        alert("登陆成功");
+                        $.cookie('username', $(".user").val());
+                        alert("username cookie is set");
+                        newURL = baseUrl + "admin_main_page.html";
+                        $(window).attr('location', newURL);
+                    } else {
+                        alert("账号或密码错误");
+                    }
+
+                },
+                error: function () {
+                    alert("登录失败,检查一下网络吧");
+                }
+            });
+        }
+
+        //以普通用户身份登录
+        if ($('#user').is(':checked')) {
+            // do something
+            $.ajax({
+                url: baseUrl + "user/userLogin",
+                type: "get",
+                dataType: "json",
+                data: {username: $(".user").val(), password: $(".password").val()},
+                success: function (data) {
+                    var code = data.code;
+                    //   alert(code);
+                    if (code === "200") {
+                        alert("登陆成功");
+                        $.cookie('username', $(".user").val());
+                        alert("username cookie is set");
+                        newURL = baseUrl + "user_main_page.html";
+                        $(window).attr('location', newURL);
+                    } else {
+                        alert("账号或密码错误");
+                    }
+                },
+                error: function () {
+                    alert("登录失败,检查一下网络吧");
+                }
+            });
+        }
+    })
+</script>
+
 </body>
 </html>
