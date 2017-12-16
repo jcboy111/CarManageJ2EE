@@ -11,7 +11,7 @@ layui.config({
         laydate = layui.laydate,
         $ = layui.jquery;
 
-    var baseUrl="http://localhost:8074/";
+    var baseUrl="http://localhost:8075/";
     //创建一个编辑器
     var editIndex = layedit.build('news_content');
     var addNewsArray = [],addNews;
