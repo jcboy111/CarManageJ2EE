@@ -73,60 +73,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 
 <script type="text/javascript" src="js/nav.js"></script>
-
-
-<script type="text/javascript">
-    var baseUrl = "http://localhost:8075/";
-    $(".submit").click(function () {
-
-        //以管理员身份登录
-        if ($('#admin').is(':checked')) {
-            $.ajax({
-                url: baseUrl + "admin/adminLogin",
-                type: "get",
-                dataType: "json",
-                data: {username: $(".user").val(), password: $(".password").val()},
-                success: function (data) {
-                    var code = data.code;
-                    //   alert(code);
-                    if (code === "200") {
-                        alert("登陆成功");
-                        window.location.href = "admin_main_page.html?id=" + data.data;
-                    } else {
-                        alert("账号或密码错误");
-                    }
-
-                },
-                error: function () {
-                    alert("登录失败>_<检查一下网络吧");
-                }
-            });
-        }
-
-        //以普通用户身份登录
-        if ($('#user').is(':checked')) {
-            // do something
-            $.ajax({
-                url: baseUrl + "user/userLogin",
-                type: "get",
-                dataType: "json",
-                data: {username: $(".user").val(), password: $(".password").val()},
-                success: function (data) {
-                    var code = data.code;
-                    //   alert(code);
-                    if (code === "200") {
-                        alert("登陆成功^_^");
-                        window.location.href = "user_main_page.html?id=" + data.data.username;
-                    } else {
-                        alert("账号或密码错误");
-                    }
-                },
-                error: function () {
-                    alert("登录失败>_<检查一下网络吧");
-                }
-            });
-        }
-    });
-</script>
+<script type="text/javascript" src="js/jquery.cookie.js"></script>
+<!--处理登陆信息-->
+<script type="text/javascript" src="js/loginWithCookie.js"></script>
 </body>
 </html>
