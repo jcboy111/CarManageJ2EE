@@ -72,7 +72,7 @@
                 </li>
 
                 <li class="layui-nav-item" mobile>
-                    <a href="javascript:;"><i class="iconfont icon-loginout"></i> 退出</a>
+                    <a href="javascript:;" class="logout"><i class="iconfont icon-loginout"></i> 退出</a>
                 </li>
 
                 <!--PC端-->
@@ -95,7 +95,7 @@
                             <a href="javascript:;" data-url="page/user/changePwd.html"><i class="iconfont icon-shezhi1"
                                                                                           data-icon="icon-shezhi1"></i><cite>[stud]修改密码</cite></a>
                         </dd>
-                        <dd><a href="javascript:;"><i class="iconfont icon-loginout"></i><cite>[stub]退出</cite></a></dd>
+                        <dd><a href="javascript:;" class="logout"><i class="iconfont icon-loginout"></i><cite>[stub]退出</cite></a></dd>
                     </dl>
                 </li>
             </ul>
@@ -128,7 +128,10 @@
     </div>
 </div>
 
+
 <script type="text/javascript" src="js/jquery.cookie.js"></script>
+<!--处理退出操作，跳转到登陆界面.   要放在jquery包后面，因为有依赖关系-->
+<script type="text/javascript" src="js/logout.js"></script>
 <script type="text/javascript">
     $(document).ready(
         function () {
@@ -150,8 +153,6 @@
                         dataType: "json",
                         data: {username: $.cookie('username')},
                         success: function (data) {
-                            alert($.cookie('username'));
-                            alert(data.code);
                             if (data.code == "1") {
                                 /*是管理员*/
                                 $(".userName").text($.cookie('username'));
@@ -163,7 +164,6 @@
                         },
                         error: function () {
                             alert("登录失败,检查一下网络吧");
-
                         }
                     }
                 )
