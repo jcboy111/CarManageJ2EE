@@ -85,6 +85,7 @@
                     if (code === "200") {
                         alert("登陆成功");
                         $.cookie('username', $(".user").val());
+                        /*alert($.cookie('username'));*/
                         alert("username cookie is set");
                         newURL = baseUrl + "admin_main_page.html";
                         $(window).attr('location', newURL);
