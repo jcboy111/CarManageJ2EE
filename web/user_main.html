@@ -172,9 +172,7 @@
 <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
 <script type="text/javascript">
     window.onload = function () {
-        //alert("aaa");
         var URL = document.location.toString();
-        //alert(URL);
         var baseUrl = "http://localhost:8074/";
         var intPos = URL.indexOf("=");
         var strRight = URL.substr(intPos + 1);
@@ -187,18 +185,9 @@
                 var admin = data.data[0].username;
                 $(".userName").text(admin);
                 $(".admin-header-lock-name").text(admin);
-                //   alert(code);
-                /*   if(code==="200"){
-                       alert("登陆成功");
-                       window.location.href="user_main.html?id="+data.data[0].id;
-                   }else{
-                       alert("账号或密码错误");
-                   }*/
-                //alert(admin);
-
             },
             error: function () {
-                alert("登录失败>_<检查一下网络吧");
+                alert("登录失败,检查一下网络吧");
             }
         });
         //$(".userName").text(strRight);

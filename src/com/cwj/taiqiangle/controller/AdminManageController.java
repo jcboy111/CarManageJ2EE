@@ -18,7 +18,8 @@ import java.sql.SQLException;
 @RequestMapping(value = "/admin")
 public class AdminManageController {
 
-    public static void main(String[] args){}
+    public static void main(String[] args) {
+    }
 
     AdminService adminService = new AdminService();
 
@@ -30,35 +31,29 @@ public class AdminManageController {
      * Code:206 Data=-3 管理员密码错误
      * Code:207 Data=-2 管理员账户被重复
      * Code:404 Data=-1 catch异常
+     *
      * @param username
      * @param password
      * @return
      */
     @RequestMapping(value = "/adminLogin", method = RequestMethod.GET)
     @ResponseBody
-    public JsonMsg adminLogin(String username,String password)
-    {
-        JsonMsg jsonMsg=new JsonMsg();
+    public JsonMsg adminLogin(String username, String password) {
+        JsonMsg jsonMsg = new JsonMsg();
         try {
-            if(adminService.getAdminByName(username).size()==0)
-            {
+            if (adminService.getAdminByName(username).size() == 0) {
                 jsonMsg.setCode("205");
                 jsonMsg.setData(0);
-            }
-            else if (adminService.getAdminByName(username).size()!=1)
-            {
+            } else if (adminService.getAdminByName(username).size() != 1) {
                 jsonMsg.setCode("207");
                 jsonMsg.setData(-2);
-            }
-            else{
+            } else {
                 String id;
-                if(!adminService.getAdminByName(username).get(0).getPassword().equals(password))
-                {
+                if (!adminService.getAdminByName(username).get(0).getPassword().equals(password)) {
                     jsonMsg.setCode("206");
                     jsonMsg.setData(-3);
-                }
-                else{
-                    id=adminService.getAdminByName(username).get(0).getId();
+                } else {
+                    id = adminService.getAdminByName(username).get(0).getId();
                     jsonMsg.setCode("200");
                     jsonMsg.setData(adminService.getAdminById(id));
                 }
@@ -72,13 +67,14 @@ public class AdminManageController {
     }
 
     /**
-     *Code=404 Data=-1 抛出异常不做改变
+     * Code=404 Data=-1 抛出异常不做改变
      * Code=202 Data=0 不变/修改无效
      * Code=202 Data=-2 id不存在
      * Code=202 Data=-3 名字修改时产生重复
      * Code=200 Data>=1 修改成功 Data=修改的信息数量
      * 参数都可以为null，但是id为null无法更新
      * null的参数不做更新
+     *
      * @param id
      * @param username
      * @param password
@@ -89,24 +85,21 @@ public class AdminManageController {
      */
     @RequestMapping(value = "/adminUpdate", method = RequestMethod.GET)
     @ResponseBody
-    public JsonMsg updateAdmin(String id,String username,String password,String email,String description,String pic)
-    {
-        int status=0;
-        JsonMsg jsonMsg=new JsonMsg();
-        AdminBean ub=new AdminBean();
+    public JsonMsg updateAdmin(String id, String username, String password, String email, String description, String pic) {
+        int status = 0;
+        JsonMsg jsonMsg = new JsonMsg();
+        AdminBean ub = new AdminBean();
         ub.setUsername(username);
         ub.setPassword(password);
         ub.setEmail(email);
         ub.setDescription(description);
         ub.setPic(pic);
         try {
-            status=adminService.updateUserById(id,ub);
+            status = adminService.updateUserById(id, ub);
             jsonMsg.setData(status);
-            if(status>=1)
-            {
+            if (status >= 1) {
                 jsonMsg.setCode("200");
-            }
-            else{
+            } else {
                 jsonMsg.setCode("202");
             }
         } catch (SQLException e) {
@@ -114,12 +107,12 @@ public class AdminManageController {
             jsonMsg.setData(-1);
             e.printStackTrace();
         }
-
         return jsonMsg;
     }
 
     /**
      * 向user的email发邮件
+     *
      * @param email
      * @param username
      * @return
@@ -143,22 +136,6 @@ public class AdminManageController {
         }
         return jsonMsg;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 //    @RequestMapping(value = "/login", method = RequestMethod.GET)
@@ -192,7 +169,6 @@ public class AdminManageController {
 //        }
 //        return jsonMsg;
 //    }
-
 
 
 //    /**

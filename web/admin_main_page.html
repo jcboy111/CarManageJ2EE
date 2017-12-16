@@ -107,7 +107,7 @@
         <div class="user-photo">
             <a class="img" title="我的头像"><img src="images/userface2.jpg"></a>
             <!--这里的userName的class可以通过JQuery来从服务端读取已登录的用户的名字-->
-            <p>管理员：<span id="userName"></span></p>
+            <p>管理员：<span class="userName"></span></p>
         </div>
         <div class="navBar layui-side-scroll"></div>
     </div>
@@ -131,14 +131,42 @@
 <script type="text/javascript" src="js/jquery.cookie.js"></script>
 <script type="text/javascript">
     $(document).ready(
-        function(){
-            var baseUrl="http://localhost:8074/";
+        function () {
+            var baseUrl = "http://localhost:8074/";
             if (!$.cookie('username')) {
                 /*没有登陆，请先登陆*/
-                $(window).attr('location',baseUrl);
+                $(window).attr('location', baseUrl);
             } else {
                 /*已经登陆，直接修改html页面*/
-                $("#userName").text($.cookie('username'));
+                /*因为这里是管理员界面*/
+                /*如果这个用户是一个普通用户，那么就要跳转到登陆界面*/
+                /*如果是管理员，那么才可以进入这个界面*/
+                var name = $.cookie('username');
+                /* $.ajax的语法一定要搞清楚，不然会出神bug */
+                $.ajax(
+                    {
+                        url: baseUrl + "userAll/checkUser",
+                        type: "get",
+                        dataType: "json",
+                        data: {username: $.cookie('username')},
+                        success: function (data) {
+                            alert($.cookie('username'));
+                            alert(data.code);
+                            if (data.code == "1") {
+                                /*是管理员*/
+                                $(".userName").text($.cookie('username'));
+                            }
+                            else {
+                                /*普通用户以及数据库错误*/
+                                $(window).attr('location', baseUrl);
+                            }
+                        },
+                        error: function () {
+                            alert("登录失败,检查一下网络吧");
+
+                        }
+                    }
+                )
             }
         }
     )

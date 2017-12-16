@@ -198,7 +198,6 @@ public class UserManageController {
         ub.setPic(pic);
         try{
             ub.setMoney(Integer.parseInt(money));
-
         }
         catch (Exception e)
         {
