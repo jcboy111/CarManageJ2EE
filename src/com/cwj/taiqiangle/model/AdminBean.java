@@ -4,18 +4,18 @@ package com.cwj.taiqiangle.model;
  * Created by 蛟川小盆友 on 2017/12/9.
  */
 public class AdminBean {
-    private String id;
+    private int id;
     private String username;
     private String password;
     private String email;
     private String description;
     private String pic;
 
-    public String getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(int id) {
         this.id = id;
     }
 

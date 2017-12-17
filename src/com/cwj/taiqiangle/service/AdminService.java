@@ -30,16 +30,14 @@ public class AdminService {
         rs = ps.executeQuery();
         while (rs.next()) {
             AdminBean adminBean = new AdminBean();
-            adminBean.setId(rs.getString("id"));
+            adminBean.setId(rs.getInt("id"));
             adminBean.setUsername(rs.getString("username"));
             adminBean.setPassword(rs.getString("password"));
             adminBean.setEmail(rs.getString("email"));
             adminBean.setDescription(rs.getString("description"));
             adminBean.setPic(rs.getString("pic"));
-            if(adminBean!=null&&adminBean.getId()!=null)
-            {
-                adminBeans.add(adminBean);
-            }
+            adminBeans.add(adminBean);
+
 
         }
         conn.close();
@@ -61,16 +59,14 @@ public class AdminService {
         rs = ps.executeQuery();
         while (rs.next()) {
             AdminBean adminBean = new AdminBean();
-            adminBean.setId(rs.getString("id"));
+            adminBean.setId(rs.getInt("id"));
             adminBean.setUsername(rs.getString("username"));
             adminBean.setPassword(rs.getString("password"));
             adminBean.setEmail(rs.getString("email"));
             adminBean.setDescription(rs.getString("description"));
             adminBean.setPic(rs.getString("pic"));
-            if(adminBean!=null&&adminBean.getId()!=null)
-            {
-                adminBeans.add(adminBean);
-            }
+            adminBeans.add(adminBean);
+
         }
         conn.close();
         return adminBeans;
@@ -82,7 +78,7 @@ public class AdminService {
      * @return
      * @throws SQLException
      */
-    public AdminBean getAdminById(String id) throws SQLException {
+    public AdminBean getAdminById(int id) throws SQLException {
         conn = DBUtil.getConnection();
         String sql = "select * from admin where id= ?";
         ps = conn.prepareStatement(sql);
@@ -90,7 +86,7 @@ public class AdminService {
         rs = ps.executeQuery();
         while (rs.next()) {
             AdminBean adminBean = new AdminBean();
-            adminBean.setId(rs.getString("id"));
+            adminBean.setId(rs.getInt("id"));
             adminBean.setUsername(rs.getString("username"));
             adminBean.setPassword(rs.getString("password"));
             adminBean.setEmail(rs.getString("email"));
@@ -113,7 +109,7 @@ public class AdminService {
      * @param ub
      * @return
      */
-    public int updateUserById(String id,AdminBean ub)throws SQLException
+    public int updateUserById(int id,AdminBean ub)throws SQLException
     {
         int status=0;
         List<AdminBean>users;
@@ -131,7 +127,7 @@ public class AdminService {
                 status=-3;
                 return status;
             }
-            else if(!users.get(0).getId().equals(id))
+            else if(users.get(0).getId()!=id)
             {
                 // System.out.println(users.size());
                 status=-3;
@@ -141,7 +137,7 @@ public class AdminService {
         conn=DBUtil.getConnection();
         if(ub.getUsername()!=null)
         {
-            String sql="update admin set username='"+ub.getUsername()+"' where id='"+id+"'";
+            String sql="update admin set username='"+ub.getUsername()+"' where id="+id+"";
             ps=conn.prepareStatement(sql);
             if(ps.executeUpdate()!=0) {
                 status++;
@@ -150,7 +146,7 @@ public class AdminService {
         }
         if(ub.getPassword()!=null)
         {
-            String sql="update admin set password='"+ub.getPassword()+"' where id='"+id+"'";
+            String sql="update admin set password='"+ub.getPassword()+"' where id="+id+"";
             ps=conn.prepareStatement(sql);
             if(ps.executeUpdate()!=0)
             {
@@ -159,7 +155,7 @@ public class AdminService {
         }
         if (ub.getEmail()!=null)
         {
-            String sql="update admin set email='"+ub.getEmail()+"' where id='"+id+"'";
+            String sql="update admin set email='"+ub.getEmail()+"' where id="+id+"";
             ps=conn.prepareStatement(sql);
             if(ps.executeUpdate()!=0)
             {
@@ -172,7 +168,7 @@ public class AdminService {
             try {
                 String str1 = new String("update admin set description='".getBytes(),"utf-8");
                 String str2 = new String(ub.getDescription().getBytes(),"utf-8");
-                String str3 = new String(("' where id='" + id + "'").getBytes(),"utf-8");
+                String str3 = new String(("' where id=" + id + "").getBytes(),"utf-8");
                 sql = str1+str2+str3;
             } catch (UnsupportedEncodingException e) {
                 e.printStackTrace();
@@ -186,7 +182,7 @@ public class AdminService {
         }
         if(ub.getPic()!=null)
         {
-            String sql="update admin set pic='"+ub.getPic()+"' where id='"+id+"'";
+            String sql="update admin set pic='"+ub.getPic()+"' where id="+id+"";
             ps=conn.prepareStatement(sql);
             if(ps.executeUpdate()!=0)
             {

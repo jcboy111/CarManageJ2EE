@@ -82,7 +82,6 @@
 		</div>
 		<div class="user_right">
 			<input type="file" name="dddd" class="layui-upload-file" lay-title="掐指一算，我要换一个头像了">
-			<p>由于是纯静态页面，所以只能显示一张随机的图片</p>
 			<img src="" class="layui-circle" id="userFace">
 		</div>
 		<div class="layui-form-item" style="margin-left: 5%;">
@@ -105,16 +104,31 @@
 		$(document).ready(function(){
 		    var baseUrl = getRootPath_web();
             $(".userName").val($.cookie('username'));
-/*            $.ajax(
+            $.ajax(
 				{
-					url:baseUrl+"",
-
-
+					url:baseUrl+"user/getUserByName",
+					type:"get",
+					dataType:"json",
+					data:{username:$.cookie('username')},
+					success:function(data){
+						if(data.code==="200"){
+						    $(".userEmail").val(data.data.email);
+						    if(data.data.description!=""){
+						        $(".userSelfdescription").val(data.data.description);
+							}
+						}
+						else
+						{
+						    alert("DataBase error.");
+						}
+					},
+					error:function(){
+					    alert("Error: Database error.");
+					    $(window).attr('location',baseUrl);
+					}
 				}
-
-			);*/
+			);
         });
-
 	</script>
 
 

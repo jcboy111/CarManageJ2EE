@@ -59,6 +59,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!--//form-ends-here-->
 
 <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="js/jquery.cookie.js"></script>
 
 <!--获取网站根目录的js-->
 <script type="text/javascript" src="js/getRootPath.js"></script>
@@ -67,7 +68,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <script type="text/javascript">
 
     var baseUrl =getRootPath_web();
-
     $(".submit").click(function () {
         $.ajax({
             url: baseUrl + "user/sendEmail",
@@ -76,9 +76,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             data: {email: $(".email").val(), username: $(".user").val()},
             success: function (data) {
                 var code = data.code;
-                alert(code);
+                /*alert(code);*/
                 if (code === "200") {
                     alert("已发送邮件");
+                    alert($(".user").val());
                     $.ajax({
                         url: baseUrl + "user/userRegister",
                         type: "get",
@@ -86,9 +87,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         data: {username: $(".user").val(), password: $(".password").val(), email: $(".email").val()},
                         success: function (data) {
                             var code = data.code;
-                            alert(code);
+                            /*alert(code);*/
                             if (code === "200") {
                                 alert("注册成功");
+                                $.cookie('username',$(".user").val());
+                                /*alert($.cookie('username'));*/
+                                $(window).attr('location',baseUrl+"user_main_page.html");
                             } else {
                                 alert("注册失败");
                             }
