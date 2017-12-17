@@ -59,8 +59,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!--//form-ends-here-->
 
 <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+
+<!--获取网站根目录的js-->
+<script type="text/javascript" src="js/getRootPath.js"></script>
+
+
 <script type="text/javascript">
-    var baseUrl = "http://localhost:8074/";
+
+    var baseUrl =getRootPath_web();
+
     $(".submit").click(function () {
         $.ajax({
             url: baseUrl + "user/sendEmail",

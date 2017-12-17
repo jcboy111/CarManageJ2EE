@@ -28,7 +28,6 @@
 <body class="main_body">
 
 
-
 <div class="layui-layout layui-layout-admin">
     <!-- 顶部 -->
     <div class="layui-header header">
@@ -98,7 +97,8 @@
                             <a href="javascript:;" data-url="page/user/changePwd.html"><i class="iconfont icon-shezhi1"
                                                                                           data-icon="icon-shezhi1"></i><cite>[stud]修改密码</cite></a>
                         </dd>
-                        <dd><a href="javascript:;" class="logout"><i class="iconfont icon-loginout"></i><cite>退出</cite></a></dd>
+                        <dd><a href="javascript:;" class="logout"><i class="iconfont icon-loginout"></i><cite>退出</cite></a>
+                        </dd>
                     </dl>
                 </li>
             </ul>
@@ -123,7 +123,7 @@
             </ul>
             <div class="layui-tab-content clildFrame">
                 <div class="layui-tab-item layui-show">
-                    <iframe src="page/muban/moban1129/index.html"></iframe>
+                    <iframe src="page/muban/CarIndexMuBan/index.html"></iframe>
                 </div>
             </div>
         </div>
@@ -132,14 +132,16 @@
 <script type="text/javascript" src="js/jquery.cookie.js"></script>
 <!--处理退出操作，跳转到登陆界面.   要放在jquery包后面，因为有依赖关系-->
 <script type="text/javascript" src="js/logout.js"></script>
+<!--获取网站根目录的js-->
+<script type="text/javascript" src="js/getRootPath.js"></script>
 
 <script type="text/javascript">
     $(document).ready(
         function () {
-            var baseUrl = "http://localhost:8074/";
+            var baseUrl = getRootPath_web();
             if (!$.cookie('username')) {
                 /*没有登陆，请先登陆*/
-                $(window).attr('location',baseUrl);
+                $(window).attr('location', baseUrl);
             } else {
                 /*已经登陆，直接修改html页面*/
                 /*因为这里是普通用户界面*/
