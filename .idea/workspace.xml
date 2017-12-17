@@ -8,381 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a1007eb6-ddad-498e-8ab0-b2f2c3c4ae0d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/CarManage.iml" afterPath="$PROJECT_DIR$/CarManage.iml" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/applicationContext.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/classes/com/cwj/taiqiangle/controller/AdminManageController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/classes/com/cwj/taiqiangle/controller/CarManageController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/classes/com/cwj/taiqiangle/controller/PeopleManageController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/classes/com/cwj/taiqiangle/controller/UserAllKinds.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/classes/com/cwj/taiqiangle/controller/UserManageController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/classes/com/cwj/taiqiangle/model/AdminBean.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/classes/com/cwj/taiqiangle/model/Auth.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/classes/com/cwj/taiqiangle/model/CarRentInBean.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/classes/com/cwj/taiqiangle/model/JsonMsg.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/classes/com/cwj/taiqiangle/model/SendMail.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/classes/com/cwj/taiqiangle/model/TestBean.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/classes/com/cwj/taiqiangle/model/UserBean.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/classes/com/cwj/taiqiangle/model/car.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/classes/com/cwj/taiqiangle/service/AdminService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/classes/com/cwj/taiqiangle/service/CarService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/classes/com/cwj/taiqiangle/service/SendMailService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/classes/com/cwj/taiqiangle/service/TestService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/classes/com/cwj/taiqiangle/service/UserService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/classes/com/cwj/taiqiangle/test/Git.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/classes/com/cwj/taiqiangle/test/GitTest2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/classes/com/cwj/taiqiangle/test/GitTest3.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/classes/com/cwj/taiqiangle/test/test.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/classes/com/cwj/taiqiangle/util/DBUtil.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/jsp/hello.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/jsp/index.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/lib/activation.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/lib/com.springsource.org.aopalliance-1.0.0.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/lib/com.springsource.org.apache.commons.logging-1.1.1.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/lib/com.springsource.org.apache.log4j-1.2.15.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/lib/jackson-annotations-2.4.1.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/lib/jackson-core-2.4.1.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/lib/jackson-databind-2.4.1.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/lib/jstl.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/lib/mail.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/lib/mysql-connector-java-5.1.6-bin.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/lib/spring-aop-3.2.16.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/lib/spring-aspects-3.2.16.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/lib/spring-beans-3.2.16.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/lib/spring-context-3.2.16.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/lib/spring-core-3.2.16.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/lib/spring-expression-3.2.16.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/lib/spring-jdbc-3.2.16.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/lib/spring-test-3.2.16.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/lib/spring-tx-3.2.16.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/lib/spring-web-3.2.16.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/lib/spring-webmvc-3.2.16.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/lib/standard.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/mvc-servlet.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/web.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/admin_main_page.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/css/font-awesome.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/css/font_eolqem241z66flxr.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/css/images.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/css/main.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/css/message.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/css/news.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/css/snow.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/css/style.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/css/user.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/favicon.ico" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/images/alipay.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/images/back1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/images/banner.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/images/face.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/images/me.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/images/userface1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/images/userface2.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/images/userface3.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/images/userface4.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/images/userface5.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/images/wechat.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/index.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/index1.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/js/bodyTab.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/js/getRootPath.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/js/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/js/jquery-2.1.4.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/js/jquery.cookie.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/js/jquery.magnific-popup.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/js/jquerySession.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/js/leftNav.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/js/logout.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/js/main.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/js/nav.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/js/nav2.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/js/nav_admin.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/js/nav_user.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/json/images.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/json/linksList.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/json/message.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/json/newsList.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/json/systemParameter.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/json/userface.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/json/usersList.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/css/layui.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/css/layui.mobile.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/css/modules/code.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/css/modules/laydate/icon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/css/modules/laydate/laydate.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/css/modules/layer/default/icon-ext.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/css/modules/layer/default/icon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/css/modules/layer/default/layer.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/css/modules/layer/default/loading-0.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/css/modules/layer/default/loading-1.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/css/modules/layer/default/loading-2.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/font/iconfont.eot" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/font/iconfont.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/font/iconfont.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/font/iconfont.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/images/face/0.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/images/face/1.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/images/face/10.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/images/face/11.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/images/face/12.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/images/face/13.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/images/face/14.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/images/face/15.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/images/face/16.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/images/face/17.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/images/face/18.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/images/face/19.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/images/face/2.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/images/face/20.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/images/face/21.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/images/face/22.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/images/face/23.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/images/face/24.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/images/face/25.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/images/face/26.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/images/face/27.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/images/face/28.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/images/face/29.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/images/face/3.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/images/face/30.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/images/face/31.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/images/face/32.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/images/face/33.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/images/face/34.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/images/face/35.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/images/face/36.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/images/face/37.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/images/face/38.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/images/face/39.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/images/face/4.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/images/face/40.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/images/face/41.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/images/face/42.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/images/face/43.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/images/face/44.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/images/face/45.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/images/face/46.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/images/face/47.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/images/face/48.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/images/face/49.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/images/face/5.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/images/face/50.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/images/face/51.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/images/face/52.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/images/face/53.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/images/face/54.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/images/face/55.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/images/face/56.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/images/face/57.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/images/face/58.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/images/face/59.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/images/face/6.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/images/face/60.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/images/face/61.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/images/face/62.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/images/face/63.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/images/face/64.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/images/face/65.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/images/face/66.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/images/face/67.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/images/face/68.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/images/face/69.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/images/face/7.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/images/face/70.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/images/face/71.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/images/face/8.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/images/face/9.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/lay/dest/layui.all.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/lay/modules/code.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/lay/modules/element.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/lay/modules/flow.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/lay/modules/form.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/lay/modules/jquery.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/lay/modules/laydate.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/lay/modules/layedit.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/lay/modules/layer.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/lay/modules/layim.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/lay/modules/laypage.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/lay/modules/laytpl.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/lay/modules/mobile.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/lay/modules/tree.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/lay/modules/upload.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/lay/modules/util.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/layui/layui.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/404.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/car/addCarRentIn.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/car/addCarRentIn.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/car/car_rent_in.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/car/car_rent_in.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/car/car_rent_out.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/img/images.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/img/images.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/learnCookie/test.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/links/linksAdd.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/links/linksAdd.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/links/linksList.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/links/linksList.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/links/linksList.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/links/linksList_.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/main.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/message/message.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/message/message.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/message/messageReply.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/assets/css/font-awesome.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/assets/css/main.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/assets/fonts/FontAwesome.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/assets/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/assets/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/assets/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/assets/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/assets/fonts/fontawesome-webfont.woff2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/assets/js/jquery.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/assets/js/jquery.poptrox.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/assets/js/jquery.scrollex.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/assets/js/jquery.scrolly.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/assets/js/main.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/assets/js/skel.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/assets/js/util.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/fulls/01.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/fulls/02.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/fulls/03.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/fulls/04.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/fulls/05.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/fulls/06.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/fulls/07.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/fulls/08.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/fulls/09.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/fulls/10.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/fulls/11.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/fulls/12.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/gallery.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/images/Banner.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/images/fulls/01.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/images/fulls/02.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/images/fulls/03.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/images/fulls/04.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/images/fulls/05.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/images/fulls/06.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/images/fulls/07.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/images/fulls/08.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/images/fulls/09.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/images/fulls/10.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/images/fulls/11.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/images/fulls/12.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/images/thumbs/01.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/images/thumbs/02.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/images/thumbs/03.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/images/thumbs/04.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/images/thumbs/05.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/images/thumbs/06.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/images/thumbs/07.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/images/thumbs/08.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/images/thumbs/09.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/images/thumbs/10.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/images/thumbs/11.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/images/thumbs/12.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/404.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/about.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/contact.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/css/style.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/fonts/Amble-Light-webfont.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/arrows.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/banner1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/banner2.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/banner3.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/banner4.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/bg-body.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/blog-icon1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/blog-icon2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/blog-icon3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/blog-icon4.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/blog-icon5.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/btn_bg.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/bullets.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/but.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/car1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/car2.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/car3.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/car4.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/cart.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/cart.psd" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/icon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/icon1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/icon2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/icon3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/info-box.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/lightbox-btn-close.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/lightbox-btn-next.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/lightbox-btn-prev.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/lightbox-ico-loading.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/list_marker.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/logo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/logo.psd" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/logo1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/menu_line.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/pic.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/pic1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/pic10.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/pic11.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/pic12.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/pic13.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/pic14.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/pic15.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/pic16.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/pic17.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/pic18.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/pic19.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/pic2.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/pic20.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/pic21.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/pic22.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/pic23.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/pic24.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/pic25.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/pic26.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/pic27.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/pic28.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/pic3.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/pic4.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/pic5.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/pic6.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/pic7.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/pic8.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/pic9.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/spacer.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/tail-menu.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/tail-prod.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/tail.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/tail_footer.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/js/jquery.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/js/script.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/js/superfish.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/new.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/single.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/specials.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/news/newsAdd.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/news/newsAdd.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/news/newsList.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/news/newsList.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/systemParameter/systemParameter.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/systemParameter/systemParameter.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/user/addUser.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/user/addUser.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/user/address.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/user/allUsers.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/user/allUsers.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/user/changePwd.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/user/user.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/user/userInfo.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/signup.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/test-ChenJie/demo2.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/test-ChenJie/jquery.cookie.test.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/test-ChenJie/layui-simpledemo1.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/user_main.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/user_main_page.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/page/user/userInfo.html" afterPath="$PROJECT_DIR$/web/page/user/userInfo.html" />
+      <change beforePath="$PROJECT_DIR$/web/admin_main_page.html" afterPath="$PROJECT_DIR$/web/admin_main_page.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -396,7 +22,18 @@
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="admin_main_page.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/admin_main_page.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="139" column="24" lean-forward="false" selection-start-line="139" selection-start-column="24" selection-end-line="139" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -460,7 +97,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="2fb2592c91c25d5f8ddaba507547b653575305ae" />
+        <entry key="$PROJECT_DIR$" value="ChenJie's" />
       </map>
     </option>
   </component>
@@ -501,7 +138,6 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/web/index1.html" />
         <option value="$PROJECT_DIR$/web/signup.html" />
-        <option value="$PROJECT_DIR$/web/admin_main_page.html" />
         <option value="$PROJECT_DIR$/web/js/getRootPath.js" />
         <option value="$PROJECT_DIR$/web/page/links/linksList_.js" />
         <option value="$PROJECT_DIR$/web/user_main.html" />
@@ -516,6 +152,7 @@
         <option value="$PROJECT_DIR$/web/page/muban/CarIndexMuBan/assets/js/jquery.scrolly.min.js" />
         <option value="$PROJECT_DIR$/web/js/nav_user.js" />
         <option value="$PROJECT_DIR$/web/page/user/userInfo.html" />
+        <option value="$PROJECT_DIR$/web/admin_main_page.html" />
       </list>
     </option>
   </component>
@@ -572,9 +209,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -597,7 +235,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -606,7 +243,7 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3448276" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded" />
@@ -825,9 +462,12 @@
       <item index="2" class="java.lang.String" itemvalue="Application.Git" />
     </list>
     <recent_temporary>
-      <list size="2">
+      <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Application.Git" />
         <item index="1" class="java.lang.String" itemvalue="Application.UserAllKinds" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Git" />
+        <item index="3" class="java.lang.String" itemvalue="Application.UserAllKinds" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Git" />
       </list>
     </recent_temporary>
   </component>
@@ -862,6 +502,7 @@
       <workItem from="1513436389911" duration="133000" />
       <workItem from="1513477184164" duration="6433000" />
       <workItem from="1513510001123" duration="4743000" />
+      <workItem from="1513516503730" duration="173000" />
     </task>
     <task id="LOCAL-00001" summary="增加了几个学习的demo，然后修改了数据库登陆账号和密码为root，root">
       <created>1513215531076</created>
@@ -1133,10 +774,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78475000" />
+    <option name="totallyTimeSpent" value="78648000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-291" y="760" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928064" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
@@ -1156,10 +798,10 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32655138" sideWeight="0.49791667" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41683993" sideWeight="0.49375" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41624364" sideWeight="0.49375" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33056134" sideWeight="0.49791667" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18636848" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994923" sideWeight="0.49791667" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22916667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
@@ -1347,10 +989,6 @@
           <caret line="145" column="7" lean-forward="true" selection-start-line="145" selection-start-column="7" selection-end-line="145" selection-end-column="7" />
           <folding>
             <element signature="n#!!doc" expanded="false" />
-            <marker date="1513342969227" expanded="true" signature="1861:1967" ph="..." />
-            <marker date="1513342969227" expanded="true" signature="3501:3509" ph="&amp;##x1006;" />
-            <marker date="1513342969227" expanded="true" signature="4225:4273" ph="..." />
-            <marker date="1513342969227" expanded="true" signature="4362:4410" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1462,7 +1100,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
           <caret line="71" column="33" lean-forward="false" selection-start-line="71" selection-start-column="33" selection-end-line="71" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1494,7 +1131,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
           <caret line="1" column="1568" lean-forward="false" selection-start-line="1" selection-start-column="1568" selection-end-line="1" selection-end-column="1568" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1558,13 +1194,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/admin_main_page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="135" column="42" lean-forward="true" selection-start-line="135" selection-start-column="42" selection-end-line="135" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/js/getRootPath.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -1606,7 +1235,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="412">
           <caret line="173" column="5" lean-forward="true" selection-start-line="173" selection-start-column="5" selection-end-line="173" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1614,7 +1242,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1622,7 +1249,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="93" column="11" lean-forward="false" selection-start-line="93" selection-start-column="11" selection-end-line="93" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1630,6 +1256,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
           <caret line="80" column="45" lean-forward="true" selection-start-line="80" selection-start-column="45" selection-end-line="80" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin_main_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="139" column="24" lean-forward="false" selection-start-line="139" selection-start-column="24" selection-end-line="139" selection-end-column="24" />
           <folding />
         </state>
       </provider>
