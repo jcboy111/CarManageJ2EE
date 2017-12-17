@@ -41,9 +41,11 @@ public class UserManageController {
             } else if (userService.getUserByName(username).size() != 1) {
                 jsonMsg.setCode("207");
                 jsonMsg.setData(-2);
-            } else {
-                String id;
-                if (!userService.getUserByName(username).get(0).getPassword().equals(password)) {
+            }
+            else{
+                int id;
+                if(!userService.getUserByName(username).get(0).getPassword().equals(password))
+                {
                     jsonMsg.setCode("206");
                     jsonMsg.setData(-3);
                 } else {
@@ -108,8 +110,9 @@ public class UserManageController {
      */
     @RequestMapping(value = "/userDelete", method = RequestMethod.GET)
     @ResponseBody
-    public JsonMsg removeUserById(String id) {
-        JsonMsg jsonMsg = new JsonMsg();
+    public JsonMsg removeUserById(int id)
+    {
+        JsonMsg jsonMsg=new JsonMsg();
         try {
 
             int i = userService.removeUserById(id);
@@ -179,10 +182,11 @@ public class UserManageController {
      */
     @RequestMapping(value = "/userUpdate", method = RequestMethod.GET)
     @ResponseBody
-    public JsonMsg updateUser(String id, String username, String password, String email, String description, String pic, String money) {
-        int status = 0;
-        JsonMsg jsonMsg = new JsonMsg();
-        UserBean ub = new UserBean();
+    public JsonMsg updateUser(int id,String username,String password,String email,String description,String pic,String money)
+    {
+        int status=0;
+        JsonMsg jsonMsg=new JsonMsg();
+        UserBean ub=new UserBean();
         ub.setUserName(username);
         ub.setPassword(password);
         ub.setEmail(email);
@@ -221,37 +225,7 @@ public class UserManageController {
      */
     @RequestMapping(value = "/userLocate", method = RequestMethod.GET)
     @ResponseBody
-    public JsonMsg getUserByID(String id) {
-        JsonMsg jsonMsg = new JsonMsg();
-        try {
-            UserBean userBean = userService.getUserById(id);
-            if (userBean == null) {
-                jsonMsg.setData(0);
-                jsonMsg.setCode("202");
-            } else {
-                jsonMsg.setData(userBean);
-                jsonMsg.setCode("200");
-            }
-
-
-        } catch (SQLException e) {
-            jsonMsg.setCode("404");
-            jsonMsg.setData(-1);
-            e.printStackTrace();
-        }
-        return jsonMsg;
-    }
-
-    /**
-     * Code200，UserBean
-     * Code202,用户不存在
-     * Code404 用户被重复/
-     * Code404.Data -1 取出失败
-     * @return
-     */
-    @RequestMapping(value = "/getUserByName", method = RequestMethod.GET)
-    @ResponseBody
-    public JsonMsg getUsersByName(String username)
+    public JsonMsg getUserByID(int id)
     {
         JsonMsg jsonMsg=new JsonMsg();
         try {

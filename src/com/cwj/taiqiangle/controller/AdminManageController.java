@@ -47,9 +47,11 @@ public class AdminManageController {
             } else if (adminService.getAdminByName(username).size() != 1) {
                 jsonMsg.setCode("207");
                 jsonMsg.setData(-2);
-            } else {
-                String id;
-                if (!adminService.getAdminByName(username).get(0).getPassword().equals(password)) {
+            }
+            else{
+                int id;
+                if(!adminService.getAdminByName(username).get(0).getPassword().equals(password))
+                {
                     jsonMsg.setCode("206");
                     jsonMsg.setData(-3);
                 } else {
@@ -85,10 +87,11 @@ public class AdminManageController {
      */
     @RequestMapping(value = "/adminUpdate", method = RequestMethod.GET)
     @ResponseBody
-    public JsonMsg updateAdmin(String id, String username, String password, String email, String description, String pic) {
-        int status = 0;
-        JsonMsg jsonMsg = new JsonMsg();
-        AdminBean ub = new AdminBean();
+    public JsonMsg updateAdmin(int id,String username,String password,String email,String description,String pic)
+    {
+        int status=0;
+        JsonMsg jsonMsg=new JsonMsg();
+        AdminBean ub=new AdminBean();
         ub.setUsername(username);
         ub.setPassword(password);
         ub.setEmail(email);
