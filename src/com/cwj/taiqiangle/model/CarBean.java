@@ -20,6 +20,25 @@ public class CarBean {
         this.id = id;
     }
 
+    private String pic;
+
+    public String getPic() {
+        return pic;
+    }
+
+    public void setPic(String pic) {
+        this.pic = pic;
+    }
+
+    public int getPrice() {
+        return price;
+    }
+
+    public void setPrice(int price) {
+        this.price = price;
+    }
+
+    private int price=Integer.MIN_VALUE;
     private String name;
     private int id ;
 }
