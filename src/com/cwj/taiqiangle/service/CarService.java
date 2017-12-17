@@ -1,7 +1,6 @@
 package com.cwj.taiqiangle.service;
 
 import com.cwj.taiqiangle.model.CarRentInBean;
-import com.cwj.taiqiangle.model.TestBean;
 import com.cwj.taiqiangle.util.DBUtil;
 
 import java.sql.Connection;
@@ -28,7 +27,7 @@ public class CarService {
         rs = ps.executeQuery();
         while(rs.next()){
             CarRentInBean carRentInBean=new CarRentInBean();
-            carRentInBean.setId(rs.getString("id"));
+            carRentInBean.setId(rs.getInt("id"));
             carRentInBean.setTitle(rs.getString("title"));
             carRentInBean.setUser(rs.getString("user"));
             carRentInBean.setStatus(rs.getString("status"));
@@ -53,7 +52,7 @@ public class CarService {
         return r;
     }
 
-    public int deleteRentInCar(String id) throws SQLException {
+    public int deleteRentInCar(int id) throws SQLException {
         conn= DBUtil.getConnection();
         String sql = "delete from car_rent_in where id = ?";
         ps = conn.prepareStatement(sql);
@@ -62,7 +61,7 @@ public class CarService {
         return r;
     }
 
-    public int passRentInCar(String id) throws SQLException {
+    public int passRentInCar(int id) throws SQLException {
         conn= DBUtil.getConnection();
         String sql = "UPDATE car_rent_in SET status = '审核通过' WHERE id = ? ";
         ps = conn.prepareStatement(sql);

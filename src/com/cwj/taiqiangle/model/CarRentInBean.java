@@ -4,18 +4,18 @@ package com.cwj.taiqiangle.model;
  * Created by 蛟川小盆友 on 2017/12/6.
  */
 public class CarRentInBean {
-    String id;
-    String title;
-    String user;
-    String status;
-    String pay;
-    String date;
+    private int id;
+    private String title;
+    private String user;
+    private String status;
+    private String pay;
+    private String date;
 
-    public String getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(int id) {
         this.id = id;
     }
 

@@ -46,7 +46,7 @@ public class UserManageController {
                 jsonMsg.setData(-2);
             }
             else{
-                String id;
+                int id;
                 if(!userService.getUserByName(username).get(0).getPassword().equals(password))
                 {
                     jsonMsg.setCode("206");
@@ -115,7 +115,7 @@ public class UserManageController {
      */
     @RequestMapping(value = "/userDelete", method = RequestMethod.GET)
     @ResponseBody
-    public JsonMsg removeUserById(String id)
+    public JsonMsg removeUserById(int id)
     {
         JsonMsg jsonMsg=new JsonMsg();
         try {
@@ -187,7 +187,7 @@ public class UserManageController {
      */
     @RequestMapping(value = "/userUpdate", method = RequestMethod.GET)
     @ResponseBody
-    public JsonMsg updateUser(String id,String username,String password,String email,String description,String pic,String money)
+    public JsonMsg updateUser(int id,String username,String password,String email,String description,String pic,String money)
     {
         int status=0;
         JsonMsg jsonMsg=new JsonMsg();
@@ -234,7 +234,7 @@ public class UserManageController {
      */
     @RequestMapping(value = "/userLocate", method = RequestMethod.GET)
     @ResponseBody
-    public JsonMsg getUserByID(String id)
+    public JsonMsg getUserByID(int id)
     {
         JsonMsg jsonMsg=new JsonMsg();
         try {

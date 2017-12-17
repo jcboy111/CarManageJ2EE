@@ -3,7 +3,7 @@ package com.cwj.taiqiangle.model;
 /**
  * Created by 蛟川小盆友 on 2017/12/5.
  */
-public class car {
+public class CarBean {
     public String getName() {
         return name;
     }
@@ -12,14 +12,14 @@ public class car {
         this.name = name;
     }
 
-    public String getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(int id) {
         this.id = id;
     }
 
     private String name;
-    private String id ;
+    private int id ;
 }

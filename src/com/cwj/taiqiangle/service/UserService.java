@@ -30,17 +30,15 @@ public class UserService {
         while(rs.next())
         {
             UserBean userBean=new UserBean();
-            userBean.setId(rs.getString("id"));
+            userBean.setId(rs.getInt("id"));
             userBean.setUserName(rs.getString("username"));
             userBean.setPassword(rs.getString("password"));
             userBean.setEmail(rs.getString("email"));
             userBean.setDescription(rs.getString("description"));
             userBean.setPic(rs.getString("pic"));
             userBean.setMoney(rs.getInt("money"));
-            if(userBean!=null&&userBean.getId()!=null)
-            {
-                userBeans.add(userBean);
-            }
+            userBeans.add(userBean);
+
         }
         conn.close();
         return userBeans;
@@ -61,18 +59,14 @@ public class UserService {
         rs = ps.executeQuery();
         while(rs.next()){
             UserBean userBean=new UserBean();
-            userBean.setId(rs.getString("id"));
+            userBean.setId(rs.getInt("id"));
             userBean.setUserName(rs.getString("username"));
             userBean.setPassword(rs.getString("password"));
             userBean.setEmail(rs.getString("email"));
             userBean.setDescription(rs.getString("description"));
             userBean.setPic(rs.getString("pic"));
             userBean.setMoney(rs.getInt("money"));
-            if(userBean!=null&&userBean.getId()!=null)
-            {
-                userBeans.add(userBean);
-            }
-
+            userBeans.add(userBean);
         }
         conn.close();;
         return userBeans;
@@ -84,7 +78,7 @@ public class UserService {
      * @return
      * @throws SQLException
      */
-    public UserBean getUserById(String id)throws SQLException{
+    public UserBean getUserById(int id)throws SQLException{
         conn= DBUtil.getConnection();
         String sql="select * from user where id= ?";
         ps = conn.prepareStatement(sql);
@@ -92,7 +86,7 @@ public class UserService {
         rs = ps.executeQuery();
         while(rs.next()){
             UserBean userBean=new UserBean();
-            userBean.setId(rs.getString("id"));
+            userBean.setId(rs.getInt("id"));
             userBean.setUserName(rs.getString("username"));
             userBean.setPassword(rs.getString("password"));
             userBean.setEmail(rs.getString("email"));
@@ -153,7 +147,7 @@ public class UserService {
      * @return
      * @throws SQLException
      */
-    public int removeUserById(String id)throws SQLException
+    public int removeUserById(int id)throws SQLException
     {
         int i=0;
         conn=DBUtil.getConnection();
@@ -176,7 +170,7 @@ public class UserService {
      * @return
      */
 
-    public int updateUserById(String id,UserBean ub)throws SQLException
+    public int updateUserById(int id,UserBean ub)throws SQLException
     {
         int status=0;
         List<UserBean>users;
@@ -194,7 +188,7 @@ public class UserService {
                 status=-3;
                 return status;
             }
-            else if(!users.get(0).getId().equals(id))
+            else if(users.get(0).getId()!=id)
             {
                // System.out.println(users.size());
                 status=-3;
@@ -204,7 +198,7 @@ public class UserService {
         conn=DBUtil.getConnection();
         if(ub.getUserName()!=null)
         {
-            String sql="update user set username='"+ub.getUserName()+"' where id='"+id+"'";
+            String sql="update user set username='"+ub.getUserName()+"' where id="+id+"";
             ps=conn.prepareStatement(sql);
             if(ps.executeUpdate()!=0) {
                 status++;
@@ -213,7 +207,7 @@ public class UserService {
         }
         if(ub.getPassword()!=null)
         {
-            String sql="update user set password='"+ub.getPassword()+"' where id='"+id+"'";
+            String sql="update user set password='"+ub.getPassword()+"' where id="+id+"";
             ps=conn.prepareStatement(sql);
             if(ps.executeUpdate()!=0)
             {
@@ -222,7 +216,7 @@ public class UserService {
         }
         if (ub.getEmail()!=null)
         {
-            String sql="update user set email='"+ub.getEmail()+"' where id='"+id+"'";
+            String sql="update user set email='"+ub.getEmail()+"' where id="+id+"";
             ps=conn.prepareStatement(sql);
             if(ps.executeUpdate()!=0)
             {
@@ -235,7 +229,7 @@ public class UserService {
             try {
                 String str1 = new String("update user set description='".getBytes(),"utf-8");
                 String str2 = new String(ub.getDescription().getBytes(),"utf-8");
-                String str3 = new String(("' where id='" + id + "'").getBytes(),"utf-8");
+                String str3 = new String(("' where id=" + id + "").getBytes(),"utf-8");
                 sql = str1+str2+str3;
             } catch (UnsupportedEncodingException e) {
                 e.printStackTrace();
@@ -249,7 +243,7 @@ public class UserService {
         }
         if(ub.getPic()!=null)
         {
-            String sql="update user set pic='"+ub.getPic()+"' where id='"+id+"'";
+            String sql="update user set pic='"+ub.getPic()+"' where id="+id+"";
             ps=conn.prepareStatement(sql);
             if(ps.executeUpdate()!=0)
             {
@@ -257,7 +251,7 @@ public class UserService {
             }
         }
         if(ub.getMoney()!= Integer.MIN_VALUE) {
-            String sql="update user set money="+ub.getMoney()+" where id='"+id+"'";
+            String sql="update user set money="+ub.getMoney()+" where id="+id+"";
             ps=conn.prepareStatement(sql);
             if(ps.executeUpdate()!=0)
             {
@@ -266,10 +260,8 @@ public class UserService {
         }
 
         return status;
-
-
-
     }
+
 
 
 

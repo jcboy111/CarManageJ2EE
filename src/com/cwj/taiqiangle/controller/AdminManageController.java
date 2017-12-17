@@ -51,7 +51,7 @@ public class AdminManageController {
                 jsonMsg.setData(-2);
             }
             else{
-                String id;
+                int id;
                 if(!adminService.getAdminByName(username).get(0).getPassword().equals(password))
                 {
                     jsonMsg.setCode("206");
@@ -89,7 +89,7 @@ public class AdminManageController {
      */
     @RequestMapping(value = "/adminUpdate", method = RequestMethod.GET)
     @ResponseBody
-    public JsonMsg updateAdmin(String id,String username,String password,String email,String description,String pic)
+    public JsonMsg updateAdmin(int id,String username,String password,String email,String description,String pic)
     {
         int status=0;
         JsonMsg jsonMsg=new JsonMsg();
