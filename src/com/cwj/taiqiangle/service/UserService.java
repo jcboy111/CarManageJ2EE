@@ -1,23 +1,25 @@
 package com.cwj.taiqiangle.service;
+
 import com.cwj.taiqiangle.model.UserBean;
 import com.cwj.taiqiangle.util.DBUtil;
 
 import java.io.UnsupportedEncodingException;
-import java.net.URLEncoder;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
+
 public class UserService {
     private Connection conn;
-    private PreparedStatement ps=null;
-    private ResultSet rs=null;
+    private PreparedStatement ps = null;
+    private ResultSet rs = null;
 
 
     /**
      * 得到所有的用户数据，封装在UserBean中，装在载list中返回
+     *
      * @return
      * @throws SQLException
      */
@@ -38,7 +40,6 @@ public class UserService {
             userBean.setPic(rs.getString("pic"));
             userBean.setMoney(rs.getInt("money"));
             userBeans.add(userBean);
-
         }
         conn.close();
         return userBeans;
@@ -46,16 +47,17 @@ public class UserService {
 
     /**
      * 通过Name来得到UserBean，为了防止重复情况用，返回list
+     *
      * @param name
      * @return
      * @throws SQLException
      */
     public List<UserBean> getUserByName(String name) throws SQLException {
-        conn= DBUtil.getConnection();
-        List<UserBean>userBeans=new ArrayList<UserBean>();
-        String sql="select * from user where username= ?";
+        conn = DBUtil.getConnection();
+        List<UserBean> userBeans = new ArrayList<UserBean>();
+        String sql = "select * from user where username= ?";
         ps = conn.prepareStatement(sql);
-        ps.setObject(1,name);
+        ps.setObject(1, name);
         rs = ps.executeQuery();
         while(rs.next()){
             UserBean userBean=new UserBean();
@@ -68,12 +70,14 @@ public class UserService {
             userBean.setMoney(rs.getInt("money"));
             userBeans.add(userBean);
         }
-        conn.close();;
+        conn.close();
+        ;
         return userBeans;
     }
 
     /**
      * 通过id查找UserBean
+     *
      * @param id
      * @return
      * @throws SQLException
@@ -82,7 +86,7 @@ public class UserService {
         conn= DBUtil.getConnection();
         String sql="select * from user where id= ?";
         ps = conn.prepareStatement(sql);
-        ps.setObject(1,id);
+        ps.setObject(1, id);
         rs = ps.executeQuery();
         while(rs.next()){
             UserBean userBean=new UserBean();
@@ -104,6 +108,7 @@ public class UserService {
     /**
      * 增加用户，如果用户名重复，则插入失败，返回0；
      * 默认金钱是0
+     *
      * @param username
      * @param password
      * @param email
@@ -113,28 +118,37 @@ public class UserService {
      * @return
      * @throws SQLException
      */
-    public int addUser(String username,String password,String email,String description,String pic ,int money) throws SQLException
-    {
-        List<UserBean> users=this.getAllUserBean();
-        for(UserBean ub:users)
-        {
-            if(ub.getUserName().equals(username))
-            {
-                conn.close();
+    public int addUser(String username, String password, String email, String description, String pic, int money) throws SQLException {
+
+
+        /**
+         * 我猜测，你在这里是想要看看数据库里面有没有一样的用户。但是这个方法效率太低了。
+         * 直接用getUserByName(username):List<UserBean>，如果返回的list非空，那么就有重复的
+         * 另外这里的conn还没有获得，是不能直接close掉的。
+         * 虽然说这个conn已经在getAllUserBean()里面打开了，但是也在那个东西里面关掉了
+         */
+        /*List<UserBean> users = this.getAllUserBean();
+            for (UserBean ub : users) {
+            if (ub.getUserName().equals(username)) {
+                System.out.println("这里还没有bug");
+                *//* conn.close();*//*
                 return 0;
             }
-        }
+        }*/
 
-        conn=DBUtil.getConnection();
-        String sql="insert into user(username,password,email,description,pic,money) values(?,?,?,?,?,?)";
-        ps=conn.prepareStatement(sql);
-        ps.setObject(1,username);
-        ps.setObject(2,password);
-        ps.setObject(3,email);
-        ps.setObject(4,description);
-        ps.setObject(5,pic);
-        ps.setObject(6,money);
-        int r=ps.executeUpdate();
+        if(this.getUserByName(username).size()>0){
+            return 0;
+        }
+        conn = DBUtil.getConnection();
+        String sql = "insert into user(username,password,email,description,pic,money) values(?,?,?,?,?,?)";
+        ps = conn.prepareStatement(sql);
+        ps.setObject(1, username);
+        ps.setObject(2, password);
+        ps.setObject(3, email);
+        ps.setObject(4, description);
+        ps.setObject(5, pic);
+        ps.setObject(6, money);
+        int r = ps.executeUpdate();
         conn.close();
         return r;
     }
@@ -143,6 +157,7 @@ public class UserService {
      * 通过id来删除用户账户
      * 返回0代表此id已经不在账户中
      * 返回1代表删除成功
+     *
      * @param id
      * @return
      * @throws SQLException
@@ -165,27 +180,24 @@ public class UserService {
      * 不变返回0
      * id不存在返回-2
      * 修改名字产生重复返回-3
+     *
      * @param id
      * @param ub
      * @return
      */
-
     public int updateUserById(int id,UserBean ub)throws SQLException
     {
         int status=0;
         List<UserBean>users;
 
-        if(getUserById(id)==null)
-        {
-            status=-2;
+        if (getUserById(id) == null) {
+            status = -2;
             return status;
         }
-        if(ub.getUserName()!=null&&(users=getUserByName(ub.getUserName())).size()!=0)
-        {
+        if (ub.getUserName() != null && (users = getUserByName(ub.getUserName())).size() != 0) {
 
-            if(users.size()!=1)
-            {
-                status=-3;
+            if (users.size() != 1) {
+                status = -3;
                 return status;
             }
             else if(users.get(0).getId()!=id)
@@ -223,8 +235,7 @@ public class UserService {
                 status++;
             }
         }
-        if(ub.getDescription()!=null)
-        {
+        if (ub.getDescription() != null) {
             String sql = null;
             try {
                 String str1 = new String("update user set description='".getBytes(),"utf-8");
@@ -235,9 +246,8 @@ public class UserService {
                 e.printStackTrace();
             }
             //System.out.println(sql);
-            ps=conn.prepareStatement(sql);
-            if(ps.executeUpdate()!=0)
-            {
+            ps = conn.prepareStatement(sql);
+            if (ps.executeUpdate() != 0) {
                 status++;
             }
         }
