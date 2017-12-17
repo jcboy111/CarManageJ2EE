@@ -53,11 +53,6 @@ var navs = [{
 }, {
     "title": "我要租车位",
     "icon": "icon-computer",
-    "href": "page/main.html",
-    "spread": false
-}, {
-    "title": "留言系统",
-    "icon": "icon-computer",
-    "href": "page/main.html",
+    "href": "page/parking/parkingLot.html",
     "spread": false
 }]
