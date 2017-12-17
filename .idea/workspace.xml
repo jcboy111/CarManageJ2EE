@@ -6,102 +6,143 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1007eb6-ddad-498e-8ab0-b2f2c3c4ae0d" name="Default" comment="加入了一个模板">
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/classes/com/cwj/taiqiangle/controller/UserAllKinds.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/js/logout.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/CarManage/com/cwj/taiqiangle/controller/UserAllKinds.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/404.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/about.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/contact.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/css/style.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/fonts/Amble-Light-webfont.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/images/arrows.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/images/banner1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/images/banner2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/images/banner3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/images/banner4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/images/bg-body.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/images/blog-icon1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/images/blog-icon2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/images/blog-icon3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/images/blog-icon4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/images/blog-icon5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/images/btn_bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/images/bullets.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/images/but.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/images/car1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/images/car2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/images/car3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/images/car4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/images/cart.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/images/cart.psd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/images/icon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/images/icon1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/images/icon2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/images/icon3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/images/info-box.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/images/lightbox-btn-close.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/images/lightbox-btn-next.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/images/lightbox-btn-prev.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/images/lightbox-ico-loading.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/images/list_marker.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/images/logo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/images/logo.psd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/images/logo1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/images/menu_line.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/images/pic.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/images/pic1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/images/pic10.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/images/pic11.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/images/pic12.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/images/pic13.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/images/pic14.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/images/pic15.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/images/pic16.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/images/pic17.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/images/pic18.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/images/pic19.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/images/pic2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/images/pic20.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/images/pic21.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/images/pic22.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/images/pic23.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/images/pic24.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/images/pic25.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/images/pic26.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/images/pic27.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/images/pic28.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/images/pic3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/images/pic4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/images/pic5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/images/pic6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/images/pic7.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/images/pic8.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/images/pic9.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/images/spacer.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/images/tail-menu.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/images/tail-prod.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/images/tail.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/images/tail_footer.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/js/jquery.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/js/script.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/js/superfish.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/new.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/single.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/moban1129/specials.html" />
+    <list default="true" id="a1007eb6-ddad-498e-8ab0-b2f2c3c4ae0d" name="Default" comment="实现基本的功能">
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/404.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/about.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/contact.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/css/style.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/fonts/Amble-Light-webfont.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/arrows.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/banner1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/banner2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/banner3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/banner4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/bg-body.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/blog-icon1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/blog-icon2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/blog-icon3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/blog-icon4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/blog-icon5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/btn_bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/bullets.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/but.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/car1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/car2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/car3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/car4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/cart.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/cart.psd" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/icon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/icon1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/icon2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/icon3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/info-box.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/lightbox-btn-close.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/lightbox-btn-next.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/lightbox-btn-prev.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/lightbox-ico-loading.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/list_marker.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/logo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/logo.psd" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/logo1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/menu_line.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/pic.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/pic1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/pic10.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/pic11.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/pic12.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/pic13.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/pic14.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/pic15.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/pic16.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/pic17.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/pic18.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/pic19.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/pic2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/pic20.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/pic21.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/pic22.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/pic23.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/pic24.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/pic25.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/pic26.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/pic27.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/pic28.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/pic3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/pic4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/pic5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/pic6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/pic7.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/pic8.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/pic9.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/spacer.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/tail-menu.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/tail-prod.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/tail.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/images/tail_footer.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/js/jquery.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/js/script.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/js/superfish.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/new.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/single.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/moban1129/specials.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/CarIndexMuBan/assets/css/font-awesome.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/CarIndexMuBan/assets/css/main.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/CarIndexMuBan/assets/fonts/FontAwesome.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/CarIndexMuBan/assets/fonts/fontawesome-webfont.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/CarIndexMuBan/assets/fonts/fontawesome-webfont.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/CarIndexMuBan/assets/fonts/fontawesome-webfont.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/CarIndexMuBan/assets/fonts/fontawesome-webfont.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/CarIndexMuBan/assets/fonts/fontawesome-webfont.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/CarIndexMuBan/assets/js/jquery.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/CarIndexMuBan/assets/js/jquery.poptrox.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/CarIndexMuBan/assets/js/jquery.scrollex.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/CarIndexMuBan/assets/js/jquery.scrolly.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/CarIndexMuBan/assets/js/main.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/CarIndexMuBan/assets/js/skel.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/CarIndexMuBan/assets/js/util.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/CarIndexMuBan/fulls/01.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/CarIndexMuBan/fulls/02.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/CarIndexMuBan/fulls/03.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/CarIndexMuBan/fulls/04.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/CarIndexMuBan/fulls/05.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/CarIndexMuBan/fulls/06.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/CarIndexMuBan/fulls/07.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/CarIndexMuBan/fulls/08.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/CarIndexMuBan/fulls/09.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/CarIndexMuBan/fulls/10.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/CarIndexMuBan/fulls/11.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/CarIndexMuBan/fulls/12.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/CarIndexMuBan/gallery.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/CarIndexMuBan/images/Banner.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/CarIndexMuBan/images/fulls/01.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/CarIndexMuBan/images/fulls/02.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/CarIndexMuBan/images/fulls/03.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/CarIndexMuBan/images/fulls/04.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/CarIndexMuBan/images/fulls/05.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/CarIndexMuBan/images/fulls/06.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/CarIndexMuBan/images/fulls/07.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/CarIndexMuBan/images/fulls/08.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/CarIndexMuBan/images/fulls/09.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/CarIndexMuBan/images/fulls/10.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/CarIndexMuBan/images/fulls/11.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/CarIndexMuBan/images/fulls/12.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/CarIndexMuBan/images/thumbs/01.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/CarIndexMuBan/images/thumbs/02.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/CarIndexMuBan/images/thumbs/03.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/CarIndexMuBan/images/thumbs/04.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/CarIndexMuBan/images/thumbs/05.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/CarIndexMuBan/images/thumbs/06.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/CarIndexMuBan/images/thumbs/07.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/CarIndexMuBan/images/thumbs/08.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/CarIndexMuBan/images/thumbs/09.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/CarIndexMuBan/images/thumbs/10.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/CarIndexMuBan/images/thumbs/11.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/CarIndexMuBan/images/thumbs/12.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/muban/CarIndexMuBan/index.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/classes/com/cwj/taiqiangle/controller/UserManageController.class" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/classes/com/cwj/taiqiangle/controller/UserManageController.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/classes/com/cwj/taiqiangle/service/UserService.class" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/classes/com/cwj/taiqiangle/service/UserService.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/classes/com/cwj/taiqiangle/test/Git.class" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/classes/com/cwj/taiqiangle/test/Git.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/admin_main_page.html" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/admin_main_page.html" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/signup.html" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/signup.html" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/user_main_page.html" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/user_main_page.html" />
-      <change beforePath="$PROJECT_DIR$/out/production/CarManage/com/cwj/taiqiangle/controller/UserManageController.class" afterPath="$PROJECT_DIR$/out/production/CarManage/com/cwj/taiqiangle/controller/UserManageController.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/CarManage/com/cwj/taiqiangle/service/UserService.class" afterPath="$PROJECT_DIR$/out/production/CarManage/com/cwj/taiqiangle/service/UserService.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/CarManage/com/cwj/taiqiangle/test/Git.class" afterPath="$PROJECT_DIR$/out/production/CarManage/com/cwj/taiqiangle/test/Git.class" />
-      <change beforePath="$PROJECT_DIR$/web/admin_main_page.html" afterPath="$PROJECT_DIR$/web/admin_main_page.html" />
-      <change beforePath="$PROJECT_DIR$/web/user_main_page.html" afterPath="$PROJECT_DIR$/web/user_main_page.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -115,15 +156,15 @@
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="user_main_page.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/user_main_page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="114" column="3" lean-forward="false" selection-start-line="114" selection-start-column="3" selection-end-line="114" selection-end-column="3" />
+            <state relative-caret-position="88">
+              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
               <folding>
                 <element signature="n#script#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="e#6706#7515#0" expanded="false" />
+                <element signature="e#6723#7532#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -227,6 +268,7 @@
         <option value="$PROJECT_DIR$/src/com/cwj/taiqiangle/service/UserService.java" />
         <option value="$PROJECT_DIR$/web/admin_main_page.html" />
         <option value="$PROJECT_DIR$/web/user_main_page.html" />
+        <option value="$PROJECT_DIR$/web/page/muban/moban1129/index.html" />
       </list>
     </option>
   </component>
@@ -244,10 +286,10 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="63" />
-    <option name="y" value="1132" />
-    <option name="width" value="1364" />
-    <option name="height" value="766" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="784" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -283,7 +325,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -302,28 +347,10 @@
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="page" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="CarManageJ2EE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CarManageJ2EE" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="page" type="462c0819:PsiDirectoryNode" />
-              <item name="muban" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CarManageJ2EE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CarManageJ2EE" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="page" type="462c0819:PsiDirectoryNode" />
-              <item name="muban" type="462c0819:PsiDirectoryNode" />
-              <item name="moban1129" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -332,7 +359,7 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3448276" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="true" />
   </component>
@@ -583,7 +610,9 @@
       <workItem from="1513388557665" duration="607000" />
       <workItem from="1513405975240" duration="1086000" />
       <workItem from="1513407104951" duration="2268000" />
-      <workItem from="1513409415969" duration="5732000" />
+      <workItem from="1513409415969" duration="6548000" />
+      <workItem from="1513436389911" duration="133000" />
+      <workItem from="1513477184164" duration="292000" />
     </task>
     <task id="LOCAL-00001" summary="增加了几个学习的demo，然后修改了数据库登陆账号和密码为root，root">
       <created>1513215531076</created>
@@ -809,14 +838,28 @@
       <option name="project" value="LOCAL" />
       <updated>1513413985482</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="加入了一个模板">
+      <created>1513415389482</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1513415389482</updated>
+    </task>
+    <task id="LOCAL-00034" summary="实现基本的功能">
+      <created>1513416123930</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1513416123930</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66350000" />
+    <option name="totallyTimeSpent" value="67591000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-291" y="760" width="1936" height="1096" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928064" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
@@ -835,13 +878,12 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4323077" sideWeight="0.49375" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32655138" sideWeight="0.49791667" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4201424" sideWeight="0.49375" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3214649" sideWeight="0.49791667" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23229167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32" sideWeight="0.49791667" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23942599" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32858595" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -849,7 +891,41 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32858595" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928064" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3375" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32858595" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32655138" sideWeight="0.49791667" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4201424" sideWeight="0.49375" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3214649" sideWeight="0.49791667" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23229167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32858595" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -902,7 +978,9 @@
     <MESSAGE value="继续修复了bug。" />
     <MESSAGE value="实现了登陆和注销" />
     <MESSAGE value="实现了登陆/注销/注册的功能，修复了一些前台和后台的bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="实现了登陆/注销/注册的功能，修复了一些前台和后台的bug" />
+    <MESSAGE value="加入了一个模板" />
+    <MESSAGE value="实现基本的功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现基本的功能" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -911,13 +989,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/page/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2000">
-          <caret line="80" column="26" lean-forward="false" selection-start-line="80" selection-start-column="26" selection-end-line="80" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/page/car/car_rent_in.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1203">
@@ -1014,9 +1085,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
           <caret line="68" column="4" lean-forward="true" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="4" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1031,7 +1099,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3092">
           <caret line="11" column="15" lean-forward="false" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1146,7 +1213,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1154,7 +1220,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="860">
           <caret line="182" column="33" lean-forward="true" selection-start-line="182" selection-start-column="33" selection-end-line="182" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1172,7 +1237,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="4703" column="4" lean-forward="false" selection-start-line="4703" selection-start-column="4" selection-end-line="4703" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1212,7 +1276,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1220,20 +1283,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="317">
           <caret line="277" column="28" lean-forward="false" selection-start-line="277" selection-start-column="28" selection-end-line="277" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1795#1805#0" expanded="false" />
-            <marker date="1513413904497" expanded="true" signature="763:781" ph="select * fro... user" />
-            <marker date="1513413904497" expanded="true" signature="1831:1867" ph="select * fro... user" />
-            <marker date="1513413904497" expanded="true" signature="2864:2894" ph="select * fro... user" />
-            <marker date="1513413904497" expanded="true" signature="4639:4722" ph="insert into user... " />
-            <marker date="1513413904497" expanded="true" signature="5336:5363" ph="delete from user... " />
-            <marker date="1513413904497" expanded="true" signature="6409:6482" ph="update user... " />
-            <marker date="1513413904497" expanded="true" signature="6690:6763" ph="update user... " />
-            <marker date="1513413904497" expanded="true" signature="6967:7034" ph="update user... " />
-            <marker date="1513413904497" expanded="true" signature="7922:7985" ph="update user... " />
-            <marker date="1513413904497" expanded="true" signature="8202:8267" ph="update user... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1249,9 +1298,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1259,10 +1305,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="278">
           <caret line="81" column="40" lean-forward="true" selection-start-line="81" selection-start-column="30" selection-end-line="81" selection-end-column="40" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1270,9 +1312,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="53" column="29" lean-forward="false" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
-          <folding>
-            <element signature="e#2916#4963#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1280,19 +1319,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="455">
           <caret line="103" column="0" lean-forward="true" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
-          <folding>
-            <element signature="n#div#2;n#div#0;n#body#0;n#!!top" expanded="false" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/page/muban/moban1129/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6400">
+          <caret line="256" column="57" lean-forward="true" selection-start-line="256" selection-start-column="57" selection-end-line="256" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/user_main_page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="114" column="3" lean-forward="false" selection-start-line="114" selection-start-column="3" selection-end-line="114" selection-end-column="3" />
+        <state relative-caret-position="88">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding>
             <element signature="n#script#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#6706#7515#0" expanded="false" />
+            <element signature="e#6723#7532#0" expanded="false" />
           </folding>
         </state>
       </provider>
