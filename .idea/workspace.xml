@@ -6,75 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1007eb6-ddad-498e-8ab0-b2f2c3c4ae0d" name="Default" comment="在项目里面不需要手动设置端口号码。我已经用JAVASCRIPT自动获取了。">
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/js/getRootPath.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/js/getRootPath.js.baiduyun.uploading.cfg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/assets/css/font-awesome.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/assets/css/main.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/assets/fonts/FontAwesome.otf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/assets/fonts/fontawesome-webfont.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/assets/fonts/fontawesome-webfont.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/assets/fonts/fontawesome-webfont.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/assets/fonts/fontawesome-webfont.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/assets/fonts/fontawesome-webfont.woff2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/assets/js/jquery.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/assets/js/jquery.poptrox.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/assets/js/jquery.scrollex.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/assets/js/jquery.scrolly.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/assets/js/main.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/assets/js/skel.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/assets/js/util.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/fulls/01.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/fulls/02.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/fulls/03.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/fulls/04.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/fulls/05.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/fulls/06.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/fulls/07.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/fulls/08.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/fulls/09.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/fulls/10.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/fulls/11.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/fulls/12.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/gallery.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/images/Banner.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/images/fulls/01.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/images/fulls/02.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/images/fulls/03.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/images/fulls/04.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/images/fulls/05.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/images/fulls/06.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/images/fulls/07.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/images/fulls/08.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/images/fulls/09.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/images/fulls/10.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/images/fulls/11.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/images/fulls/12.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/images/thumbs/01.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/images/thumbs/02.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/images/thumbs/03.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/images/thumbs/04.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/images/thumbs/05.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/images/thumbs/06.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/images/thumbs/07.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/images/thumbs/08.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/images/thumbs/09.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/images/thumbs/10.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/images/thumbs/11.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/images/thumbs/12.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/muban/CarIndexMuBan/index.html" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/admin_main_page.html" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/admin_main_page.html" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/index.html" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/index.html" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/index1.html" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/index1.html" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/js/logout.js" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/js/logout.js" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/car/addCarRentIn.js" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/car/addCarRentIn.js" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/car/car_rent_in.js" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/car/car_rent_in.js" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/links/linksList_.js" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/links/linksList_.js" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/signup.html" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/signup.html" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/test-ChenJie/jquery.cookie.test.html" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/test-ChenJie/jquery.cookie.test.html" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/user_main.html" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/user_main.html" />
-    </list>
+    <list default="true" id="a1007eb6-ddad-498e-8ab0-b2f2c3c4ae0d" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -147,6 +79,7 @@
         <option value="陈杰" />
       </list>
     </option>
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -291,7 +224,7 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3448276" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="true" />
   </component>
@@ -545,7 +478,7 @@
       <workItem from="1513407104951" duration="2268000" />
       <workItem from="1513409415969" duration="6548000" />
       <workItem from="1513436389911" duration="133000" />
-      <workItem from="1513477184164" duration="4736000" />
+      <workItem from="1513477184164" duration="4902000" />
     </task>
     <task id="LOCAL-00001" summary="增加了几个学习的demo，然后修改了数据库登陆账号和密码为root，root">
       <created>1513215531076</created>
@@ -799,11 +732,18 @@
       <option name="project" value="LOCAL" />
       <updated>1513481866960</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="在项目里面不需要手动设置端口号码。我已经用JAVASCRIPT自动获取了。">
+      <created>1513481955104</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1513481955104</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72035000" />
+    <option name="totallyTimeSpent" value="72201000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
