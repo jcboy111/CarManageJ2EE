@@ -1,3 +1,3 @@
 # CarManageJ2EE
-经常要修改端口号码，所以这里的端口经常会改动。
-我尽量在push的时候，把端口号改成    8074
+因为经常要修改idea中tomcat的端口号码，所以，我把代码修改了。
+自动会获取当前的baseURL, http://localhost:xxxx/

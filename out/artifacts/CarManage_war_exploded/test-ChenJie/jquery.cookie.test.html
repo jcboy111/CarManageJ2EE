@@ -13,9 +13,14 @@
 </p>
 <p id="demo">demo</p>
 
+
+<!--获取网站根目录的js-->
+<script type="text/javascript" src="js/getRootPath.js"></script>
+
+
 <script type="text/javascript">
     $(function () {
-        var urlBase = "http://localhost:8074/";
+        var urlBase = getRootPath_web();
         alert("jQuery.cookie");
         if (!$.cookie("username")) {
             alert("未登陆");

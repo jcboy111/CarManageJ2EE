@@ -176,12 +176,15 @@
 <script type="text/javascript" src="js/leftNav.js"></script>
 <script type="text/javascript" src="js/index.js"></script>
 <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+
+<!--获取网站根目录的js-->
+<script type="text/javascript" src="js/getRootPath.js"></script>
 <script type="text/javascript">
     window.onload = function () {
         //alert("aaa");
         var URL = document.location.toString();
-        //alert(URL);
-        var baseUrl = "http://localhost:8074/";
+
+        var baseUrl =getRootPath_web();
         var intPos = URL.indexOf("=");
         var strRight = URL.substr(intPos + 1);
         $.ajax({
