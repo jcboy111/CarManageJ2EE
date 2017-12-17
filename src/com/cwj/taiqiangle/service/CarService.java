@@ -1,7 +1,6 @@
 package com.cwj.taiqiangle.service;
 
-import com.cwj.taiqiangle.model.CarRentInBean;
-import com.cwj.taiqiangle.model.TestBean;
+import com.cwj.taiqiangle.model.CarBean;
 import com.cwj.taiqiangle.util.DBUtil;
 
 import java.sql.Connection;
@@ -15,60 +14,115 @@ import java.util.List;
  * Created by 蛟川小盆友 on 2017/12/6.
  */
 public class CarService {
+    public static void main(String[] args)
+    {
+        CarService carService=new CarService();
+        try {
+            System.out.println(carService.addCar("aCar",120,null));
+
+//
+//            CarBean car=new CarBean();
+//            car.setName("adad");
+//            carService.updateCar(1,car);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
 
     private Connection conn;
     private PreparedStatement ps = null;
     private ResultSet rs = null;
 
-    public List<CarRentInBean> getAllRentInCars() throws SQLException {
-        conn= DBUtil.getConnection();
-        List<CarRentInBean>carRentInBeans=new ArrayList<CarRentInBean>();
-        String sql="select * from car_rent_in";
-        ps = conn.prepareStatement(sql);
-        rs = ps.executeQuery();
-        while(rs.next()){
-            CarRentInBean carRentInBean=new CarRentInBean();
-            carRentInBean.setId(rs.getString("id"));
-            carRentInBean.setTitle(rs.getString("title"));
-            carRentInBean.setUser(rs.getString("user"));
-            carRentInBean.setStatus(rs.getString("status"));
-            carRentInBean.setPay(rs.getString("pay"));
-            carRentInBean.setDate(rs.getString("date"));
-            carRentInBeans.add(carRentInBean);
 
+    /**
+     * 增加，成功返回1
+     * @param name
+     * @param price
+     * @return
+     * @throws SQLException
+     */
+    public int addCar(String name,int price,String pic) throws SQLException {
+        conn=DBUtil.getConnection();
+        String sql="insert into car(name,price,pic) values(?,?,?)";
+        ps=conn.prepareStatement(sql);
+        ps.setObject(1,name);
+        ps.setObject(2,price);
+        ps.setObject(3,pic);
+        int i=ps.executeUpdate();
+        rs=ps.getGeneratedKeys();
+        if(rs!=null)
+        {
+            rs.next();
+            return rs.getInt(1);
         }
-        return carRentInBeans;
+        conn.close();
+        return i;
     }
 
-    public int addRentInCar(String title,String user,String date,String pay,String status) throws SQLException {
-        conn= DBUtil.getConnection();
-        String sql="insert into car_rent_in (title,user,date,pay,status) values(?,?,?,?,?)";
-        ps = conn.prepareStatement(sql);
-        ps.setObject(1, title);
-        ps.setObject(2, user);
-        ps.setObject(3, date);
-        ps.setObject(4, pay);
-        ps.setObject(5, status);
-        int r=ps.executeUpdate();
-        return r;
+    /**
+     * 得到车子，成功返回carBean
+     * @param id
+     * @return
+     * @throws SQLException
+     */
+    public CarBean getCar(int id) throws SQLException {
+        conn=DBUtil.getConnection();
+        String sql="select * from car where id="+id;
+        ps=conn.prepareStatement(sql);
+        rs=ps.executeQuery();
+        while(rs.next())
+        {
+            CarBean car=new CarBean();
+            car.setId(rs.getInt("id"));
+            car.setName(rs.getString("name"));
+            car.setPrice(rs.getInt("price"));
+            car.setPic(rs.getString("pic"));
+            return car;
+        }
+        return null;
     }
 
-    public int deleteRentInCar(String id) throws SQLException {
-        conn= DBUtil.getConnection();
-        String sql = "delete from car_rent_in where id = ?";
-        ps = conn.prepareStatement(sql);
-        ps.setObject(1, id);
-        int r=ps.executeUpdate();
-        return r;
-    }
+    /**
+     * 修改车辆信息
+     * 成功返回1
+     * @param id
+     * @param car
+     * @return
+     * @throws SQLException
+     */
+    public int updateCar(int id,CarBean car) throws SQLException {
+        conn=DBUtil.getConnection();
+        int status=0;
+        if(car.getName()!=null)
+        {
+            String sql="update car set name='"+car.getName()+"' where id="+id;
+            ps=conn.prepareStatement(sql);
+            if(ps.executeUpdate()!=0)
+            {
+                status++;
+            }
+        }
+        if(car.getPrice()!=Integer.MIN_VALUE)
+        {
+            String sql="update car set price="+car.getPrice()+" where id="+id;
+            ps=conn.prepareStatement(sql);
+            if(ps.executeUpdate()!=0)
+            {
+                status++;
+            }
+        }
+        if(car.getPic()!=null)
+        {
+            String sql="update car set pic='"+car.getPic()+"' where id="+id;
+            ps=conn.prepareStatement(sql);
+            if(ps.executeUpdate()!=0)
+            {
+                status++;
+            }
+        }
 
-    public int passRentInCar(String id) throws SQLException {
-        conn= DBUtil.getConnection();
-        String sql = "UPDATE car_rent_in SET status = '审核通过' WHERE id = ? ";
-        ps = conn.prepareStatement(sql);
-        ps.setObject(1, id);
-        int r=ps.executeUpdate();
-        return r;
+        return status;
     }
 
 

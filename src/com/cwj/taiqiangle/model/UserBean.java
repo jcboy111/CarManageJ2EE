@@ -3,7 +3,7 @@ package com.cwj.taiqiangle.model;
 import java.io.UnsupportedEncodingException;
 
 public class UserBean {
-    private String id;
+    private int id;
     private String userName;
     private String password;
     private String email;
@@ -14,11 +14,11 @@ public class UserBean {
     {
         money=Integer.MIN_VALUE;
     }
-    public String getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(int id) {
         this.id = id;
     }
 

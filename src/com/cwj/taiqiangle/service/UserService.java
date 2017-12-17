@@ -23,24 +23,23 @@ public class UserService {
      * @return
      * @throws SQLException
      */
-    public List<UserBean> getAllUserBean() throws SQLException {
-        conn = DBUtil.getConnection();
-        List<UserBean> userBeans = new ArrayList<UserBean>();
-        String sql = "select * from user";
-        ps = conn.prepareStatement(sql);
-        rs = ps.executeQuery();
-        while (rs.next()) {
-            UserBean userBean = new UserBean();
-            userBean.setId(rs.getString("id"));
+    public List<UserBean> getAllUserBean() throws SQLException{
+        conn=DBUtil.getConnection();
+        List<UserBean> userBeans=new ArrayList<UserBean>();
+        String sql="select * from user";
+        ps=conn.prepareStatement(sql);
+        rs=ps.executeQuery();
+        while(rs.next())
+        {
+            UserBean userBean=new UserBean();
+            userBean.setId(rs.getInt("id"));
             userBean.setUserName(rs.getString("username"));
             userBean.setPassword(rs.getString("password"));
             userBean.setEmail(rs.getString("email"));
             userBean.setDescription(rs.getString("description"));
             userBean.setPic(rs.getString("pic"));
             userBean.setMoney(rs.getInt("money"));
-            if (userBean != null && userBean.getId() != null) {
-                userBeans.add(userBean);
-            }
+            userBeans.add(userBean);
         }
         conn.close();
         return userBeans;
@@ -60,18 +59,16 @@ public class UserService {
         ps = conn.prepareStatement(sql);
         ps.setObject(1, name);
         rs = ps.executeQuery();
-        while (rs.next()) {
-            UserBean userBean = new UserBean();
-            userBean.setId(rs.getString("id"));
+        while(rs.next()){
+            UserBean userBean=new UserBean();
+            userBean.setId(rs.getInt("id"));
             userBean.setUserName(rs.getString("username"));
             userBean.setPassword(rs.getString("password"));
             userBean.setEmail(rs.getString("email"));
             userBean.setDescription(rs.getString("description"));
             userBean.setPic(rs.getString("pic"));
             userBean.setMoney(rs.getInt("money"));
-            if (userBean != null && userBean.getId() != null) {
-                userBeans.add(userBean);
-            }
+            userBeans.add(userBean);
         }
         conn.close();
         ;
@@ -85,15 +82,15 @@ public class UserService {
      * @return
      * @throws SQLException
      */
-    public UserBean getUserById(String id) throws SQLException {
-        conn = DBUtil.getConnection();
-        String sql = "select * from user where id= ?";
+    public UserBean getUserById(int id)throws SQLException{
+        conn= DBUtil.getConnection();
+        String sql="select * from user where id= ?";
         ps = conn.prepareStatement(sql);
         ps.setObject(1, id);
         rs = ps.executeQuery();
-        while (rs.next()) {
-            UserBean userBean = new UserBean();
-            userBean.setId(rs.getString("id"));
+        while(rs.next()){
+            UserBean userBean=new UserBean();
+            userBean.setId(rs.getInt("id"));
             userBean.setUserName(rs.getString("username"));
             userBean.setPassword(rs.getString("password"));
             userBean.setEmail(rs.getString("email"));
@@ -165,13 +162,14 @@ public class UserService {
      * @return
      * @throws SQLException
      */
-    public int removeUserById(String id) throws SQLException {
-        int i = 0;
-        conn = DBUtil.getConnection();
-        String sql = "delete from user where id=?";
-        ps = conn.prepareStatement(sql);
-        ps.setObject(1, id);
-        i = ps.executeUpdate();
+    public int removeUserById(int id)throws SQLException
+    {
+        int i=0;
+        conn=DBUtil.getConnection();
+        String sql="delete from user where id=?";
+        ps=conn.prepareStatement(sql);
+        ps.setObject(1,id);
+        i=ps.executeUpdate();
         conn.close();
         return i;
     }
@@ -187,10 +185,10 @@ public class UserService {
      * @param ub
      * @return
      */
-
-    public int updateUserById(String id, UserBean ub) throws SQLException {
-        int status = 0;
-        List<UserBean> users;
+    public int updateUserById(int id,UserBean ub)throws SQLException
+    {
+        int status=0;
+        List<UserBean>users;
 
         if (getUserById(id) == null) {
             status = -2;
@@ -201,42 +199,49 @@ public class UserService {
             if (users.size() != 1) {
                 status = -3;
                 return status;
-            } else if (!users.get(0).getId().equals(id)) {
-                // System.out.println(users.size());
-                status = -3;
+            }
+            else if(users.get(0).getId()!=id)
+            {
+               // System.out.println(users.size());
+                status=-3;
                 return status;
             }
         }
-        conn = DBUtil.getConnection();
-        if (ub.getUserName() != null) {
-            String sql = "update user set username='" + ub.getUserName() + "' where id='" + id + "'";
-            ps = conn.prepareStatement(sql);
-            if (ps.executeUpdate() != 0) {
+        conn=DBUtil.getConnection();
+        if(ub.getUserName()!=null)
+        {
+            String sql="update user set username='"+ub.getUserName()+"' where id="+id+"";
+            ps=conn.prepareStatement(sql);
+            if(ps.executeUpdate()!=0) {
                 status++;
             }
 
         }
-        if (ub.getPassword() != null) {
-            String sql = "update user set password='" + ub.getPassword() + "' where id='" + id + "'";
-            ps = conn.prepareStatement(sql);
-            if (ps.executeUpdate() != 0) {
+        if(ub.getPassword()!=null)
+        {
+            String sql="update user set password='"+ub.getPassword()+"' where id="+id+"";
+            ps=conn.prepareStatement(sql);
+            if(ps.executeUpdate()!=0)
+            {
                 status++;
             }
         }
-        if (ub.getEmail() != null) {
-            String sql = "update user set email='" + ub.getEmail() + "' where id='" + id + "'";
-            ps = conn.prepareStatement(sql);
-            if (ps.executeUpdate() != 0) {
+        if (ub.getEmail()!=null)
+        {
+            String sql="update user set email='"+ub.getEmail()+"' where id="+id+"";
+            ps=conn.prepareStatement(sql);
+            if(ps.executeUpdate()!=0)
+            {
                 status++;
             }
         }
         if (ub.getDescription() != null) {
             String sql = null;
             try {
-                String str1 = new String("update user set description='".getBytes(), "utf-8");
-                String str2 = new String(ub.getDescription().getBytes(), "utf-8");
-                String str3 = new String(("' where id='" + id + "'").getBytes(), "utf-8");
-                sql = str1 + str2 + str3;
+                String str1 = new String("update user set description='".getBytes(),"utf-8");
+                String str2 = new String(ub.getDescription().getBytes(),"utf-8");
+                String str3 = new String(("' where id=" + id + "").getBytes(),"utf-8");
+                sql = str1+str2+str3;
             } catch (UnsupportedEncodingException e) {
                 e.printStackTrace();
             }
@@ -246,29 +251,33 @@ public class UserService {
                 status++;
             }
         }
-        if (ub.getPic() != null) {
-            String sql = "update user set pic='" + ub.getPic() + "' where id='" + id + "'";
-            ps = conn.prepareStatement(sql);
-            if (ps.executeUpdate() != 0) {
+        if(ub.getPic()!=null)
+        {
+            String sql="update user set pic='"+ub.getPic()+"' where id="+id+"";
+            ps=conn.prepareStatement(sql);
+            if(ps.executeUpdate()!=0)
+            {
                 status++;
             }
         }
-        if (ub.getMoney() != Integer.MIN_VALUE) {
-            String sql = "update user set money=" + ub.getMoney() + " where id='" + id + "'";
-            ps = conn.prepareStatement(sql);
-            if (ps.executeUpdate() != 0) {
+        if(ub.getMoney()!= Integer.MIN_VALUE) {
+            String sql="update user set money="+ub.getMoney()+" where id="+id+"";
+            ps=conn.prepareStatement(sql);
+            if(ps.executeUpdate()!=0)
+            {
                 status++;
             }
         }
 
         return status;
-
-
     }
 
 
-    public static void main(String[] args) {
-        UserService us = new UserService();
+
+
+    public static void main(String[] args)
+    {
+        UserService us=new UserService();
         //try {
 //        us.addUser("Jiss","a21dwa","690385702@qq.com","dada","dadwad",4141);
 //        List<UserBean> users=us.getUserByName("ceej");
