@@ -43,21 +43,16 @@ var navs = [{
 }, {
     "title": "发布车辆出租信息",
     "icon": "icon-computer",
-    "href": "page/main.html",
+    "href": "page/car/car_rent_out.html",
     "spread": false
 }, {
     "title": "我要租车",
     "icon": "icon-computer",
-    "href": "page/main.html",
+    "href": 'page/car/car_rent_in.jsp',
     "spread": false
 }, {
     "title": "我要租车位",
     "icon": "icon-computer",
-    "href": "page/main.html",
-    "spread": false
-}, {
-    "title": "留言系统",
-    "icon": "icon-computer",
-    "href": "page/main.html",
+    "href": "page/parking/parkingLot.jsp",
     "spread": false
 }]

@@ -229,7 +229,8 @@ public class UserManageController {
     {
         JsonMsg jsonMsg=new JsonMsg();
         try {
-            List<UserBean> users= userService.getUserByName(username);
+            //陈杰-->曹威杰：我觉得这里的代码写的有点奇怪。我改了一下
+/*            List<UserBean> users= userService.getUserById(id);
             if(users.size()==0)
             {
                 jsonMsg.setData(0);
@@ -241,8 +242,19 @@ public class UserManageController {
             }
             else{
                 throw new SQLException("用户名被重复，sql出现问题");
+            }*/
+
+
+            UserBean user = userService.getUserById(id);
+            if(user!=null){
+                jsonMsg.setCode("200");
+                jsonMsg.setData(user);
+            } else {
+                jsonMsg.setCode("202");
+                jsonMsg.setData(0);
             }
 
+            //曹威杰：以上就是我的修改
         } catch (SQLException e) {
             jsonMsg.setCode("404");
             jsonMsg.setData(-1);
@@ -272,5 +284,42 @@ public class UserManageController {
         }
         return jsonMsg;
     }
+
+
+    /**
+     * Code200，UserBean
+     * Code202,用户不存在
+     * Code404 用户被重复/
+     * Code404.Data -1 取出失败
+     * @return
+     */
+    @RequestMapping(value = "/getUserByName", method = RequestMethod.GET)
+    @ResponseBody
+    public JsonMsg getUsersByName(String username)
+    {
+        JsonMsg jsonMsg=new JsonMsg();
+        try {
+            List<UserBean> users= userService.getUserByName(username);
+            if(users.size()==0)
+            {
+                jsonMsg.setData(0);
+                jsonMsg.setCode("202");
+            }
+            else if(users.size()==1){
+                jsonMsg.setData(users.get(0));
+                jsonMsg.setCode("200");
+            }
+            else{
+                throw new SQLException("用户名被重复，sql出现问题");
+            }
+
+        } catch (SQLException e) {
+            jsonMsg.setCode("404");
+            jsonMsg.setData(-1);
+            e.printStackTrace();
+        }
+        return jsonMsg;
+    }
+
 
 }

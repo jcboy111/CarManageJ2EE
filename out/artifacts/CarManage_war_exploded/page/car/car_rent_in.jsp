@@ -22,13 +22,14 @@
 </head>
 <body class="childrenBody">
 <blockquote class="layui-elem-quote news_search">
-    <div class="layui-inline">
+<%--    <div class="layui-inline">
         <div class="layui-input-inline">
             <input type="text" value="" placeholder="请输入关键字" class="layui-input search_input">
         </div>
         <a class="layui-btn search_btn">查询</a>
-    </div>
-    <div class="layui-inline">
+    </div>--%>
+    <%--下面的都不需要有--%>
+ <%--   <div class="layui-inline">
         <a class="layui-btn layui-btn-normal newsAdd_btn">添加租车信息</a>
     </div>
     <div class="layui-inline">
@@ -39,12 +40,12 @@
     </div>
     <div class="layui-inline">
         <a class="layui-btn layui-btn-danger batchDel">批量删除</a>
-    </div>
-    <div class="layui-inline">
+    </div>--%>
+<%--    <div class="layui-inline">
         <div class="layui-form-mid layui-word-aux">本页面刷新后除新添加的文章外所有操作无效，关闭页面所有数据重置</div>
-    </div>
+    </div>--%>
 </blockquote>
-<div class="layui-form news_list">
+<div class="layui-form cars_list">
     <table class="layui-table">
         <colgroup>
             <col width="50">
@@ -59,19 +60,21 @@
         <thead>
         <tr>
             <th><input type="checkbox" name="" lay-skin="primary" lay-filter="allChoose" id="allChoose"></th>
-            <th style="text-align:left;">租车信息</th>
-            <th>发布人</th>
-            <th>审核状态</th>
-            <th>预期价格</th>
-            <th>发布时间</th>
+            <th style="text-align:left;">车辆编号</th><%--car_id--%>
+            <th>发布人</th><%--sender_id--%>
+            <th>审核状态</th><%--status--%>
             <th>操作</th>
         </tr>
         </thead>
-        <tbody class="news_content"></tbody>
+        <tbody class="cars_content"></tbody>
     </table>
 </div>
 <div id="page"></div>
 <script type="text/javascript" src="../../layui/layui.js"></script>
+<script type="text/javascript" src="../../js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="../../js/jquery.cookie.js"></script>
+<!--获取根路径-->
+<script type="text/javascript" src="../../js/getRootPath.js"></script>
 <script type="text/javascript" src="car_rent_in.js"></script>
 </body>
 </html>
