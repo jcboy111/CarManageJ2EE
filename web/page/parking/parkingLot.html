@@ -8,126 +8,166 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
     <!--css样式-->
-    <link href="/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/bootstrap-table/dist/bootstrap-table.js" rel="stylesheet">
+    <link href="../../bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../bootstrap-table/dist/bootstrap-table.css" rel="stylesheet">
 
     <!--js-->
-    <script src="/js/jquery-2.1.4.min.js" type="text/javascript"></script>
-    <script src="/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
-    <script src="/bootstrap-table/dist/bootstrap-table.js"></script>
-    <script src="/bootstrap-table/dist/locale/bootstrap-table-zh-CN.js"></script>
+    <script src="../../js/jquery-2.1.4.min.js" type="text/javascript"></script>
+    <script src="../../bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <script src="../../bootstrap-table/dist/bootstrap-table.js"></script>
+    <script src="../../bootstrap-table/dist/locale/bootstrap-table-zh-CN.js"></script>
 
 
 </head>
 <body>
-
-
+<div class="container">
+    <table id="table" data-height="460">
+        <thead>
+        <tr>
+            <th data-field="id">ID</th>
+            <th data-field="name">停车位名称</th>
+            <th data-field="price_per_day">日租金</th>
+        </tr>
+        </thead>
+    </table>
+</div>
+<script src="../../js/getRootPath.js"></script>
 <script type="text/javascript">
-    var TableInit = function  {
-        var oTableInit = new Object();
-        //初始化Table
-        oTableInit.Init = function () {
-            $('#tradeList').bootstrapTable({
-                url: '/VenderManager/TradeList',         //请求后台的URL（*）
-                method: 'post',                      //请求方式（*）
-                toolbar: '#toolbar',                //工具按钮用哪个容器
-                striped: true,                      //是否显示行间隔色
-                cache: false,                       //是否使用缓存，默认为true，所以一般情况下需要设置一下这个属性（*）
-                pagination: true,                   //是否显示分页（*）
-                sortable: false,                     //是否启用排序
-                sortOrder: "asc",                   //排序方式
-                queryParams: oTableInit.queryParams,//传递参数（*）
-                sidePagination: "server",           //分页方式：client客户端分页，server服务端分页（*）
-                pageNumber: 1,                       //初始化加载第一页，默认第一页
-                pageSize: 50,                       //每页的记录行数（*）
-                pageList: [10, 25, 50, 100],        //可供选择的每页的行数（*）
-                strictSearch: true,
-                clickToSelect: true,                //是否启用点击选中行
-                height: 460,                        //行高，如果没有设置height属性，表格自动根据记录条数觉得表格高度
-                uniqueId: "id",                     //每一行的唯一标识，一般为主键列
-                cardView: false,                    //是否显示详细视图
-                detailView: false,                   //是否显示父子表
-                columns: [{
-                    field: 'id',
-                    title: '序号'
-                }, {
-                    field: 'liushuiid',
-                    title: '交易编号'
-                }, {
-                    field: 'orderid',
-                    title: '订单号'
-                }, {
-                    field: 'receivetime',
-                    title: '交易时间'
-                }, {
-                    field: 'price',
-                    title: '金额'
-                }, {
-                    field: 'coin_credit',
-                    title: '投入硬币'
-                }, {
-                    field: 'bill_credit',
-                    title: '投入纸币'
-                }, {
-                    field: 'changes',
-                    title: '找零'
-                }, {
-                    field: 'tradetype',
-                    title: '交易类型'
-                }, {
-                    field: 'goodmachineid',
-                    title: '货机号'
-                }, {
-                    field: 'inneridname',
-                    title: '货道号'
-                }, {
-                    field: 'goodsName',
-                    title: '商品名称'
-                }, {
-                    field: 'changestatus',
-                    title: '支付'
-                }, {
-                    field: 'sendstatus',
-                    title: '出货'
-                },]
-            });
-        };
-
-        //得到查询的参数
-        oTableInit.queryParams = function (params) {
-            var temp = {   //这里的键的名字和控制器的变量名必须一直，这边改动，控制器也需要改成一样的
-                limit: params.limit,   //页面大小
-                offset: params.offset,  //页码
-                sdate: $("#stratTime").val(),
-                edate: $("#endTime").val(),
-                sellerid: $("#sellerid").val(),
-                orderid: $("#orderid").val(),
-                CardNumber: $("#CardNumber").val(),
-                maxrows: params.limit,
-                pageindex: params.pageNumber,
-                portid: $("#portid").val(),
-                CardNumber: $("#CardNumber").val(),
-                tradetype: $('input:radio[name="tradetype"]:checked').val(),
-                success: $('input:radio[name="success"]:checked').val(),
-            };
-            return temp;
-        };
-        return oTableInit;
-    };
-
+    var $table = $('#table');
+    /*    var mydata =
+            [
+                {
+                    "id": 0,
+                    "name": "test0",
+                    "price": "$0"
+                },
+                {
+                    "id": 1,
+                    "name": "test1",
+                    "price": "$1"
+                },
+                {
+                    "id": 2,
+                    "name": "test2",
+                    "price": "$2"
+                },
+                {
+                    "id": 3,
+                    "name": "test3",
+                    "price": "$3"
+                },
+                {
+                    "id": 4,
+                    "name": "test4",
+                    "price": "$4"
+                },
+                {
+                    "id": 5,
+                    "name": "test5",
+                    "price": "$5"
+                },
+                {
+                    "id": 6,
+                    "name": "test6",
+                    "price": "$6"
+                },
+                {
+                    "id": 7,
+                    "name": "test7",
+                    "price": "$7"
+                },
+                {
+                    "id": 8,
+                    "name": "test8",
+                    "price": "$8"
+                },
+                {
+                    "id": 9,
+                    "name": "test9",
+                    "price": "$9"
+                },
+                {
+                    "id": 10,
+                    "name": "test10",
+                    "price": "$10"
+                },
+                {
+                    "id": 11,
+                    "name": "test11",
+                    "price": "$11"
+                },
+                {
+                    "id": 12,
+                    "name": "test12",
+                    "price": "$12"
+                },
+                {
+                    "id": 13,
+                    "name": "test13",
+                    "price": "$13"
+                },
+                {
+                    "id": 14,
+                    "name": "test14",
+                    "price": "$14"
+                },
+                {
+                    "id": 15,
+                    "name": "test15",
+                    "price": "$15"
+                },
+                {
+                    "id": 16,
+                    "name": "test16",
+                    "price": "$16"
+                },
+                {
+                    "id": 17,
+                    "name": "test17",
+                    "price": "$17"
+                },
+                {
+                    "id": 18,
+                    "name": "test18",
+                    "price": "$18"
+                },
+                {
+                    "id": 19,
+                    "name": "test19",
+                    "price": "$19"
+                },
+                {
+                    "id": 20,
+                    "name": "test20",
+                    "price": "$20"
+                }
+            ];*/
+    var baseUrl = getRootPath_web();
     $(function () {
-        //1.初始化Table
-        var oTable = new TableInit();
-        oTable.Init();
+        $.ajax(
+            {
+                url: baseUrl + "park/parkIdleTraversal",
+                type: "get",
+                dataType: "json",
+                data: {},
+                success: function (data) {
+                    var code =  data.code;
+                    if(code==='200'){
+                        $('#table').bootstrapTable({
+                            data: data.data
+                        });
+                    }
+                    else{
+                        alert("读取数据库失败");
+                    }
 
-        //2.初始化Button的点击事件
-        /* var oButtonInit = new ButtonInit();
-        oButtonInit.Init(); */
-
+                },
+                error: function () {
+                    alert("读取数据库失败");
+                }
+            }
+        );
     });
-
-
-
 </script>
 
 </body>
