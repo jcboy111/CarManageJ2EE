@@ -234,6 +234,7 @@ public class CarOutController {
             int i=orderService.updateUser(id,receiver_id);
             jsonMsg.setData(i);
             jsonMsg.setCode("200");
+            System.out.println("ChenJie Debug: accept car_rent_out order successfully.");
         } catch (SQLException e) {
             jsonMsg.setCode("404");
             jsonMsg.setData(-1);
