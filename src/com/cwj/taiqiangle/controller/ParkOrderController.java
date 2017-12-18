@@ -12,7 +12,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import java.sql.Date;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
@@ -46,7 +45,7 @@ public class ParkOrderController {
         try {
             if(userService.getUserById(userid).getMoney()<=0)
             {
-                jsonMsg.setCode("202");
+                jsonMsg.setCode("2021");
                 jsonMsg.setData(0);
                 return jsonMsg;
             }
@@ -55,12 +54,14 @@ public class ParkOrderController {
             jsonMsg.setData(i);
             if(i==1)
             {
-                jsonMsg.setCode("202");
+                jsonMsg.setCode("200");
+                System.out.println("ChenJie Debug:成功租用了停车位");
             }
             else{
-                jsonMsg.setCode("200");
+                jsonMsg.setCode("2022");
             }
         } catch (Exception e) {
+            jsonMsg.setCode("2023");
             e.printStackTrace();
         }
         return jsonMsg;
