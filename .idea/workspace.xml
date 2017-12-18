@@ -6,8 +6,664 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1007eb6-ddad-498e-8ab0-b2f2c3c4ae0d" name="Default" comment="">
+    <list default="true" id="a1007eb6-ddad-498e-8ab0-b2f2c3c4ae0d" name="Default" comment="引入了bootstrap框架">
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap-theme.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap-theme.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap.min.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/js/bootstrap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/js/bootstrap.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/js/npm.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/.github/ISSUE_TEMPLATE.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/.travis.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/CHANGELOG.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/CONTRIBUTING.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/DONATORS.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/Gruntfile.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/_config.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/bootstrap-table.jquery.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/bower.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/composer.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/bootstrap-table-locale-all.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/bootstrap-table-locale-all.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/bootstrap-table.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/bootstrap-table.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/bootstrap-table.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/bootstrap-table.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/extensions/accent-neutralise/bootstrap-table-accent-neutralise.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/extensions/accent-neutralise/bootstrap-table-accent-neutralise.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/extensions/angular/bootstrap-table-angular.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/extensions/angular/bootstrap-table-angular.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/extensions/auto-refresh/bootstrap-table-auto-refresh.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/extensions/auto-refresh/bootstrap-table-auto-refresh.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/extensions/auto-refresh/bootstrap-table-auto-refresh.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/extensions/click-edit-row/bootstrap-table-click-edit-row.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/extensions/click-edit-row/bootstrap-table-click-edit-row.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/extensions/click-edit-row/bootstrap-table-click-edit-row.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/extensions/cookie/bootstrap-table-cookie.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/extensions/cookie/bootstrap-table-cookie.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/extensions/copy-rows/bootstrap-table-copy-rows.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/extensions/copy-rows/bootstrap-table-copy-rows.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/extensions/editable/bootstrap-table-editable.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/extensions/editable/bootstrap-table-editable.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/extensions/export/bootstrap-table-export.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/extensions/export/bootstrap-table-export.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/extensions/filter-control/bootstrap-table-filter-control.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/extensions/filter-control/bootstrap-table-filter-control.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/extensions/filter-control/bootstrap-table-filter-control.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/extensions/filter/bootstrap-table-filter.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/extensions/filter/bootstrap-table-filter.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/extensions/flat-json/bootstrap-table-flat-json.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/extensions/flat-json/bootstrap-table-flat-json.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/extensions/group-by-v2/bootstrap-table-group-by.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/extensions/group-by-v2/bootstrap-table-group-by.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/extensions/group-by-v2/bootstrap-table-group-by.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/extensions/group-by/bootstrap-table-group-by.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/extensions/group-by/bootstrap-table-group-by.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/extensions/group-by/bootstrap-table-group-by.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/extensions/i18n-enhance/bootstrap-table-i18n-enhance.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/extensions/i18n-enhance/bootstrap-table-i18n-enhance.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/extensions/key-events/bootstrap-table-key-events.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/extensions/key-events/bootstrap-table-key-events.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/extensions/mobile/bootstrap-table-mobile.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/extensions/mobile/bootstrap-table-mobile.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/extensions/multi-column-toggle/bootstrap-table-multi-toggle.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/extensions/multi-column-toggle/bootstrap-table-multi-toggle.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/extensions/multiple-search/bootstrap-table-multiple-search.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/extensions/multiple-search/bootstrap-table-multiple-search.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/extensions/multiple-selection-row/bootstrap-table-multiple-selection-row.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/extensions/multiple-selection-row/bootstrap-table-multiple-selection-row.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/extensions/multiple-selection-row/bootstrap-table-multiple-selection-row.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/extensions/multiple-sort/bootstrap-table-multiple-sort.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/extensions/multiple-sort/bootstrap-table-multiple-sort.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/extensions/natural-sorting/bootstrap-table-natural-sorting.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/extensions/natural-sorting/bootstrap-table-natural-sorting.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/extensions/print/bootstrap-table-print.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/extensions/print/bootstrap-table-print.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/extensions/reorder-columns/bootstrap-table-reorder-columns.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/extensions/reorder-columns/bootstrap-table-reorder-columns.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/extensions/reorder-rows/bootstrap-table-reorder-rows.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/extensions/reorder-rows/bootstrap-table-reorder-rows.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/extensions/reorder-rows/bootstrap-table-reorder-rows.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/extensions/resizable/bootstrap-table-resizable.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/extensions/resizable/bootstrap-table-resizable.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/extensions/select2-filter/bootstrap-table-select2-filter.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/extensions/select2-filter/bootstrap-table-select2-filter.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/extensions/sticky-header/bootstrap-table-sticky-header.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/extensions/sticky-header/bootstrap-table-sticky-header.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/extensions/sticky-header/bootstrap-table-sticky-header.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/extensions/toolbar/bootstrap-table-toolbar.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/extensions/toolbar/bootstrap-table-toolbar.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/extensions/tree-column/bootstrap-table-tree-column.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/extensions/tree-column/bootstrap-table-tree-column.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/extensions/tree-column/bootstrap-table-tree-column.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-af-ZA.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-af-ZA.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-ar-SA.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-ar-SA.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-ca-ES.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-ca-ES.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-cs-CZ.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-cs-CZ.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-da-DK.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-da-DK.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-de-DE.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-de-DE.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-el-GR.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-el-GR.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-en-US.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-en-US.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-es-AR.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-es-AR.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-es-CL.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-es-CL.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-es-CR.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-es-CR.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-es-ES.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-es-ES.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-es-MX.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-es-MX.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-es-NI.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-es-NI.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-es-SP.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-es-SP.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-et-EE.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-et-EE.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-fa-IR.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-fa-IR.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-fr-BE.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-fr-BE.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-fr-FR.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-fr-FR.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-he-IL.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-he-IL.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-hr-HR.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-hr-HR.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-hu-HU.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-hu-HU.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-id-ID.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-id-ID.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-it-IT.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-it-IT.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-ja-JP.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-ja-JP.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-ka-GE.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-ka-GE.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-ko-KR.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-ko-KR.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-ms-MY.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-ms-MY.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-nb-NO.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-nb-NO.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-nl-NL.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-nl-NL.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-pl-PL.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-pl-PL.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-pt-BR.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-pt-BR.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-pt-PT.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-pt-PT.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-ro-RO.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-ro-RO.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-ru-RU.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-ru-RU.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-sk-SK.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-sk-SK.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-sv-SE.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-sv-SE.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-th-TH.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-th-TH.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-tr-TR.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-tr-TR.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-uk-UA.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-uk-UA.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-ur-PK.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-ur-PK.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-uz-Latn-UZ.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-uz-Latn-UZ.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-vi-VN.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-vi-VN.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-zh-CN.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-zh-CN.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-zh-TW.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/dist/locale/bootstrap-table-zh-TW.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/bootstrap-table.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/bootstrap-table.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/accent-neutralise/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/accent-neutralise/bootstrap-table-accent-neutralise.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/accent-neutralise/extension.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/angular/bootstrap-table-angular.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/auto-refresh/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/auto-refresh/bootstrap-table-auto-refresh.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/auto-refresh/bootstrap-table-auto-refresh.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/auto-refresh/extension.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/click-edit-row/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/click-edit-row/bootstrap-table-click-edit-row.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/click-edit-row/bootstrap-table-click-edit-row.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/cookie/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/cookie/bootstrap-table-cookie.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/cookie/extension.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/copy-rows/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/copy-rows/bootstrap-table-copy-rows.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/copy-rows/extension.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/editable/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/editable/bootstrap-table-editable.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/editable/extension.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/export/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/export/bootstrap-table-export.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/export/extension.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/filter-control/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/filter-control/bootstrap-table-filter-control.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/filter-control/bootstrap-table-filter-control.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/filter-control/extension.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/filter/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/filter/bootstrap-table-filter.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/filter/extension.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/flat-json/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/flat-json/bootstrap-table-flat-json.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/flat-json/extension.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/group-by-v2/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/group-by-v2/bootstrap-table-group-by.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/group-by-v2/bootstrap-table-group-by.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/group-by-v2/extension.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/group-by/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/group-by/bootstrap-table-group-by.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/group-by/bootstrap-table-group-by.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/group-by/extension.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/i18n-enhance/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/i18n-enhance/bootstrap-table-i18n-enhance.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/i18n-enhance/extension.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/key-events/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/key-events/bootstrap-table-key-events.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/key-events/extension.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/mobile/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/mobile/bootstrap-table-mobile.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/mobile/extension.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/multi-column-toggle/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/multi-column-toggle/bootstrap-table-multi-toggle.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/multi-column-toggle/extension.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/multiple-search/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/multiple-search/bootstrap-table-multiple-search.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/multiple-search/extension.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/multiple-selection-row/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/multiple-selection-row/bootstrap-table-multiple-selection-row.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/multiple-selection-row/bootstrap-table-multiple-selection-row.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/multiple-selection-row/extension.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/multiple-sort/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/multiple-sort/bootstrap-table-multiple-sort.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/multiple-sort/extension.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/natural-sorting/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/natural-sorting/bootstrap-table-natural-sorting.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/natural-sorting/extension.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/print/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/print/bootstrap-table-print.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/reorder-columns/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/reorder-columns/bootstrap-table-reorder-columns.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/reorder-columns/extension.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/reorder-rows/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/reorder-rows/bootstrap-table-reorder-rows.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/reorder-rows/bootstrap-table-reorder-rows.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/reorder-rows/extension.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/resizable/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/resizable/bootstrap-table-resizable.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/resizable/extension.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/select2-filter/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/select2-filter/bootstrap-table-select2-filter.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/select2-filter/extension.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/sticky-header/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/sticky-header/bootstrap-table-sticky-header.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/sticky-header/bootstrap-table-sticky-header.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/sticky-header/extension.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/toolbar/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/toolbar/bootstrap-table-toolbar.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/toolbar/extension.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/tree-column/bootstrap-table-tree-column.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/tree-column/bootstrap-table-tree-column.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/tree-column/bootstrap-table-tree-column.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/tree-column/extension.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/extensions/tree-column/icon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/locale/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/locale/bootstrap-table-af-ZA.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/locale/bootstrap-table-ar-SA.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/locale/bootstrap-table-ca-ES.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/locale/bootstrap-table-cs-CZ.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/locale/bootstrap-table-da-DK.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/locale/bootstrap-table-de-DE.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/locale/bootstrap-table-el-GR.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/locale/bootstrap-table-en-US.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/locale/bootstrap-table-en-US.js.template" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/locale/bootstrap-table-es-AR.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/locale/bootstrap-table-es-CL.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/locale/bootstrap-table-es-CR.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/locale/bootstrap-table-es-ES.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/locale/bootstrap-table-es-MX.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/locale/bootstrap-table-es-NI.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/locale/bootstrap-table-es-SP.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/locale/bootstrap-table-et-EE.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/locale/bootstrap-table-fa-IR.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/locale/bootstrap-table-fr-BE.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/locale/bootstrap-table-fr-FR.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/locale/bootstrap-table-he-IL.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/locale/bootstrap-table-hr-HR.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/locale/bootstrap-table-hu-HU.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/locale/bootstrap-table-id-ID.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/locale/bootstrap-table-it-IT.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/locale/bootstrap-table-ja-JP.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/locale/bootstrap-table-ka-GE.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/locale/bootstrap-table-ko-KR.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/locale/bootstrap-table-ms-MY.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/locale/bootstrap-table-nb-NO.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/locale/bootstrap-table-nl-NL.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/locale/bootstrap-table-pl-PL.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/locale/bootstrap-table-pt-BR.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/locale/bootstrap-table-pt-PT.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/locale/bootstrap-table-ro-RO.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/locale/bootstrap-table-ru-RU.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/locale/bootstrap-table-sk-SK.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/locale/bootstrap-table-sv-SE.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/locale/bootstrap-table-th-TH.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/locale/bootstrap-table-tr-TR.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/locale/bootstrap-table-uk-UA.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/locale/bootstrap-table-ur-PK.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/locale/bootstrap-table-uz-Latn-UZ.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/locale/bootstrap-table-vi-VN.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/locale/bootstrap-table-zh-CN.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/bootstrap-table/src/locale/bootstrap-table-zh-TW.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/.github/ISSUE_TEMPLATE.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/.travis.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/CHANGELOG.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/CONTRIBUTING.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/DONATORS.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/Gruntfile.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/_config.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/bootstrap-table.jquery.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/bower.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/composer.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/bootstrap-table-locale-all.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/bootstrap-table-locale-all.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/bootstrap-table.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/bootstrap-table.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/bootstrap-table.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/bootstrap-table.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/extensions/accent-neutralise/bootstrap-table-accent-neutralise.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/extensions/accent-neutralise/bootstrap-table-accent-neutralise.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/extensions/angular/bootstrap-table-angular.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/extensions/angular/bootstrap-table-angular.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/extensions/auto-refresh/bootstrap-table-auto-refresh.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/extensions/auto-refresh/bootstrap-table-auto-refresh.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/extensions/auto-refresh/bootstrap-table-auto-refresh.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/extensions/click-edit-row/bootstrap-table-click-edit-row.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/extensions/click-edit-row/bootstrap-table-click-edit-row.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/extensions/click-edit-row/bootstrap-table-click-edit-row.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/extensions/cookie/bootstrap-table-cookie.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/extensions/cookie/bootstrap-table-cookie.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/extensions/copy-rows/bootstrap-table-copy-rows.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/extensions/copy-rows/bootstrap-table-copy-rows.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/extensions/editable/bootstrap-table-editable.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/extensions/editable/bootstrap-table-editable.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/extensions/export/bootstrap-table-export.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/extensions/export/bootstrap-table-export.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/extensions/filter-control/bootstrap-table-filter-control.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/extensions/filter-control/bootstrap-table-filter-control.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/extensions/filter-control/bootstrap-table-filter-control.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/extensions/filter/bootstrap-table-filter.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/extensions/filter/bootstrap-table-filter.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/extensions/flat-json/bootstrap-table-flat-json.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/extensions/flat-json/bootstrap-table-flat-json.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/extensions/group-by-v2/bootstrap-table-group-by.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/extensions/group-by-v2/bootstrap-table-group-by.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/extensions/group-by-v2/bootstrap-table-group-by.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/extensions/group-by/bootstrap-table-group-by.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/extensions/group-by/bootstrap-table-group-by.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/extensions/group-by/bootstrap-table-group-by.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/extensions/i18n-enhance/bootstrap-table-i18n-enhance.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/extensions/i18n-enhance/bootstrap-table-i18n-enhance.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/extensions/key-events/bootstrap-table-key-events.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/extensions/key-events/bootstrap-table-key-events.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/extensions/mobile/bootstrap-table-mobile.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/extensions/mobile/bootstrap-table-mobile.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/extensions/multi-column-toggle/bootstrap-table-multi-toggle.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/extensions/multi-column-toggle/bootstrap-table-multi-toggle.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/extensions/multiple-search/bootstrap-table-multiple-search.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/extensions/multiple-search/bootstrap-table-multiple-search.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/extensions/multiple-selection-row/bootstrap-table-multiple-selection-row.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/extensions/multiple-selection-row/bootstrap-table-multiple-selection-row.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/extensions/multiple-selection-row/bootstrap-table-multiple-selection-row.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/extensions/multiple-sort/bootstrap-table-multiple-sort.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/extensions/multiple-sort/bootstrap-table-multiple-sort.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/extensions/natural-sorting/bootstrap-table-natural-sorting.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/extensions/natural-sorting/bootstrap-table-natural-sorting.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/extensions/print/bootstrap-table-print.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/extensions/print/bootstrap-table-print.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/extensions/reorder-columns/bootstrap-table-reorder-columns.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/extensions/reorder-columns/bootstrap-table-reorder-columns.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/extensions/reorder-rows/bootstrap-table-reorder-rows.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/extensions/reorder-rows/bootstrap-table-reorder-rows.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/extensions/reorder-rows/bootstrap-table-reorder-rows.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/extensions/resizable/bootstrap-table-resizable.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/extensions/resizable/bootstrap-table-resizable.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/extensions/select2-filter/bootstrap-table-select2-filter.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/extensions/select2-filter/bootstrap-table-select2-filter.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/extensions/sticky-header/bootstrap-table-sticky-header.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/extensions/sticky-header/bootstrap-table-sticky-header.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/extensions/sticky-header/bootstrap-table-sticky-header.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/extensions/toolbar/bootstrap-table-toolbar.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/extensions/toolbar/bootstrap-table-toolbar.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/extensions/tree-column/bootstrap-table-tree-column.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/extensions/tree-column/bootstrap-table-tree-column.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/extensions/tree-column/bootstrap-table-tree-column.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-af-ZA.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-af-ZA.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-ar-SA.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-ar-SA.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-ca-ES.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-ca-ES.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-cs-CZ.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-cs-CZ.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-da-DK.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-da-DK.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-de-DE.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-de-DE.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-el-GR.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-el-GR.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-en-US.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-en-US.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-es-AR.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-es-AR.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-es-CL.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-es-CL.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-es-CR.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-es-CR.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-es-ES.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-es-ES.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-es-MX.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-es-MX.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-es-NI.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-es-NI.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-es-SP.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-es-SP.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-et-EE.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-et-EE.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-fa-IR.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-fa-IR.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-fr-BE.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-fr-BE.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-fr-FR.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-fr-FR.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-he-IL.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-he-IL.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-hr-HR.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-hr-HR.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-hu-HU.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-hu-HU.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-id-ID.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-id-ID.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-it-IT.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-it-IT.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-ja-JP.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-ja-JP.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-ka-GE.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-ka-GE.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-ko-KR.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-ko-KR.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-ms-MY.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-ms-MY.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-nb-NO.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-nb-NO.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-nl-NL.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-nl-NL.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-pl-PL.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-pl-PL.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-pt-BR.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-pt-BR.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-pt-PT.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-pt-PT.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-ro-RO.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-ro-RO.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-ru-RU.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-ru-RU.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-sk-SK.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-sk-SK.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-sv-SE.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-sv-SE.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-th-TH.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-th-TH.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-tr-TR.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-tr-TR.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-uk-UA.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-uk-UA.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-ur-PK.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-ur-PK.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-uz-Latn-UZ.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-uz-Latn-UZ.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-vi-VN.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-vi-VN.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-zh-CN.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-zh-CN.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-zh-TW.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/dist/locale/bootstrap-table-zh-TW.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/bootstrap-table.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/bootstrap-table.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/accent-neutralise/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/accent-neutralise/bootstrap-table-accent-neutralise.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/accent-neutralise/extension.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/angular/bootstrap-table-angular.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/auto-refresh/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/auto-refresh/bootstrap-table-auto-refresh.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/auto-refresh/bootstrap-table-auto-refresh.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/auto-refresh/extension.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/click-edit-row/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/click-edit-row/bootstrap-table-click-edit-row.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/click-edit-row/bootstrap-table-click-edit-row.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/cookie/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/cookie/bootstrap-table-cookie.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/cookie/extension.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/copy-rows/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/copy-rows/bootstrap-table-copy-rows.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/copy-rows/extension.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/editable/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/editable/bootstrap-table-editable.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/editable/extension.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/export/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/export/bootstrap-table-export.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/export/extension.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/filter-control/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/filter-control/bootstrap-table-filter-control.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/filter-control/bootstrap-table-filter-control.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/filter-control/extension.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/filter/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/filter/bootstrap-table-filter.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/filter/extension.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/flat-json/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/flat-json/bootstrap-table-flat-json.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/flat-json/extension.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/group-by-v2/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/group-by-v2/bootstrap-table-group-by.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/group-by-v2/bootstrap-table-group-by.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/group-by-v2/extension.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/group-by/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/group-by/bootstrap-table-group-by.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/group-by/bootstrap-table-group-by.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/group-by/extension.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/i18n-enhance/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/i18n-enhance/bootstrap-table-i18n-enhance.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/i18n-enhance/extension.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/key-events/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/key-events/bootstrap-table-key-events.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/key-events/extension.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/mobile/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/mobile/bootstrap-table-mobile.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/mobile/extension.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/multi-column-toggle/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/multi-column-toggle/bootstrap-table-multi-toggle.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/multi-column-toggle/extension.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/multiple-search/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/multiple-search/bootstrap-table-multiple-search.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/multiple-search/extension.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/multiple-selection-row/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/multiple-selection-row/bootstrap-table-multiple-selection-row.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/multiple-selection-row/bootstrap-table-multiple-selection-row.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/multiple-selection-row/extension.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/multiple-sort/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/multiple-sort/bootstrap-table-multiple-sort.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/multiple-sort/extension.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/natural-sorting/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/natural-sorting/bootstrap-table-natural-sorting.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/natural-sorting/extension.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/print/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/print/bootstrap-table-print.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/reorder-columns/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/reorder-columns/bootstrap-table-reorder-columns.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/reorder-columns/extension.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/reorder-rows/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/reorder-rows/bootstrap-table-reorder-rows.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/reorder-rows/bootstrap-table-reorder-rows.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/reorder-rows/extension.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/resizable/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/resizable/bootstrap-table-resizable.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/resizable/extension.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/select2-filter/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/select2-filter/bootstrap-table-select2-filter.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/select2-filter/extension.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/sticky-header/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/sticky-header/bootstrap-table-sticky-header.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/sticky-header/bootstrap-table-sticky-header.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/sticky-header/extension.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/toolbar/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/toolbar/bootstrap-table-toolbar.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/toolbar/extension.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/tree-column/bootstrap-table-tree-column.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/tree-column/bootstrap-table-tree-column.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/tree-column/bootstrap-table-tree-column.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/tree-column/extension.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/extensions/tree-column/icon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/locale/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/locale/bootstrap-table-af-ZA.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/locale/bootstrap-table-ar-SA.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/locale/bootstrap-table-ca-ES.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/locale/bootstrap-table-cs-CZ.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/locale/bootstrap-table-da-DK.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/locale/bootstrap-table-de-DE.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/locale/bootstrap-table-el-GR.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/locale/bootstrap-table-en-US.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/locale/bootstrap-table-en-US.js.template" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/locale/bootstrap-table-es-AR.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/locale/bootstrap-table-es-CL.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/locale/bootstrap-table-es-CR.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/locale/bootstrap-table-es-ES.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/locale/bootstrap-table-es-MX.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/locale/bootstrap-table-es-NI.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/locale/bootstrap-table-es-SP.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/locale/bootstrap-table-et-EE.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/locale/bootstrap-table-fa-IR.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/locale/bootstrap-table-fr-BE.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/locale/bootstrap-table-fr-FR.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/locale/bootstrap-table-he-IL.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/locale/bootstrap-table-hr-HR.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/locale/bootstrap-table-hu-HU.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/locale/bootstrap-table-id-ID.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/locale/bootstrap-table-it-IT.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/locale/bootstrap-table-ja-JP.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/locale/bootstrap-table-ka-GE.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/locale/bootstrap-table-ko-KR.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/locale/bootstrap-table-ms-MY.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/locale/bootstrap-table-nb-NO.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/locale/bootstrap-table-nl-NL.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/locale/bootstrap-table-pl-PL.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/locale/bootstrap-table-pt-BR.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/locale/bootstrap-table-pt-PT.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/locale/bootstrap-table-ro-RO.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/locale/bootstrap-table-ru-RU.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/locale/bootstrap-table-sk-SK.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/locale/bootstrap-table-sv-SE.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/locale/bootstrap-table-th-TH.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/locale/bootstrap-table-tr-TR.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/locale/bootstrap-table-uk-UA.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/locale/bootstrap-table-ur-PK.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/locale/bootstrap-table-uz-Latn-UZ.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/locale/bootstrap-table-vi-VN.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/locale/bootstrap-table-zh-CN.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-table/src/locale/bootstrap-table-zh-TW.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/parking/parkingLot.html" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/parking/parkingLot.html" />
+      <change beforePath="$PROJECT_DIR$/web/page/parking/parkingLot.html" afterPath="$PROJECT_DIR$/web/page/parking/parkingLot.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,14 +677,14 @@
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.51599145">
+    <splitter split-orientation="horizontal" split-proportion="0.74153644">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="parkingLot.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/web/page/parking/parkingLot.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="305">
-                  <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+                <state relative-caret-position="200">
+                  <caret line="32" column="47" lean-forward="false" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
                   <folding />
                 </state>
               </provider>
@@ -41,7 +697,7 @@
           <file leaf-file-name="ParkController.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/com/cwj/taiqiangle/controller/ParkController.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="661">
+                <state relative-caret-position="25">
                   <caret line="95" column="32" lean-forward="false" selection-start-line="95" selection-start-column="32" selection-end-line="95" selection-end-column="32" />
                   <folding>
                     <element signature="imports" expanded="true" />
@@ -233,9 +889,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -243,91 +896,13 @@
               <item name="CarManageJ2EE2nd" type="b2602c69:ProjectViewProjectNode" />
               <item name="CarManageJ2EE2nd" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="CarManageJ2EE2nd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CarManageJ2EE2nd" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CarManageJ2EE2nd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CarManageJ2EE2nd" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap-3.3.7-dist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CarManageJ2EE2nd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CarManageJ2EE2nd" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap-3.3.7-dist" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap-3.3.7-dist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CarManageJ2EE2nd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CarManageJ2EE2nd" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap-3.3.7-dist" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap-3.3.7-dist" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CarManageJ2EE2nd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CarManageJ2EE2nd" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap-3.3.7-dist" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap-3.3.7-dist" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap.css" type="620a8d5e:NestingTreeNode" />
-            </path>
-            <path>
-              <item name="CarManageJ2EE2nd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CarManageJ2EE2nd" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap-3.3.7-dist" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap-3.3.7-dist" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CarManageJ2EE2nd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CarManageJ2EE2nd" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap-3.3.7-dist" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap-3.3.7-dist" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap.js" type="620a8d5e:NestingTreeNode" />
-            </path>
-            <path>
-              <item name="CarManageJ2EE2nd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CarManageJ2EE2nd" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap-table" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CarManageJ2EE2nd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CarManageJ2EE2nd" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap-table" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CarManageJ2EE2nd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CarManageJ2EE2nd" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap-table" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="locale" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CarManageJ2EE2nd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CarManageJ2EE2nd" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap-table" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap-table.js" type="620a8d5e:NestingTreeNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -600,7 +1175,9 @@
       <workItem from="1513477184164" duration="6433000" />
       <workItem from="1513510001123" duration="4743000" />
       <workItem from="1513516503730" duration="173000" />
-      <workItem from="1513564567107" duration="2301000" />
+      <workItem from="1513564567107" duration="2404000" />
+      <workItem from="1513572242685" duration="507000" />
+      <workItem from="1513573724078" duration="84000" />
     </task>
     <task id="LOCAL-00001" summary="增加了几个学习的demo，然后修改了数据库登陆账号和密码为root，root">
       <created>1513215531076</created>
@@ -917,11 +1494,18 @@
       <option name="project" value="LOCAL" />
       <updated>1513566875229</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="引入了bootstrap框架">
+      <created>1513566904340</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1513566904340</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88657000" />
+    <option name="totallyTimeSpent" value="89351000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -936,36 +1520,36 @@
     <frame x="-291" y="760" width="1936" height="1096" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928064" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3375" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3375" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928064" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3375" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31841302" sideWeight="0.49375" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32655138" sideWeight="0.49791667" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3214649" sideWeight="0.49791667" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32858595" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32858595" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1285,7 +1869,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1335,17 +1918,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="96" column="20" lean-forward="false" selection-start-line="96" selection-start-column="20" selection-end-line="96" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <marker date="1513535474399" expanded="true" signature="1129:1186" ph="insert into park... " />
-            <marker date="1513535474399" expanded="true" signature="1634:1661" ph="delete from park... " />
-            <marker date="1513535474399" expanded="true" signature="2076:2094" ph="select * fro... park" />
-            <marker date="1513535474399" expanded="true" signature="2805:2838" ph="select * fro... park" />
-            <marker date="1513535474399" expanded="true" signature="3479:3530" ph="update park... " />
-            <marker date="1513535474399" expanded="true" signature="3770:3837" ph="update park... " />
-            <marker date="1513535474399" expanded="true" signature="4070:4123" ph="update park... " />
-            <marker date="1513535474399" expanded="true" signature="4490:4520" ph="select * fro... park" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1363,13 +1935,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="2" column="38" lean-forward="false" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
-          <folding>
-            <marker date="1513535474396" expanded="true" signature="1638:1708" ph="insert into park_order... " />
-            <marker date="1513535474396" expanded="true" signature="2766:2799" ph="delete from park_order... " />
-            <marker date="1513535474396" expanded="true" signature="3486:3510" ph="select * fro... park_order" />
-            <marker date="1513535474396" expanded="true" signature="4294:4328" ph="select * fro... park_order" />
-            <marker date="1513535474396" expanded="true" signature="5548:5619" ph="update park_order... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1385,18 +1950,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="702">
           <caret line="101" column="9" lean-forward="true" selection-start-line="101" selection-start-column="9" selection-end-line="101" selection-end-column="9" />
-          <folding>
-            <marker date="1513535474403" expanded="true" signature="756:774" ph="select * fro... user" />
-            <marker date="1513535474403" expanded="true" signature="1740:1776" ph="select * fro... user" />
-            <marker date="1513535474403" expanded="true" signature="2676:2706" ph="select * fro... user" />
-            <marker date="1513535474403" expanded="true" signature="4444:4527" ph="insert into user... " />
-            <marker date="1513535474403" expanded="true" signature="5135:5162" ph="delete from user... " />
-            <marker date="1513535474403" expanded="true" signature="6211:6268" ph="update user... " />
-            <marker date="1513535474403" expanded="true" signature="6480:6537" ph="update user... " />
-            <marker date="1513535474403" expanded="true" signature="6758:6809" ph="update user... " />
-            <marker date="1513535474403" expanded="true" signature="7704:7751" ph="update user... " />
-            <marker date="1513535474403" expanded="true" signature="7977:8026" ph="update user... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1412,7 +1965,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1275">
           <caret line="55" column="41" lean-forward="false" selection-start-line="55" selection-start-column="41" selection-end-line="55" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1425,7 +1977,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/cwj/taiqiangle/controller/ParkController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="661">
+        <state relative-caret-position="25">
           <caret line="95" column="32" lean-forward="false" selection-start-line="95" selection-start-column="32" selection-end-line="95" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1437,14 +1989,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="449">
           <caret line="81" column="29" lean-forward="false" selection-start-line="81" selection-start-column="29" selection-end-line="81" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/page/parking/parkingLot.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="200">
+          <caret line="32" column="47" lean-forward="false" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
           <folding />
         </state>
       </provider>
