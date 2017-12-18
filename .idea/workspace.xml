@@ -6,70 +6,29 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1007eb6-ddad-498e-8ab0-b2f2c3c4ae0d" name="Default" comment="引入了bootstrap框架">
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/classes/com/cwj/taiqiangle/controller/CarInController.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/classes/com/cwj/taiqiangle/controller/CarOutController.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/classes/com/cwj/taiqiangle/controller/ParkController.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/classes/com/cwj/taiqiangle/controller/ParkOrderController.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/classes/com/cwj/taiqiangle/model/CarBean.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/classes/com/cwj/taiqiangle/model/CarInBean.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/classes/com/cwj/taiqiangle/model/CarOutBean.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/classes/com/cwj/taiqiangle/model/ParkBean.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/classes/com/cwj/taiqiangle/model/ParkOrderBean.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/classes/com/cwj/taiqiangle/service/CarInService.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/classes/com/cwj/taiqiangle/service/CarOutService.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/classes/com/cwj/taiqiangle/service/ParkOrderService.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/classes/com/cwj/taiqiangle/service/ParkService.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/parking/parkingLot.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/CarManage/com/cwj/taiqiangle/controller/AdminManageController.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/CarManage/com/cwj/taiqiangle/controller/CarInController.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/CarManage/com/cwj/taiqiangle/controller/CarOutController.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/CarManage/com/cwj/taiqiangle/controller/ParkController.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/CarManage/com/cwj/taiqiangle/controller/ParkOrderController.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/CarManage/com/cwj/taiqiangle/controller/UserAllKinds.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/CarManage/com/cwj/taiqiangle/controller/UserManageController.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/CarManage/com/cwj/taiqiangle/model/AdminBean.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/CarManage/com/cwj/taiqiangle/model/CarBean.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/CarManage/com/cwj/taiqiangle/model/CarInBean.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/CarManage/com/cwj/taiqiangle/model/CarOutBean.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/CarManage/com/cwj/taiqiangle/model/ParkBean.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/CarManage/com/cwj/taiqiangle/model/ParkOrderBean.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/CarManage/com/cwj/taiqiangle/model/SendMail.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/CarManage/com/cwj/taiqiangle/model/UserBean.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/CarManage/com/cwj/taiqiangle/service/AdminService.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/CarManage/com/cwj/taiqiangle/service/CarInService.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/CarManage/com/cwj/taiqiangle/service/CarOutService.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/CarManage/com/cwj/taiqiangle/service/CarService.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/CarManage/com/cwj/taiqiangle/service/ParkOrderService.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/CarManage/com/cwj/taiqiangle/service/ParkService.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/CarManage/com/cwj/taiqiangle/service/SendMailService.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/CarManage/com/cwj/taiqiangle/service/UserService.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/CarManage/com/cwj/taiqiangle/test/GitTest2.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/CarManage/com/cwj/taiqiangle/test/GitTest3.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/CarManage/com/cwj/taiqiangle/util/DBUtil.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-4.0.0-beta.2-dist/css/bootstrap-grid.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-4.0.0-beta.2-dist/css/bootstrap-grid.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-4.0.0-beta.2-dist/css/bootstrap-grid.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-4.0.0-beta.2-dist/css/bootstrap-grid.min.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-4.0.0-beta.2-dist/css/bootstrap-reboot.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-4.0.0-beta.2-dist/css/bootstrap-reboot.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-4.0.0-beta.2-dist/css/bootstrap-reboot.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-4.0.0-beta.2-dist/css/bootstrap-reboot.min.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-4.0.0-beta.2-dist/css/bootstrap.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-4.0.0-beta.2-dist/css/bootstrap.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-4.0.0-beta.2-dist/css/bootstrap.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-4.0.0-beta.2-dist/css/bootstrap.min.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-4.0.0-beta.2-dist/js/bootstrap.bundle.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-4.0.0-beta.2-dist/js/bootstrap.bundle.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-4.0.0-beta.2-dist/js/bootstrap.bundle.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-4.0.0-beta.2-dist/js/bootstrap.bundle.min.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-4.0.0-beta.2-dist/js/bootstrap.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-4.0.0-beta.2-dist/js/bootstrap.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-4.0.0-beta.2-dist/js/bootstrap.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-4.0.0-beta.2-dist/js/bootstrap.min.js.map" />
+    <list default="true" id="a1007eb6-ddad-498e-8ab0-b2f2c3c4ae0d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/user_main_page.html" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/user_main_page.html" />
-      <change beforePath="$PROJECT_DIR$/web/user_main_page.html" afterPath="$PROJECT_DIR$/web/user_main_page.html" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap-4.0.0-beta.2-dist/css/bootstrap-grid.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap-4.0.0-beta.2-dist/css/bootstrap-grid.css.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap-4.0.0-beta.2-dist/css/bootstrap-grid.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap-4.0.0-beta.2-dist/css/bootstrap-grid.min.css.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap-4.0.0-beta.2-dist/css/bootstrap-reboot.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap-4.0.0-beta.2-dist/css/bootstrap-reboot.css.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap-4.0.0-beta.2-dist/css/bootstrap-reboot.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap-4.0.0-beta.2-dist/css/bootstrap-reboot.min.css.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap-4.0.0-beta.2-dist/css/bootstrap.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap-4.0.0-beta.2-dist/css/bootstrap.css.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap-4.0.0-beta.2-dist/css/bootstrap.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap-4.0.0-beta.2-dist/css/bootstrap.min.css.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap-4.0.0-beta.2-dist/js/bootstrap.bundle.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap-4.0.0-beta.2-dist/js/bootstrap.bundle.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap-4.0.0-beta.2-dist/js/bootstrap.bundle.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap-4.0.0-beta.2-dist/js/bootstrap.bundle.min.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap-4.0.0-beta.2-dist/js/bootstrap.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap-4.0.0-beta.2-dist/js/bootstrap.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap-4.0.0-beta.2-dist/js/bootstrap.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap-4.0.0-beta.2-dist/js/bootstrap.min.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/page/parking/parkingLot.html" afterPath="$PROJECT_DIR$/web/page/parking/parkingLot.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -89,8 +48,8 @@
           <file leaf-file-name="parkingLot.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/web/page/parking/parkingLot.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="300">
-                  <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+                <state relative-caret-position="250">
+                  <caret line="10" column="47" lean-forward="false" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
                   <folding />
                 </state>
               </provider>
@@ -236,8 +195,8 @@
         <option value="$PROJECT_DIR$/src/com/cwj/taiqiangle/model/ParkBean.java" />
         <option value="$PROJECT_DIR$/src/com/cwj/taiqiangle/controller/UserManageController.java" />
         <option value="$PROJECT_DIR$/web/js/nav_user.js" />
-        <option value="$PROJECT_DIR$/web/page/parking/parkingLot.html" />
         <option value="$PROJECT_DIR$/web/user_main_page.html" />
+        <option value="$PROJECT_DIR$/web/page/parking/parkingLot.html" />
       </list>
     </option>
   </component>
@@ -313,7 +272,7 @@
               <item name="CarManageJ2EE2nd" type="b2602c69:ProjectViewProjectNode" />
               <item name="CarManageJ2EE2nd" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap-4.0.0-beta.2-dist" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap-3.3.7" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -588,7 +547,7 @@
       <workItem from="1513477184164" duration="6433000" />
       <workItem from="1513510001123" duration="4743000" />
       <workItem from="1513516503730" duration="173000" />
-      <workItem from="1513564567107" duration="992000" />
+      <workItem from="1513564567107" duration="1394000" />
     </task>
     <task id="LOCAL-00001" summary="增加了几个学习的demo，然后修改了数据库登陆账号和密码为root，root">
       <created>1513215531076</created>
@@ -877,11 +836,18 @@
       <option name="project" value="LOCAL" />
       <updated>1513539560567</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="引入了bootstrap框架">
+      <created>1513565573525</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1513565573525</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87348000" />
+    <option name="totallyTimeSpent" value="87750000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -906,7 +872,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3375" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -915,8 +881,8 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31841302" sideWeight="0.49375" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32655138" sideWeight="0.49791667" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.49791667" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14322917" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32916668" sideWeight="0.49791667" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14658849" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32858595" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1403,8 +1369,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/page/parking/parkingLot.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="250">
+          <caret line="10" column="47" lean-forward="false" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
           <folding />
         </state>
       </provider>
