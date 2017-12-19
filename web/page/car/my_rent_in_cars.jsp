@@ -1,15 +1,15 @@
 <%--
   Created by IntelliJ IDEA.
-  User: 蛟川小盆友
-  Date: 2017/12/6
-  Time: 13:41
+  User: 11237
+  Date: 12/19/2017
+  Time: 9:07 AM
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
     <meta charset="utf-8">
-    <title>文章列表--layui后台管理模板</title>
+    <title>我租进的汽车</title>
     <meta name="renderer" content="webkit">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -22,10 +22,31 @@
 </head>
 <body class="childrenBody">
 <blockquote class="layui-elem-quote news_search">
-    <p align="left"><input type="button" onclick="window.location.reload()" value="刷新"/></p>
+    <%--    <div class="layui-inline">
+            <div class="layui-input-inline">
+                <input type="text" value="" placeholder="请输入关键字" class="layui-input search_input">
+            </div>
+            <a class="layui-btn search_btn">查询</a>
+        </div>--%>
+    <%--下面的都不需要有--%>
+    <%--   <div class="layui-inline">
+           <a class="layui-btn layui-btn-normal newsAdd_btn">添加租车信息</a>
+       </div>
+       <div class="layui-inline">
+           <a class="layui-btn recommend" style="background-color:#5FB878">推荐文章</a>
+       </div>
+       <div class="layui-inline">
+           <a class="layui-btn audit_btn">审核文章</a>
+       </div>
+       <div class="layui-inline">
+           <a class="layui-btn layui-btn-danger batchDel">批量删除</a>
+       </div>--%>
+    <%--    <div class="layui-inline">
+            <div class="layui-form-mid layui-word-aux">本页面刷新后除新添加的文章外所有操作无效，关闭页面所有数据重置</div>
+        </div>--%>
 </blockquote>
 <div class="layui-form cars_list">
-
+    <p align="left"><input type="button" onclick="window.location.reload()" value="刷新"/></p>
     <table class="layui-table">
         <colgroup>
             <%--<col width="50">
@@ -66,6 +87,6 @@
 <script type="text/javascript" src="../../js/jquery.cookie.js"></script>
 <!--获取根路径-->
 <script type="text/javascript" src="../../js/getRootPath.js"></script>
-<script type="text/javascript" src="car_rent_in.js"></script>
+<script type="text/javascript" src="my_rent_in_cars.js"></script>
 </body>
 </html>

@@ -122,7 +122,7 @@ public class ParkOrderController {
      * @param userid
      * @return
      */
-    @RequestMapping(value = "/getParkorderByUserid", method = RequestMethod.GET)
+    @RequestMapping(value = "/getParkOrderByUserid", method = RequestMethod.GET)
     @ResponseBody
     public JsonMsg getParkorderByUserid(int userid)
     {
