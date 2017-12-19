@@ -100,8 +100,9 @@ layui.config({
                         data: {userid: userId, parkid: parkingLotId},
                         success: function (data) {
                             if (data.code === "200") {
+                                alert("您已经成功租用了ID为"+parkingLotId+"的停车位");
                                 //刷新页面
-                                window.location.reload()
+                                window.location.reload();
                             } else {
                                 alert("database error0");
                             }
@@ -150,7 +151,7 @@ layui.config({
         }
 
         //分页
-        var nums = 13; //每页出现的数据量
+        var nums = 8; //每页出现的数据量
         if (that) {
             parkingLotData = that;
         }

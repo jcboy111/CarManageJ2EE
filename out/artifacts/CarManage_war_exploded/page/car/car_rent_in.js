@@ -105,7 +105,7 @@ layui.config({
                             /*alert("p1");
                             alert(data.code);*/
                             if (data.code === "200") {
-                                /*alert("success");*/
+                                alert("您已成功租用ID为" +car_id+ "的汽车。在‘租入订单’-‘租入的车’页面中刷新就可以看到");
                                 //刷新页面
                                 window.location.reload()
                             } else {
@@ -158,7 +158,7 @@ layui.config({
         }
 
         //分页
-        var nums = 13; //每页出现的数据量
+        var nums = 8; //每页出现的数据量
         if (that) {
             carsData = that;
         }

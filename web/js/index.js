@@ -78,7 +78,7 @@ layui.config({
 		layer.open({
 	        type: 1,
 	        title: "系统公告", //不显示标题栏
-	        closeBtn: false,
+	        closeBtn: true,
 	        area: '310px',
 	        shade: 0.8,
 	        id: 'LAY_layuipro', //设定一个id，防止重复弹出
@@ -102,9 +102,10 @@ layui.config({
 	    });
 	}
 	//判断是否处于锁屏状态(如果关闭以后则未关闭浏览器之前不再显示)
-	if(window.sessionStorage.getItem("lockcms") != "true" && window.sessionStorage.getItem("showNotice") != "true"){
+	/*if(window.sessionStorage.getItem("lockcms") != "true" && window.sessionStorage.getItem("showNotice") != "true"){
 		showNotice();
-	}
+	}*/
+
 	$(".showNotice").on("click",function(){
 		showNotice();
 	})

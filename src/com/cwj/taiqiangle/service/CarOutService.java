@@ -107,6 +107,33 @@ public class CarOutService {
         return null;
     }
 
+    /*
+     author:陈杰
+     */
+    public List<CarOutBean> getOrdersByReceiverId(int id) throws SQLException {
+        List<CarOutBean> orders = new ArrayList<CarOutBean>();
+        conn=DBUtil.getConnection();
+        String sql="select * from car_out_order where receiver_id="+id;
+        ps=conn.prepareStatement(sql);
+        rs=ps.executeQuery();
+        while(rs.next())
+        {
+            CarOutBean carOrder=new CarOutBean();
+            carOrder.setId(rs.getInt("id"));
+            carOrder.setCar_id(rs.getInt("car_id"));
+            carOrder.setSender_id(rs.getInt("sender_id"));
+            if(rs.getString("receiver_id")!=null)
+            {
+                carOrder.setReceiver_id(Integer.parseInt(rs.getString("receiver_id")));
+            }
+            carOrder.setStatus(rs.getInt("status"));
+            orders.add(carOrder);
+        }
+        if(orders.size()>0) return orders;
+        else return null;
+    }
+
+
     /**
      * 审核通过
      * 失效返回0
@@ -151,6 +178,25 @@ public class CarOutService {
         ps=conn.prepareStatement(sql);
         return ps.executeUpdate();
     }
+
+    /**
+     * 用户还车
+     * 无效返回0
+     * @param id
+     * @param receiver_id
+     * @author ChenJie
+     */
+    public int userReturnRentCar(int id,int receiver_id) throws SQLException {
+        if(getOrderById(id)==null||getOrderById(id).getStatus()!=2)
+            return 0;
+        conn=DBUtil.getConnection();
+        String sql="update car_out_order set status=1,receiver_id=null"+" where id=" +id+ " and receiver_id="+receiver_id;
+        System.out.println(sql);
+        ps=conn.prepareStatement(sql);
+        return ps.executeUpdate();
+    }
+
+
 
     /**
      * 根据id删除order

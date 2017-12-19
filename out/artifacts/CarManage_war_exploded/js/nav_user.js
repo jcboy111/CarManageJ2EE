@@ -18,12 +18,12 @@ var navs = [{
         {
             "title": "租入的车",
             "icon": "icon-computer",
-            "href": "page/main.html",
+            "href": "page/car/my_rent_in_cars.jsp",
             "spread": false,
         }, {
             "title": "租入的车位",
             "icon": "icon-computer",
-            "href": "page/main.html",
+            "href": "page/parking/my_rent_in_parking_lot.jsp",
             "spread": false,
         }
     ]
@@ -53,6 +53,6 @@ var navs = [{
 }, {
     "title": "我要租车位",
     "icon": "icon-computer",
-    "href": "page/parking/parkingLot.html",
+    "href": "page/parking/parkingLot.jsp",
     "spread": false
 }]

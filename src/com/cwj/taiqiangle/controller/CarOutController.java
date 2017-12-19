@@ -160,6 +160,43 @@ public class CarOutController {
     }
 
     /**
+     * 得到myId租进来的订单
+     * code=200，data存这些订单
+     * code=404 data=-1异常
+     * @param receiverId
+     * @return JsonMsg
+     * @author 陈杰
+     */
+    @RequestMapping(value = "/myInOrder", method = RequestMethod.GET)
+    @ResponseBody
+    public JsonMsg getMyInOrder(int receiverId)
+    {
+        JsonMsg jsonMsg=new JsonMsg();
+        List<CarOutBean> orders= null;
+        List<CarOutBean> myOrders=new ArrayList<CarOutBean>();
+        try {
+            orders = orderService.getOrdersByReceiverId(receiverId);
+            /*for(CarOutBean car:orders)
+            {
+                if(car.getSender_id()==myId||car.getReceiver_id()==myId)
+                {
+                    myOrders.add(car);
+                }
+            }
+            jsonMsg.setData(myOrders);*/
+            jsonMsg.setData(orders);
+            jsonMsg.setCode("200");
+        } catch (SQLException e) {
+            jsonMsg.setCode("404");
+            jsonMsg.setData(-1);
+            e.printStackTrace();
+        }
+        return jsonMsg;
+    }
+
+
+
+    /**
      * 得到和passed的所有订单等待被接受的
      * code=200，data存这些订单
      * code=404 data=-1异常
@@ -235,6 +272,36 @@ public class CarOutController {
             jsonMsg.setData(i);
             jsonMsg.setCode("200");
             System.out.println("ChenJie Debug: accept car_rent_out order successfully.");
+        } catch (SQLException e) {
+            jsonMsg.setCode("404");
+            jsonMsg.setData(-1);
+            e.printStackTrace();
+        }
+        return jsonMsg;
+    }
+
+
+    /**
+     * 用户还车
+     * 提供订单的id号和接收者的id
+     * code=200，还车成功
+     * code=205，还车失败
+     * code=404 data=-1 页面异常
+     * @param id
+     * @param receiver_id
+     * @return
+     */
+    @RequestMapping(value = "/orderReturn", method = RequestMethod.GET)
+    @ResponseBody
+    public JsonMsg orderReturn(int id,int receiver_id)
+    {
+        JsonMsg jsonMsg=new JsonMsg();
+        try {
+            int i=orderService.userReturnRentCar(id,receiver_id);
+            if(i==1){jsonMsg.setCode("200");}
+            else jsonMsg.setCode("205");
+            System.out.println(i);
+            System.out.println("ChenJie Debug:return car successfully.");
         } catch (SQLException e) {
             jsonMsg.setCode("404");
             jsonMsg.setData(-1);
