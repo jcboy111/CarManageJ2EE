@@ -1,7 +1,5 @@
 package com.cwj.taiqiangle.model;
 
-import java.io.UnsupportedEncodingException;
-
 public class UserBean {
     private int id;
     private String userName;
@@ -9,7 +7,7 @@ public class UserBean {
     private String email;
     private String description;
     private String pic;
-    int money;
+    private int money;
     public UserBean()
     {
         money=Integer.MIN_VALUE;

@@ -2,7 +2,7 @@
   Created by IntelliJ IDEA.
   User: 11237
   Date: 12/19/2017
-  Time: 9:07 AM
+  Time: 1:51 PM
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -37,9 +37,9 @@
             <col width="9%">
             <col width="15%">--%>
             <col width="10">
-            <col width="30%">
-            <col width="30%">
             <col width="9%">
+            <col width="9%">
+            <col width="30%">
             <col width="40%">
             <col width="9%">
             <col width="9%">
@@ -49,9 +49,10 @@
         <tr>
             <th><input type="checkbox" name="" lay-skin="primary" lay-filter="allChoose" id="allChoose"></th>
             <th style="text-align:left;">车辆编号</th>
+            <th>订单编号</th>
             <%--car_id--%>
-            <th>发布人</th>
-            <%--sender_id--%>
+            <th>租用人</th>
+            <%--receiver_id--%>
             <th>审核状态</th>
             <%--status--%>
             <th>操作</th>
@@ -66,6 +67,6 @@
 <script type="text/javascript" src="../../js/jquery.cookie.js"></script>
 <!--获取根路径-->
 <script type="text/javascript" src="../../js/getRootPath.js"></script>
-<script type="text/javascript" src="my_rent_in_cars.js"></script>
+<script type="text/javascript" src="my_rent_out_car_list.js"></script>
 </body>
 </html>

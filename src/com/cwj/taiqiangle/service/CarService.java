@@ -7,8 +7,6 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * Created by 蛟川小盆友 on 2017/12/6.
@@ -36,7 +34,7 @@ public class CarService {
 
 
     /**
-     * 增加，成功返回1
+     * 增加，成功返回id
      * @param name
      * @param price
      * @return

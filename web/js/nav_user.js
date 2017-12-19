@@ -36,7 +36,7 @@ var navs = [{
         {
             "title": "租出订单",
             "icon": "icon-computer",
-            "href": "",
+            "href": "page/car/my_rent_out_car_list.jsp",
             "spread": false,
         }
     ]

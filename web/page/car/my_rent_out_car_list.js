@@ -37,13 +37,14 @@ layui.config({
         type: "get",
         dataType: "json",
         data: {username: $.cookie('username')},
+        async:false,
         success: function (data) {
             if (data.code === "200") {
                 var userBean = data.data;
                 user_id = userBean.id;
                 //加载页面数据
                 var carsData = '';
-                $.get(baseUrl + "carout/myInOrder?receiverId=" + user_id, function (data) {
+                $.get(baseUrl + "carout/myUpOrder?myId=" + user_id, function (data) {
                     var carsData = data.data;
                     //执行加载数据的方法
                     newsList(carsData);
@@ -59,21 +60,21 @@ layui.config({
     });
 
     //操作
-    //还车
-    $("body").on("click", ".cars_return", function () {
-        //已经获得了用户id，然后获得car_id
-        //然后carout/orderReturn归还这辆车
-        var car_id = Number($(this).parent().prev().prev().prev().html());
+    //删除
+    $("body").on("click", ".cars_delete", function () {
+        //首先要获得订单id，
+        //然后carout/orderDelete来删除这个订单。但是车辆信息会一直保存在数据库里面
+        var order_id = Number($(this).parent().prev().prev().prev().html());
+        var baseUrl = getRootPath_web();
+
         $.ajax({
-            url: baseUrl + "carout/orderReturn",
+            url: baseUrl + "carout/orderDelete",
             type: "get",
             dataType: "json",
-            data: {id: car_id, receiver_id: user_id},
+            data: {id: order_id},
             success: function (data) {
-                /*alert("p1");
-                alert(data.code);*/
                 if (data.code === "200") {
-                    alert("您已成功归还ID为" + car_id + "的汽车");
+                    alert("您已成功删除订单ID为" + order_id + "的汽车订单");
                     //刷新页面
                     window.location.reload()
                 } else {
@@ -102,12 +103,28 @@ layui.config({
                 for (var i = 0; i < currData.length; i++) {
                     dataHtml += '<tr>'
                         + '<td><input type="checkbox" name="checked" lay-skin="primary" lay-filter="choose"></td>'
-                        + '<td align="left" class="car_id">' + currData[i].id + '</td>'
-                        + '<td >' + currData[i].sender_id + '</td>';
-                    dataHtml += '<td>' + currData[i].status + '</td>';
+                        + '<td align="left">' + currData[i].car_id + '</td>';/*车辆ID*/
+
+                    dataHtml +='<td>'+currData[i].id+'</td>';/*订单ID*/
+                    if(currData[i].status==2){
+                        dataHtml+=+ '<td >' + currData[i].sender_id + '</td>';
+                    } else {
+                        dataHtml+='<td><i>还没有被租用</i></td>';
+                    }
+
+                    /*dataHtml += '<td>' + currData[i].status + '</td>';*/
+                    if(currData[i].status==0){
+                        dataHtml+='<td>等待管理员审核</td>';
+                    } else if(currData[i].status==1){
+                        dataHtml+='<td>已经通过管理员审核,等待被租用</td>';
+                    } else if(currData[i].status==2){
+                        dataHtml+='<td>已经被其他用户租用，等待归还</td>';
+                    } else{
+                        dataHtml+='<td>审核失败</td>';
+                    }
                     dataHtml +=
                         '<td>'
-                        + '<a class="layui-btn layui-btn-mini cars_return"><i class="iconfont icon-edit"></i> 还车</a>'
+                        + '<a class="layui-btn layui-btn-mini cars_delete"><i class="iconfont icon-edit"></i> 删除</a>'
                         + '</td>'
                         + '</tr>';
                 }

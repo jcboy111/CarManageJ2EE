@@ -48,12 +48,12 @@ public class CarOutController {
             int i=orderService.add(sender_id,name,Integer.parseInt(price),pic);
             jsonMsg.setCode("200");
             jsonMsg.setData(i);
+            System.out.println("successfully insert into database");
         } catch (Exception e) {
             jsonMsg.setCode("404");
             jsonMsg.setData(-1);
             e.printStackTrace();
         }
-
         return jsonMsg;
     }
 
@@ -63,7 +63,7 @@ public class CarOutController {
      * code=200 data=1删除成功
      * code=200 data=0删除失败
      * code=404 data=-1删除失败
-     * @param id
+     * @param id  订单的id
      * @return
      */
     @RequestMapping(value = "/orderDelete", method = RequestMethod.GET)
@@ -158,6 +158,40 @@ public class CarOutController {
         }
         return jsonMsg;
     }
+
+    /**
+     * 得到和myId提交的车辆的订单
+     * code=200，data存这些订单
+     * code=404 data=-1异常
+     * @param myId
+     * @return
+     */
+    @RequestMapping(value = "/myUpOrder", method = RequestMethod.GET)
+    @ResponseBody
+    public JsonMsg getMyUpOrder(int myId)
+    {
+        JsonMsg jsonMsg=new JsonMsg();
+        List<CarOutBean> orders= null;
+        List<CarOutBean> myOrders=new ArrayList<CarOutBean>();
+        try {
+            orders = orderService.getAllOrder();
+            for(CarOutBean car:orders)
+            {
+                if(car.getSender_id()==myId)
+                {
+                    myOrders.add(car);
+                }
+            }
+            jsonMsg.setData(myOrders);
+            jsonMsg.setCode("200");
+        } catch (SQLException e) {
+            jsonMsg.setCode("404");
+            jsonMsg.setData(-1);
+            e.printStackTrace();
+        }
+        return jsonMsg;
+    }
+
 
     /**
      * 得到myId租进来的订单
