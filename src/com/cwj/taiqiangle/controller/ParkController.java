@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import java.sql.SQLException;
 import java.util.List;
 
 @Controller
@@ -51,6 +50,7 @@ public class ParkController {
      *利用id删除park
      * code200 1找到并删除成功
      * code200 0没有找到
+     * code202 0车位正在被使用，不可以删除
      * code404 -1删除异常
      * @param id
      * @return
@@ -61,9 +61,18 @@ public class ParkController {
     {
         JsonMsg jsonMsg=new JsonMsg();
         try {
-            int i=parkService.deleteParkById(id);
-            jsonMsg.setCode("200");
-            jsonMsg.setData(i);
+            ParkBean park=parkService.getParkById(id);
+            if(park.getStatus()==0)
+            {
+                int i=parkService.deleteParkById(id);
+                jsonMsg.setCode("200");
+                jsonMsg.setData(i);
+            }
+            else{
+                jsonMsg.setCode("202");
+                jsonMsg.setData(0);
+            }
+
         }
         catch (Exception e)
         {
