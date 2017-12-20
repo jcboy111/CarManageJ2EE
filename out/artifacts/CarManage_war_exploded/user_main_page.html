@@ -63,9 +63,9 @@
 
             <!-- 顶部右侧菜单 -->
             <ul class="layui-nav top_menu">
-<!--                <li class="layui-nav-item showNotice" id="showNotice" pc>
-                    <a href="javascript:;"><i class="iconfont icon-gonggao"></i><cite>系统公告</cite></a>
-                </li>-->
+                <!--                <li class="layui-nav-item showNotice" id="showNotice" pc>
+                                    <a href="javascript:;"><i class="iconfont icon-gonggao"></i><cite>系统公告</cite></a>
+                                </li>-->
 
                 <!--移动端-->
                 <li class="layui-nav-item" mobile>
@@ -110,7 +110,7 @@
         <div class="user-photo">
             <a class="img" title="我的头像"><img src="images/userface1.jpg"></a>
             <!--这里的userName的class可以通过JQuery来从服务端读取已登录的用户的名字-->
-            <p>你好呀！<span class="userName"></span></p>
+            <p>你好！<span class="userName"></span>&nbsp;<span class="userMoney"></span></p>
         </div>
         <div class="navBar layui-side-scroll"></div>
     </div>
@@ -155,10 +155,26 @@
                         type: "get",
                         dataType: "json",
                         data: {username: $.cookie('username')},
+                        async: false,
                         success: function (data) {
                             if (data.code == "2") {
                                 /*是普通用户*/
                                 $(".userName").text($.cookie('username'));
+                                $.ajax({
+                                    url:baseUrl + "user/getUserByName",
+                                    type:"get",
+                                    dataType:"json",
+                                    data:{username:name},
+                                    success:function(data){
+                                        if(data.code==="200"){
+                                            var userBean = data.data;
+                                            $(".userMoney").text("余额："+userBean.money);
+                                        }
+                                    },
+                                    error:function(){
+
+                                    }
+                                });
                             }
                             else {
                                 /*是管理员用户以及数据库错误*/
@@ -169,7 +185,7 @@
                             alert("登录失败,检查一下网络吧");
                         }
                     }
-                )
+                );
             }
         }
     )

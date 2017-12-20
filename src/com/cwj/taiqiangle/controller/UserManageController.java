@@ -170,7 +170,6 @@ public class UserManageController {
      * Code=200 Data>=1 修改成功 Data=修改的信息数量
      * 参数都可以为null，但是id为null无法更新
      * null的参数不做更新
-     *
      * @param id
      * @param username
      * @param password
@@ -213,6 +212,7 @@ public class UserManageController {
 
         return jsonMsg;
     }
+
 
     /**
      * JsonMsg ID具体查找用户
