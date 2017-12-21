@@ -3,7 +3,6 @@ package com.cwj.taiqiangle.service;
 import com.cwj.taiqiangle.model.UserBean;
 import com.cwj.taiqiangle.util.DBUtil;
 
-import java.io.UnsupportedEncodingException;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -71,7 +70,9 @@ public class UserService {
             userBeans.add(userBean);
         }
         conn.close();
-        ;
+        if(userBeans.size()>0){
+            System.out.println("GetUserByName中看看个人描述"+userBeans.get(0).getDescription());
+        }
         return userBeans;
     }
 
@@ -235,22 +236,21 @@ public class UserService {
                 status++;
             }
         }
-        if (ub.getDescription() != null) {
+
+
+        if(ub.getDescription()!=null)
+        {
             String sql = null;
-            try {
-                String str1 = new String("update user set description='".getBytes(),"utf-8");
-                String str2 = new String(ub.getDescription().getBytes(),"utf-8");
-                String str3 = new String(("' where id=" + id + "").getBytes(),"utf-8");
-                sql = str1+str2+str3;
-            } catch (UnsupportedEncodingException e) {
-                e.printStackTrace();
-            }
-            //System.out.println(sql);
-            ps = conn.prepareStatement(sql);
-            if (ps.executeUpdate() != 0) {
+            sql = "update user set description='"+ub.getDescription()+"' where id="+id+"";
+            ps=conn.prepareStatement(sql);
+            if(ps.executeUpdate()!=0)
+            {
                 status++;
             }
+            System.out.println(sql);
         }
+
+
         if(ub.getPic()!=null)
         {
             String sql="update user set pic='"+ub.getPic()+"' where id="+id+"";

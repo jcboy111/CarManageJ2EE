@@ -6,29 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1007eb6-ddad-498e-8ab0-b2f2c3c4ae0d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/page/car/admin_add_park.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/page/car/admin_add_park.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/page/car/admin_car_park.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/page/car/admin_car_park.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/page/car/admin_car_rent_in.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/page/car/admin_car_rent_in.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/page/car/admin_car_rent_out.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/page/car/admin_car_rent_out.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/classes/com/cwj/taiqiangle/controller/ParkController.class" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/classes/com/cwj/taiqiangle/controller/ParkController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/classes/com/cwj/taiqiangle/model/UserBean.class" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/classes/com/cwj/taiqiangle/model/UserBean.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/classes/com/cwj/taiqiangle/service/SendMailService.class" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/classes/com/cwj/taiqiangle/service/SendMailService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/classes/com/cwj/taiqiangle/util/DBUtil.class" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/classes/com/cwj/taiqiangle/util/DBUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CarManage/com/cwj/taiqiangle/controller/ParkController.class" afterPath="$PROJECT_DIR$/out/production/CarManage/com/cwj/taiqiangle/controller/ParkController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CarManage/com/cwj/taiqiangle/model/UserBean.class" afterPath="$PROJECT_DIR$/out/production/CarManage/com/cwj/taiqiangle/model/UserBean.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CarManage/com/cwj/taiqiangle/service/SendMailService.class" afterPath="$PROJECT_DIR$/out/production/CarManage/com/cwj/taiqiangle/service/SendMailService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CarManage/com/cwj/taiqiangle/util/DBUtil.class" afterPath="$PROJECT_DIR$/out/production/CarManage/com/cwj/taiqiangle/util/DBUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/js/nav_admin.js" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/js/nav_admin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/js/nav_user.js" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/js/nav_user.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/user_main_page.html" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/user_main_page.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/cwj/taiqiangle/controller/ParkController.java" afterPath="$PROJECT_DIR$/src/com/cwj/taiqiangle/controller/ParkController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/nav_admin.js" afterPath="$PROJECT_DIR$/web/js/nav_admin.js" />
+    <list default="true" id="a1007eb6-ddad-498e-8ab0-b2f2c3c4ae0d" name="Default" comment="补充实现了右上角的个人资料和修改密码">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/classes/com/cwj/taiqiangle/service/SendMailService.class" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/classes/com/cwj/taiqiangle/service/SendMailService.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CarManage/com/cwj/taiqiangle/service/SendMailService.class" afterPath="$PROJECT_DIR$/out/production/CarManage/com/cwj/taiqiangle/service/SendMailService.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,128 +22,8 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="admin_car_rent_in.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/page/car/admin_car_rent_in.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="736">
-              <caret line="32" column="10" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin_car_rent_in.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/page/car/admin_car_rent_in.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5658">
-              <caret line="246" column="42" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="275" selection-end-column="0" />
-              <folding>
-                <marker date="1513752004247" expanded="true" signature="2529:2560" ph="..." />
-                <marker date="1513752004247" expanded="true" signature="2910:2941" ph="..." />
-                <marker date="1513752004247" expanded="true" signature="9009:9019" ph="..." />
-                <marker date="1513752004247" expanded="true" signature="9646:9654" ph="&amp;##xe600;" />
-                <marker date="1513752004247" expanded="true" signature="9808:9816" ph="&amp;##xe640;" />
-                <marker date="1513752004247" expanded="true" signature="10105:10113" ph="&amp;##xe600;" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nav_admin.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/js/nav_admin.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="713">
-              <caret line="35" column="39" lean-forward="false" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nav2.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/js/nav2.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin_add_park.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/page/car/admin_add_park.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1104">
-              <caret line="48" column="56" lean-forward="false" selection-start-line="48" selection-start-column="56" selection-end-line="48" selection-end-column="56" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nav.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/js/nav.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin_car_rent_out.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/page/car/admin_car_rent_out.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="673">
-              <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DBUtil.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/cwj/taiqiangle/util/DBUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="20" column="81" lean-forward="false" selection-start-line="20" selection-start-column="81" selection-end-line="20" selection-end-column="81" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin_car_rent_out.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/page/car/admin_car_rent_out.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4163">
-              <caret line="183" column="37" lean-forward="false" selection-start-line="183" selection-start-column="37" selection-end-line="183" selection-end-column="37" />
-              <folding>
-                <marker date="1513754909321" expanded="true" signature="2530:2561" ph="..." />
-                <marker date="1513754909321" expanded="true" signature="2911:2942" ph="..." />
-                <marker date="1513754909321" expanded="true" signature="8888:8898" ph="..." />
-                <marker date="1513754909321" expanded="true" signature="9525:9533" ph="&amp;##xe600;" />
-                <marker date="1513754909321" expanded="true" signature="9687:9695" ph="&amp;##xe640;" />
-                <marker date="1513754909321" expanded="true" signature="9984:9992" ph="&amp;##xe600;" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CarOutController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/cwj/taiqiangle/controller/CarOutController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5934">
-              <caret line="270" column="29" lean-forward="false" selection-start-line="270" selection-start-column="29" selection-end-line="270" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -176,12 +37,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>nav</find>
-      <find>8075</find>
-      <find>submit</find>
-      <find>stub</find>
-      <find>icon-computer</find>
-      <find>8074</find>
       <find>curWwwPath</find>
       <find>\/\/获取当前网址\，如\： http\:\/\/localhost\:8083\/uimcardprj\/share\/meun\.jsp\n    var curWwwPath \= window\.document\.location\.href\;\n    \/\/获取主机地址之后的目录\，如\： uimcardprj\/share\/meun\.jsp\n    var pathName \= window\.document\.location\.pathname\;\n    var pos\;\n    if\(pathName\.length\&gt;1\)\{pos \= curWwwPath\.indexOf\(pathName\)\;\}\n    else\{pos \= \-1\;\}\n    \/\/获取主机地址\，如\： http\:\/\/localhost\:8083\n    var localhostPath\n    if\(pos\&gt;0\)\{localhostPath \= curWwwPath\.substring\(0\, pos\)\+\&quot;\/\&quot;\;\}\n    else\{localhostPath\=curWwwPath\;\}</find>
       <find>var curWwwPath \= window\.document\.location\.href\;\n</find>
@@ -204,8 +59,14 @@
       <find>accept car_rent_out order successfully.</find>
       <find>parkingLotId</find>
       <find>CarService</find>
-      <find>newsAd</find>
-      <find>newArray</find>
+      <find>getParkOrderByUserid</find>
+      <find>MyUpOr</find>
+      <find>passedOrder</find>
+      <find>parkIdleTraversal</find>
+      <find>getUserByName</find>
+      <find>/getUserByName</find>
+      <find>/userUp</find>
+      <find>/userUpdate</find>
     </findStrings>
     <replaceStrings>
       <replace>8074</replace>
@@ -227,11 +88,9 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
-        <option value="zzk" />
         <option value="陈杰" />
       </list>
     </option>
-    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -248,6 +107,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/web/page/muban/moban1129/index.html" />
+        <option value="$PROJECT_DIR$/web/page/muban/CarIndexMuBan/gallery.html" />
+        <option value="$PROJECT_DIR$/web/js/leftNav.js" />
+        <option value="$PROJECT_DIR$/web/test-ChenJie/jquery.cookie.test.html" />
+        <option value="$PROJECT_DIR$/web/index1.html" />
+        <option value="$PROJECT_DIR$/web/js/getRootPath.js" />
+        <option value="$PROJECT_DIR$/web/page/links/linksList_.js" />
         <option value="$PROJECT_DIR$/web/user_main.html" />
         <option value="$PROJECT_DIR$/web/page/car/addCarRentIn.js" />
         <option value="$PROJECT_DIR$/web/js/logout.js" />
@@ -260,7 +126,6 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/com/cwj/taiqiangle/controller/UserAllKinds.java" />
         <option value="$PROJECT_DIR$/web/signup.html" />
-        <option value="$PROJECT_DIR$/web/page/user/userInfo.html" />
         <option value="$PROJECT_DIR$/src/com/cwj/taiqiangle/model/ParkBean.java" />
         <option value="$PROJECT_DIR$/web/page/parking/parkingLotTest.html" />
         <option value="$PROJECT_DIR$/web/page/parking/parkingLot.html" />
@@ -285,20 +150,14 @@
         <option value="$PROJECT_DIR$/src/com/cwj/taiqiangle/controller/CarOutController.java" />
         <option value="$PROJECT_DIR$/web/page/car/my_rent_out_car_list.jsp" />
         <option value="$PROJECT_DIR$/web/page/car/my_rent_out_car_list.js" />
-        <option value="$PROJECT_DIR$/src/com/cwj/taiqiangle/controller/UserManageController.java" />
         <option value="$PROJECT_DIR$/src/com/cwj/taiqiangle/model/UserBean.java" />
-        <option value="$PROJECT_DIR$/web/user_main_page.html" />
-        <option value="$PROJECT_DIR$/web/page/car/admin_add_park.jsp" />
-        <option value="$PROJECT_DIR$/web/page/car/admin_add_park.js" />
-        <option value="$PROJECT_DIR$/web/page/car/admin_car_rent_in.js" />
-        <option value="$PROJECT_DIR$/src/com/cwj/taiqiangle/controller/ParkController.java" />
-        <option value="$PROJECT_DIR$/web/page/car/admin_car_rent_in.jsp" />
-        <option value="$PROJECT_DIR$/web/page/car/admin_car_park.jsp" />
-        <option value="$PROJECT_DIR$/web/page/car/admin_car_park.js" />
-        <option value="$PROJECT_DIR$/web/page/car/admin_car_rent_out.js" />
-        <option value="$PROJECT_DIR$/web/js/nav_admin.js" />
-        <option value="$PROJECT_DIR$/web/page/car/admin_car_rent_out.jsp" />
+        <option value="$PROJECT_DIR$/src/com/cwj/taiqiangle/model/ParkOrderBean.java" />
+        <option value="$PROJECT_DIR$/src/com/cwj/taiqiangle/controller/UserManageController.java" />
+        <option value="$PROJECT_DIR$/web/page/user/userInfo.html" />
         <option value="$PROJECT_DIR$/src/com/cwj/taiqiangle/util/DBUtil.java" />
+        <option value="$PROJECT_DIR$/web/user_main_page.html" />
+        <option value="$PROJECT_DIR$/src/com/cwj/taiqiangle/service/UserService.java" />
+        <option value="$PROJECT_DIR$/web/page/user/changePwd.html" />
       </list>
     </option>
   </component>
@@ -315,10 +174,11 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="width" value="1932" />
-    <option name="height" value="1038" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="148" />
+    <option name="y" value="384" />
+    <option name="width" value="683" />
+    <option name="height" value="384" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -357,293 +217,53 @@
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CarManageJ2EE1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CarManageJ2EE1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CarManageJ2EE1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CarManageJ2EE1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CarManageJ2EE1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CarManageJ2EE1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="page" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CarManageJ2EE1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CarManageJ2EE1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="page" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="news" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CarManageJ2EE1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CarManageJ2EE1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="page" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="links" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CarManageJ2EE1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CarManageJ2EE1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="page" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="car" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CarManageJ2EE1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CarManageJ2EE1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="json" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CarManageJ2EE1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CarManageJ2EE1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CarManageJ2EE1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CarManageJ2EE1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="taiqiangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CarManageJ2EE1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CarManageJ2EE1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="taiqiangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CarManageJ2EE1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CarManageJ2EE1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="taiqiangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CarManageJ2EE1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CarManageJ2EE1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="taiqiangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CarManageJ2EE1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CarManageJ2EE1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="taiqiangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CarManageJ2EE1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CarManageJ2EE1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="out" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CarManageJ2EE1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CarManageJ2EE1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="CarManageJ2EE3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CarManageJ2EE3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CarManageJ2EE3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CarManageJ2EE3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CarManageJ2EE3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CarManageJ2EE3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="taiqiangle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CarManageJ2EE3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CarManageJ2EE3" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CarManageJ2EE3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CarManageJ2EE3" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CarManageJ2EE3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CarManageJ2EE3" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
+              <item name="car" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CarManageJ2EE3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CarManageJ2EE3" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="test-ChenJie" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -655,7 +275,7 @@
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -670,7 +290,14 @@
     </option>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat">
-    <configuration default="false" name="Git" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration name="Git" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.cwj.taiqiangle.test.*" />
@@ -688,88 +315,25 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="CarManage" />
       <envs />
-      <method />
     </configuration>
-    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
-      <deployment />
-      <server-settings />
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <method />
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    <configuration name="UserAllKinds" type="Application" factoryName="Application" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.cwj.taiqiangle.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.cwj.taiqiangle.controller.UserAllKinds" />
+      <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
-      <module name="" />
-      <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="PM_INSTALL_OPTIONS" value="" />
-      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="DEBUGGER_TYPE" value="Java" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <Java />
-      <Profilers>
-        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
-        <option name="GAPID_ENABLED" value="false" />
-        <option name="GAPID_DISABLE_PCS" value="false" />
-        <option name="SUPPORT_LIB_ENABLED" value="true" />
-        <option name="INSTRUMENTATION_ENABLED" value="true" />
-      </Profilers>
-      <option name="DEEP_LINK" value="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
-      <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="EXTRA_OPTIONS" value="" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="DEBUGGER_TYPE" value="Java" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <Java />
-      <Profilers>
-        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
-        <option name="GAPID_ENABLED" value="false" />
-        <option name="GAPID_DISABLE_PCS" value="false" />
-        <option name="SUPPORT_LIB_ENABLED" value="true" />
-        <option name="INSTRUMENTATION_ENABLED" value="true" />
-      </Profilers>
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
-      <method />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="CarManage" />
+      <envs />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -784,162 +348,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
-      <method />
-    </configuration>
-    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="myFilePath" />
-      <option name="GLUE" />
-      <option name="myNameFilter" />
-      <option name="myGeneratedName" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
-      <option name="BCName" value="" />
-      <option name="IOSSimulatorSdkPath" value="" />
-      <option name="adlOptions" value="" />
-      <option name="airProgramParameters" value="" />
-      <option name="appDescriptorForEmulator" value="Android" />
-      <option name="debugTransport" value="USB" />
-      <option name="debuggerSdkRaw" value="BC SDK" />
-      <option name="emulator" value="NexusOne" />
-      <option name="emulatorAdlOptions" value="" />
-      <option name="fastPackaging" value="true" />
-      <option name="fullScreenHeight" value="0" />
-      <option name="fullScreenWidth" value="0" />
-      <option name="launchUrl" value="false" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="FlashPlayerDebugger.exe" />
-        </LauncherParameters>
-      </option>
-      <option name="mobileRunTarget" value="Emulator" />
-      <option name="moduleName" value="" />
-      <option name="overriddenMainClass" value="" />
-      <option name="overriddenOutputFileName" value="" />
-      <option name="overrideMainClass" value="false" />
-      <option name="runTrusted" value="true" />
-      <option name="screenDpi" value="0" />
-      <option name="screenHeight" value="0" />
-      <option name="screenWidth" value="0" />
-      <option name="url" value="http://" />
-      <option name="usbDebugPort" value="7936" />
-      <method />
-    </configuration>
-    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
-      <option name="BCName" value="" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="FlashPlayerDebugger.exe" />
-        </LauncherParameters>
-      </option>
-      <option name="moduleName" value="" />
-      <option name="trusted" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list />
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
-      <setting name="vmparams" value="" />
-      <setting name="cmdLine" value="run-app" />
-      <setting name="passParentEnv" value="true" />
-      <setting name="launchBrowser" value="true" />
-      <setting name="launchBrowserUrl" value="" />
-      <setting name="depsClasspath" value="false" />
-      <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -960,69 +368,6 @@
       </option>
       <envs />
       <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="JarApplication" factoryName="JAR Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SCRATCH_FILE_ID" value="0" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
-      <node-interpreter value="project" />
-      <working-dir value="" />
-      <envs />
-      <scope-kind value="ALL" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
-      <config-file value="" />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="CarManage" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <envs />
-      <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
@@ -1030,13 +375,6 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <envs />
-      <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -1064,52 +402,8 @@
       <envs />
       <properties />
       <listeners />
-      <method />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run" />
-      <scripts />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
-      <method />
-    </configuration>
-    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
-      <method />
-    </configuration>
-    <configuration default="false" name="UserAllKinds" type="Application" factoryName="Application" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.cwj.taiqiangle.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.cwj.taiqiangle.controller.UserAllKinds" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="CarManage" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.15" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8075/" />
+    <configuration name="Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.15" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <deployment>
@@ -1122,7 +416,7 @@
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Unnamed_CarManageJ2EE" />
         <option name="DEPLOY_TOMCAT_APPS" value="true" />
-        <option name="HTTP_PORT" value="8075" />
+        <option name="HTTP_PORT" value="8071" />
         <option name="PRESERVE_SESSIONS" value="true" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
@@ -1185,6 +479,12 @@
         </option>
       </method>
     </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
     <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Application.UserAllKinds" />
       <item index="1" class="java.lang.String" itemvalue="Tomcat Server.Tomcat" />
@@ -1239,33 +539,11 @@
       <workItem from="1513573724078" duration="5594000" />
       <workItem from="1513580409975" duration="5461000" />
       <workItem from="1513607250520" duration="5006000" />
-      <workItem from="1513644620287" duration="19897000" />
-      <workItem from="1513677931474" duration="26000" />
-      <workItem from="1513677967421" duration="10000" />
-      <workItem from="1513677984086" duration="10618000" />
-      <workItem from="1513740838191" duration="10632000" />
-      <workItem from="1513782086936" duration="324000" />
-    </task>
-    <task id="LOCAL-00003" summary="新建了一个用户界面，把需要的功能打上去了。但是，还需要对session和cookie的管理。管理了session和cookie之后，要考虑从数据库里面拉取数据。然后考虑对订单的增删改查操作。">
-      <created>1513236499949</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1513236499949</updated>
-    </task>
-    <task id="LOCAL-00004" summary="添加后台管理界面">
-      <created>1513238393892</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1513238393892</updated>
-    </task>
-    <task id="LOCAL-00005" summary="做了一个Git测试">
-      <created>1513300173215</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1513300173215</updated>
+      <workItem from="1513644620287" duration="20189000" />
+      <workItem from="1513665453221" duration="54000" />
+      <workItem from="1513755406142" duration="2906000" />
+      <workItem from="1513780639428" duration="4066000" />
+      <workItem from="1513821226420" duration="197000" />
     </task>
     <task id="LOCAL-00006" summary="做了一个Git2测试">
       <created>1513300402408</created>
@@ -1589,11 +867,32 @@
       <option name="project" value="LOCAL" />
       <updated>1513654900793</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="实现了普通用户界面的必要的模块">
+      <created>1513665158060</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1513665158061</updated>
+    </task>
+    <task id="LOCAL-00053" summary="可以修改用户的邮箱和个人描述">
+      <created>1513758315921</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1513758315923</updated>
+    </task>
+    <task id="LOCAL-00054" summary="补充实现了右上角的个人资料和修改密码">
+      <created>1513784686195</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1513784686195</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="146835000" />
+    <option name="totallyTimeSpent" value="132740000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -1605,14 +904,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1932" height="1038" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928064" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3375" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1621,15 +918,16 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3375" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3271605" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875144" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32646048" sideWeight="0.49791667" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4180985" sideWeight="0.49375" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32655138" sideWeight="0.49791667" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2978395" sideWeight="0.49375" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32083333" sideWeight="0.49791667" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26049516" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38271606" sideWeight="0.49791667" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18835099" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
@@ -1637,7 +935,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1658,17 +955,17 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3375" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3271605" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32655138" sideWeight="0.49791667" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1375" sideWeight="0.49375" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30864197" sideWeight="0.49375" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32083333" sideWeight="0.49791667" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22921109" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14750378" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1676,7 +973,7 @@
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="processedProjectFiles" value="true" />
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -1709,8 +1006,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="没关系" />
-    <MESSAGE value="修改了登陆/注册/用户/管理员界面" />
     <MESSAGE value="对中间的tabs进行了修改" />
     <MESSAGE value="修改index.html" />
     <MESSAGE value="修复了这个bug" />
@@ -1733,8 +1028,10 @@
     <MESSAGE value="实现了我要租车页面" />
     <MESSAGE value="实现了租车位的模块" />
     <MESSAGE value="实现了实现了个人的租入车和租入的停车位的模块，包括查看订单以及归还车辆和停车位" />
-    <MESSAGE value="实现了管理员界面求租出租信息审核以及停车位发布" />
-    <option name="LAST_COMMIT_MESSAGE" value="实现了管理员界面求租出租信息审核以及停车位发布" />
+    <MESSAGE value="实现了普通用户界面的必要的模块" />
+    <MESSAGE value="可以修改用户的邮箱和个人描述" />
+    <MESSAGE value="补充实现了右上角的个人资料和修改密码" />
+    <option name="LAST_COMMIT_MESSAGE" value="补充实现了右上角的个人资料和修改密码" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1742,11 +1039,151 @@
     </breakpoint-manager>
     <watches-manager />
   </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
-  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/web/page/muban/CarIndexMuBan/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="81" column="23" lean-forward="false" selection-start-line="81" selection-start-column="23" selection-end-line="81" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin_main_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="139" column="24" lean-forward="false" selection-start-line="139" selection-start-column="24" selection-end-line="139" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="200">
+            <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/nav_admin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-287">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="81" column="41" lean-forward="false" selection-start-line="81" selection-start-column="41" selection-end-line="81" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/layui/css/layui.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="1" column="6224" lean-forward="false" selection-start-line="1" selection-start-column="6224" selection-end-line="1" selection-end-column="6224" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/java/jdk8/src.zip!/java/sql/ResultSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="587" column="8" lean-forward="false" selection-start-line="587" selection-start-column="8" selection-end-line="587" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cwj/taiqiangle/model/ParkBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cwj/taiqiangle/service/ParkService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="96" column="20" lean-forward="false" selection-start-line="96" selection-start-column="20" selection-end-line="96" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cwj/taiqiangle/service/ParkOrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="38" lean-forward="false" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cwj/taiqiangle/controller/UserAllKinds.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="28" column="6" lean-forward="false" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/page/message/message.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/getRootPath.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="9914" column="4" lean-forward="false" selection-start-line="9914" selection-start-column="4" selection-end-line="9914" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="957" column="8" lean-forward="true" selection-start-line="957" selection-start-column="8" selection-end-line="957" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="72" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/page/car/JS_module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4402">
+          <caret line="372" column="2" lean-forward="false" selection-start-line="372" selection-start-column="2" selection-end-line="372" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/page/car/car_rent_out.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/page/parking/parkingLot.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/page/parking/parkingLotTest.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="565">
@@ -1768,38 +1205,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/page/parking/my_rent_in_parking_lot.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="31" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/page/parking/parkingLot.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
           <caret line="44" column="28" lean-forward="false" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/page/parking/my_rent_in_parking_lot.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="122" column="21" lean-forward="false" selection-start-line="122" selection-start-column="21" selection-end-line="122" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cwj/taiqiangle/controller/ParkOrderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="74" column="16" lean-forward="true" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/page/parking/parkingLot.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="130" column="20" lean-forward="true" selection-start-line="130" selection-start-column="20" selection-end-line="130" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -1810,10 +1219,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/page/car/car_rent_out.html">
+    <entry file="file://$PROJECT_DIR$/src/com/cwj/taiqiangle/controller/CarController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        <state relative-caret-position="41">
+          <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -1824,31 +1233,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/page/car/my_rent_in_cars.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="51" column="18" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/cwj/taiqiangle/service/CarOutService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="514">
           <caret line="208" column="49" lean-forward="false" selection-start-line="208" selection-start-column="49" selection-end-line="208" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/page/car/my_rent_out_car_list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="54" column="31" lean-forward="true" selection-start-line="54" selection-start-column="31" selection-end-line="54" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/page/car/my_rent_out_car_list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="70" column="48" lean-forward="true" selection-start-line="70" selection-start-column="48" selection-end-line="70" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/user_main_page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="117" column="17" lean-forward="true" selection-start-line="117" selection-start-column="17" selection-end-line="117" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1859,289 +1254,157 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cwj/taiqiangle/controller/UserManageController.java">
+    <entry file="file://$PROJECT_DIR$/web/page/parking/my_rent_in_parking_lot.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="303" column="13" lean-forward="true" selection-start-line="303" selection-start-column="13" selection-end-line="303" selection-end-column="13" />
+        <state relative-caret-position="294">
+          <caret line="45" column="63" lean-forward="false" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="63" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/getRootPath.js">
+    <entry file="file://$PROJECT_DIR$/web/page/parking/my_rent_in_parking_lot.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+        <state relative-caret-position="132">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="31" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.html">
+    <entry file="file://$PROJECT_DIR$/web/page/car/my_rent_out_car_list.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-170">
-          <caret line="76" column="26" lean-forward="false" selection-start-line="76" selection-start-column="26" selection-end-line="76" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/leftNav.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-69">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/admin_main_page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="21" column="49" lean-forward="true" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/nav_user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-23">
-          <caret line="33" column="10" lean-forward="true" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/page/car/car_rent_out.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        <state relative-caret-position="483">
+          <caret line="54" column="31" lean-forward="false" selection-start-line="54" selection-start-column="31" selection-end-line="54" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cwj/taiqiangle/controller/AdminManageController.java">
+    <entry file="file://$PROJECT_DIR$/web/page/car/my_rent_out_car_list.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="221" column="7" lean-forward="true" selection-start-line="221" selection-start-column="7" selection-end-line="221" selection-end-column="7" />
+        <state relative-caret-position="254">
+          <caret line="46" column="37" lean-forward="false" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cwj/taiqiangle/model/ParkOrderBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="55" column="41" lean-forward="true" selection-start-line="55" selection-start-column="41" selection-end-line="55" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cwj/taiqiangle/controller/ParkOrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2325">
+          <caret line="125" column="17" lean-forward="true" selection-start-line="125" selection-start-column="17" selection-end-line="125" selection-end-column="17" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/page/car/car_rent_in.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="67" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/page/car/car_rent_in.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1909">
-          <caret line="83" column="8" lean-forward="false" selection-start-line="83" selection-start-column="8" selection-end-line="83" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/layui/css/layui.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="1" column="7274" lean-forward="false" selection-start-line="1" selection-start-column="7274" selection-end-line="1" selection-end-column="7274" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cwj/taiqiangle/controller/CarInController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="252" column="29" lean-forward="true" selection-start-line="252" selection-start-column="29" selection-end-line="252" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/page/links/linksList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3588">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/page/car/my_rent_in_cars.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="77" column="20" lean-forward="false" selection-start-line="77" selection-start-column="20" selection-end-line="77" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cwj/taiqiangle/controller/CarController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-621">
-          <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/page/car/addCarRentIn.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="23" column="2" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/page/car/addCarRentIn.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="24" column="31" lean-forward="false" selection-start-line="13" selection-start-column="3" selection-end-line="24" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/json/newsList.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3174">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/page/news/newsList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-713">
-          <caret line="254" column="28" lean-forward="true" selection-start-line="254" selection-start-column="28" selection-end-line="254" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/page/news/newsAdd.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/page/news/newsList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-690">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/cwj/taiqiangle/controller/ParkController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="57" column="29" lean-forward="true" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="40" />
+        <state relative-caret-position="225">
+          <caret line="148" column="6" lean-forward="true" selection-start-line="148" selection-start-column="6" selection-end-line="148" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/page/car/admin_add_park.js">
+    <entry file="file://$PROJECT_DIR$/web/page/parking/parkingLot.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="18" column="45" lean-forward="false" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/page/car/admin_car_park.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-612">
-          <caret line="31" column="63" lean-forward="false" selection-start-line="31" selection-start-column="63" selection-end-line="31" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/page/car/admin_car_park.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3312">
-          <caret line="144" column="25" lean-forward="false" selection-start-line="144" selection-start-column="25" selection-end-line="144" selection-end-column="25" />
-          <folding>
-            <marker date="1513754438139" expanded="true" signature="2497:2528" ph="..." />
-            <marker date="1513754438139" expanded="true" signature="2878:2909" ph="..." />
-            <marker date="1513754438139" expanded="true" signature="7903:7911" ph="&amp;##xe640;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/page/car/admin_car_rent_in.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5658">
-          <caret line="246" column="42" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="275" selection-end-column="0" />
-          <folding>
-            <marker date="1513752004247" expanded="true" signature="2529:2560" ph="..." />
-            <marker date="1513752004247" expanded="true" signature="2910:2941" ph="..." />
-            <marker date="1513752004247" expanded="true" signature="9009:9019" ph="..." />
-            <marker date="1513752004247" expanded="true" signature="9646:9654" ph="&amp;##xe600;" />
-            <marker date="1513752004247" expanded="true" signature="9808:9816" ph="&amp;##xe640;" />
-            <marker date="1513752004247" expanded="true" signature="10105:10113" ph="&amp;##xe600;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/page/car/admin_car_rent_in.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="32" column="10" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="398">
+          <caret line="34" column="43" lean-forward="false" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/cwj/taiqiangle/controller/CarOutController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5934">
-          <caret line="270" column="29" lean-forward="false" selection-start-line="270" selection-start-column="29" selection-end-line="270" selection-end-column="44" />
+        <state relative-caret-position="115">
+          <caret line="236" column="14" lean-forward="true" selection-start-line="236" selection-start-column="14" selection-end-line="236" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/page/car/admin_car_rent_out.js">
+    <entry file="file://$PROJECT_DIR$/src/com/cwj/taiqiangle/controller/CarInController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4163">
-          <caret line="183" column="37" lean-forward="false" selection-start-line="183" selection-start-column="37" selection-end-line="183" selection-end-column="37" />
-          <folding>
-            <marker date="1513754909321" expanded="true" signature="2530:2561" ph="..." />
-            <marker date="1513754909321" expanded="true" signature="2911:2942" ph="..." />
-            <marker date="1513754909321" expanded="true" signature="8888:8898" ph="..." />
-            <marker date="1513754909321" expanded="true" signature="9525:9533" ph="&amp;##xe600;" />
-            <marker date="1513754909321" expanded="true" signature="9687:9695" ph="&amp;##xe640;" />
-            <marker date="1513754909321" expanded="true" signature="9984:9992" ph="&amp;##xe600;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/nav2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/nav.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/nav_admin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="713">
-          <caret line="35" column="39" lean-forward="false" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
+        <state relative-caret-position="207">
+          <caret line="167" column="41" lean-forward="false" selection-start-line="167" selection-start-column="29" selection-end-line="167" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/page/car/admin_add_park.jsp">
+    <entry file="file://$PROJECT_DIR$/web/js/nav_user.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1104">
-          <caret line="48" column="56" lean-forward="false" selection-start-line="48" selection-start-column="56" selection-end-line="48" selection-end-column="56" />
+        <state relative-caret-position="1275">
+          <caret line="55" column="28" lean-forward="false" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/page/car/car_rent_in.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="34" column="39" lean-forward="false" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/page/car/car_rent_in.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="19" column="54" lean-forward="false" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/page/car/admin_car_rent_out.jsp">
+    <entry file="file://$PROJECT_DIR$/web/page/car/car_rent_out.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="673">
-          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="25">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cwj/taiqiangle/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="248" column="13" lean-forward="true" selection-start-line="248" selection-start-column="13" selection-end-line="248" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/cwj/taiqiangle/util/DBUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="20" column="81" lean-forward="false" selection-start-line="20" selection-start-column="81" selection-end-line="20" selection-end-column="81" />
+        <state relative-caret-position="125">
+          <caret line="20" column="121" lean-forward="false" selection-start-line="20" selection-start-column="121" selection-end-line="20" selection-end-column="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/page/user/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="72" column="2" lean-forward="true" selection-start-line="72" selection-start-column="2" selection-end-line="72" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/page/user/changePwd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="70" column="53" lean-forward="false" selection-start-line="70" selection-start-column="53" selection-end-line="70" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/user_main_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="161" column="52" lean-forward="true" selection-start-line="161" selection-start-column="52" selection-end-line="161" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/page/user/userInfo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="949">
+          <caret line="54" column="13" lean-forward="false" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cwj/taiqiangle/controller/UserManageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="170" column="29" lean-forward="true" selection-start-line="170" selection-start-column="29" selection-end-line="170" selection-end-column="29" />
           <folding />
         </state>
       </provider>

@@ -18,7 +18,7 @@ public class DBUtil {
 	}
 
 	public static Connection getConnection() throws SQLException {
-		return DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/carmanage?serverTimezone=UTC&characterEncoding=utf8&useSSL=true","root","root");
+		return DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/carmanage?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8&useSSL=true","root","root");
 	}
 
 	/*
