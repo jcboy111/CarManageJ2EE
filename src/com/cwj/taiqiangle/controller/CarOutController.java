@@ -5,6 +5,7 @@ import com.cwj.taiqiangle.model.CarOutBean;
 import com.cwj.taiqiangle.model.JsonMsg;
 import com.cwj.taiqiangle.service.CarOutService;
 import com.cwj.taiqiangle.service.CarService;
+import com.cwj.taiqiangle.service.UserService;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -146,6 +147,12 @@ public class CarOutController {
             {
                 if(car.getSender_id()==myId||car.getReceiver_id()==myId)
                 {
+                    UserService userService=new UserService();
+                    CarService carService=new CarService();
+                    car.setCarName(carService.getCar(car.getCar_id()).getName());
+                    car.setSenderName(userService.getUserById(car.getSender_id()).getUserName());
+                    if(car.getReceiver_id()!=0)
+                        car.setReceiverName(userService.getUserById(car.getReceiver_id()).getUserName());
                     myOrders.add(car);
                 }
             }
@@ -177,8 +184,16 @@ public class CarOutController {
             orders = orderService.getAllOrder();
             for(CarOutBean car:orders)
             {
+
                 if(car.getSender_id()==myId)
                 {
+                    //Modified by Ceej
+                    UserService userService=new UserService();
+                    CarService carService=new CarService();
+                    car.setCarName(carService.getCar(car.getCar_id()).getName());
+                    car.setSenderName(userService.getUserById(car.getSender_id()).getUserName());
+                    if(car.getReceiver_id()!=0)
+                        car.setReceiverName(userService.getUserById(car.getReceiver_id()).getUserName());
                     myOrders.add(car);
                 }
             }
@@ -218,6 +233,17 @@ public class CarOutController {
                 }
             }
             jsonMsg.setData(myOrders);*/
+            //Modified by Ceej
+            for (CarOutBean car:orders)
+            {
+                UserService userService=new UserService();
+                CarService carService=new CarService();
+                car.setCarName(carService.getCar(car.getCar_id()).getName());
+                car.setSenderName(userService.getUserById(car.getSender_id()).getUserName());
+                if(car.getReceiver_id()!=0)
+                    car.setReceiverName(userService.getUserById(car.getReceiver_id()).getUserName());
+            }
+
             jsonMsg.setData(orders);
             jsonMsg.setCode("200");
         } catch (SQLException e) {
@@ -247,8 +273,19 @@ public class CarOutController {
             orders = orderService.getAllOrder();
             for(CarOutBean car:orders)
             {
+//                if(car.getStatus()==1)
+//                {
+//                    myOrders.add(car);
+//                }
+                UserService userService=new UserService();
+                CarService carService=new CarService();
                 if(car.getStatus()==1)
                 {
+                    //Modified by Ceej
+                    car.setCarName(carService.getCar(car.getCar_id()).getName());
+                    car.setSenderName(userService.getUserById(car.getSender_id()).getUserName());
+                    if(car.getReceiver_id()!=0)
+                        car.setReceiverName(userService.getUserById(car.getReceiver_id()).getUserName());
                     myOrders.add(car);
                 }
             }
@@ -276,6 +313,15 @@ public class CarOutController {
         List<CarOutBean> orders= null;
         try {
             orders = orderService.getAllOrder();
+            for(CarOutBean car:orders)
+            {
+                UserService userService=new UserService();
+                CarService carService=new CarService();
+                car.setCarName(carService.getCar(car.getCar_id()).getName());
+                car.setSenderName(userService.getUserById(car.getSender_id()).getUserName());
+                if(car.getReceiver_id()!=0)
+                    car.setReceiverName(userService.getUserById(car.getReceiver_id()).getUserName());
+            }
             jsonMsg.setData(orders);
             jsonMsg.setCode("200");
         } catch (SQLException e) {

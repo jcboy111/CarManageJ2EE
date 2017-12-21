@@ -1,7 +1,9 @@
 package com.cwj.taiqiangle.model;
 
 public class ParkBean {
-    private int price_per_day;
+    //Modified by Ceej 12.21
+    //修改了parkUpdate的时候金钱问题
+    private int price_per_day=Integer.MIN_VALUE;
     private int id;
     private String name;
     private int status;

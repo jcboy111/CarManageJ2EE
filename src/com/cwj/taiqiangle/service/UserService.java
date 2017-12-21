@@ -262,9 +262,11 @@ public class UserService {
         }
         if(ub.getMoney()!= Integer.MIN_VALUE) {
             String sql="update user set money="+ub.getMoney()+" where id="+id+"";
+           // System.out.println("升级money1"+ub.getMoney());
             ps=conn.prepareStatement(sql);
             if(ps.executeUpdate()!=0)
             {
+               // System.out.println("升级money2"+ub.getMoney());
                 status++;
             }
         }
