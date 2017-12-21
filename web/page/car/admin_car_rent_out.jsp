@@ -50,7 +50,7 @@
         <thead>
         <tr>
             <th><input type="checkbox" name="" lay-skin="primary" lay-filter="allChoose" id="allChoose"></th>
-            <th style="text-align:left;">车辆编号</th>
+            <th style="text-align:left;">出租车辆</th>
             <th>出租用户</th>
             <th>接单用户</th>
             <th>审核状态</th>
