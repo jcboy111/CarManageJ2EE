@@ -82,7 +82,7 @@ layui.config({
         //然后获得用户id
         //然后carout/oderAccept这个车辆
         var baseUrl = getRootPath_web();
-        var car_id = Number($(this).parent().prev().prev().prev().html());
+        var car_id = Number($(this).parent().prev().prev().prev().prev().prev().prev().html());
         $.ajax({
             url: baseUrl + "user/getUserByName",
             type: "get",
@@ -142,9 +142,11 @@ layui.config({
                 for (var i = 0; i < currData.length; i++) {
                     dataHtml += '<tr>'
                         + '<td><input type="checkbox" name="checked" lay-skin="primary" lay-filter="choose"></td>'
-                        + '<td align="left" class="car_id">' + currData[i].id + '</td>'
+                        +'<td>'+currData[i].id+'</td>'
+                        +'<td>'+currData[i].carName+'</td>'
+                        + '<td align="left" class="car_id">' + currData[i].car_id + '</td>'
                         + '<td >' + currData[i].sender_id + '</td>';
-                    dataHtml += '<td>' + currData[i].status + '</td>';
+                    dataHtml += '<td>' + currData[i].status + '</td>'+'<td>'+currData[i].senderName+'</td>';
                     dataHtml +=
                         '<td>'
                         + '<a class="layui-btn layui-btn-mini cars_buy"><i class="iconfont icon-edit"></i> 租用</a>'

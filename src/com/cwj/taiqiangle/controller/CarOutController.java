@@ -209,7 +209,7 @@ public class CarOutController {
 
 
     /**
-     * 得到myId租进来的订单
+     * 得到receriverId租进来的订单
      * code=200，data存这些订单
      * code=404 data=-1异常
      * @param receiverId
@@ -225,14 +225,6 @@ public class CarOutController {
         List<CarOutBean> myOrders=new ArrayList<CarOutBean>();
         try {
             orders = orderService.getOrdersByReceiverId(receiverId);
-            /*for(CarOutBean car:orders)
-            {
-                if(car.getSender_id()==myId||car.getReceiver_id()==myId)
-                {
-                    myOrders.add(car);
-                }
-            }
-            jsonMsg.setData(myOrders);*/
             //Modified by Ceej
             for (CarOutBean car:orders)
             {
@@ -338,7 +330,7 @@ public class CarOutController {
      * code=200，data=1 接受成功
      * code=200 data=0 接受失败
      * code=404 data=-1 页面异常
-     * @param id
+     * @param id  订单的编号
      * @param receiver_id
      * @return
      */

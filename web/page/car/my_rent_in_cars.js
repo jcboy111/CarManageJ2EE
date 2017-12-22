@@ -63,7 +63,7 @@ layui.config({
     $("body").on("click", ".cars_return", function () {
         //已经获得了用户id，然后获得car_id
         //然后carout/orderReturn归还这辆车
-        var car_id = Number($(this).parent().prev().prev().prev().html());
+        var car_id = Number($(this).parent().prev().prev().prev().prev().prev().prev().html());
         $.ajax({
             url: baseUrl + "carout/orderReturn",
             type: "get",
@@ -103,7 +103,10 @@ layui.config({
                     dataHtml += '<tr>'
                         + '<td><input type="checkbox" name="checked" lay-skin="primary" lay-filter="choose"></td>'
                         + '<td align="left" class="car_id">' + currData[i].id + '</td>'
-                        + '<td >' + currData[i].sender_id + '</td>';
+                        + '<td align="left" class="car_id">' + currData[i].car_id + '</td>'
+                        + '<td align="left" class="car_id">' + currData[i].carName + '</td>'
+                        + '<td >' + currData[i].sender_id + '</td>'
+                        + '<td >' + currData[i].senderName + '</td>';
                     dataHtml += '<td>' + currData[i].status + '</td>';
                     dataHtml +=
                         '<td>'
