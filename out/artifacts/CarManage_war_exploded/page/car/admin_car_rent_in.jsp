@@ -50,8 +50,8 @@
         <thead>
         <tr>
             <th><input type="checkbox" name="" lay-skin="primary" lay-filter="allChoose" id="allChoose"></th>
-            <th style="text-align:left;">出租车辆</th>
-            <th>出租用户</th>
+            <th style="text-align:left;">车辆编号</th>
+            <th>求租用户</th>
             <th>接单用户</th>
             <th>审核状态</th>
             <th>操作</th>
@@ -66,6 +66,6 @@
 <script type="text/javascript" src="../../js/jquery.cookie.js"></script>
 <!--获取根路径-->
 <script type="text/javascript" src="../../js/getRootPath.js"></script>
-<script type="text/javascript" src="admin_car_rent_out.js"></script>
+<script type="text/javascript" src="admin_car_rent_in.js"></script>
 </body>
 </html>

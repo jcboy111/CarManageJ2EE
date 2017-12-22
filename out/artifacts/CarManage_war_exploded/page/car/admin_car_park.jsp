@@ -29,7 +29,7 @@
         <a class="layui-btn search_btn">查询</a>
     </div>
     <div class="layui-inline">
-        <a class="layui-btn layui-btn-normal newsAdd_btn">添加租车信息</a>
+        <a class="layui-btn layui-btn-normal newsAdd_btn">添加停车位信息</a>
     </div>
     <div class="layui-inline">
         <div class="layui-form-mid layui-word-aux">本页面刷新后除新添加的文章外所有操作无效，关闭页面所有数据重置</div>
@@ -50,9 +50,9 @@
         <thead>
         <tr>
             <th><input type="checkbox" name="" lay-skin="primary" lay-filter="allChoose" id="allChoose"></th>
-            <th style="text-align:left;">出租车辆</th>
-            <th>出租用户</th>
-            <th>接单用户</th>
+            <th style="text-align:left;">停车位编号</th>
+            <th>停车位详情</th>
+            <th>停车位价格</th>
             <th>审核状态</th>
             <th>操作</th>
         </tr>
@@ -66,6 +66,6 @@
 <script type="text/javascript" src="../../js/jquery.cookie.js"></script>
 <!--获取根路径-->
 <script type="text/javascript" src="../../js/getRootPath.js"></script>
-<script type="text/javascript" src="admin_car_rent_out.js"></script>
+<script type="text/javascript" src="admin_car_park.js"></script>
 </body>
 </html>

@@ -59,5 +59,27 @@ public class ParkOrderBean {
     private Date enddate;
     private int status=Integer.MIN_VALUE;
 
+    public String getUserName() {
+        return userName;
+    }
+
+    public void setUserName(String userName) {
+        this.userName = userName;
+    }
+
+    public String getParkName() {
+        return parkName;
+    }
+
+    public void setParkName(String parkName) {
+        this.parkName = parkName;
+    }
+
+
+
+    private String userName;
+    private String parkName;
+
+
 
 }

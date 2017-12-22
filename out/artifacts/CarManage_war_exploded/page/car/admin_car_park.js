@@ -2,6 +2,9 @@
  * Created by 蛟川小盆友 on 2017/12/19.
  */
 /**
+ * Created by 蛟川小盆友 on 2017/12/19.
+ */
+/**
  * Created by 蛟川小盆友 on 2017/12/6.
  */
 layui.config({
@@ -14,7 +17,7 @@ layui.config({
     var baseUrl = getRootPath_web();
     //加载页面数据
     var newsData = '';
-    $.get(baseUrl+"carout/orderTraversal", function(data){
+    $.get(baseUrl+"park/parkTraversal", function(data){
         var newArray = [];
         //单击首页“待审核文章”加载的信息
         if($(".top_tab li.layui-this cite",parent.document).text() == "待审核文章"){
@@ -24,10 +27,9 @@ layui.config({
             }else{
                 newsData = data.data;
             }
+
             for(var i=0;i<newsData.length;i++){
-                if(newsData[i].newsStatus == "待审核"){
-                    newArray.push(newsData[i]);
-                }
+                newArray.push(newsData[i]);
             }
             newsData = newArray;
             newsList(newsData);
@@ -40,7 +42,7 @@ layui.config({
             //执行加载数据的方法
             newsList();
         }
-    })
+    });
 
     //查询
     $(".search_btn").click(function(){
@@ -49,7 +51,7 @@ layui.config({
             var index = layer.msg('查询中，请稍候',{icon: 16,time:false,shade:0.8});
             setTimeout(function(){
                 $.ajax({
-                    url :  baseUrl+"carout/orderTraversal",
+                    url :  baseUrl+"park/parkTraversal",
                     type : "get",
                     dataType : "json",
                     success : function(data){
@@ -72,16 +74,10 @@ layui.config({
                                     return dataStr;
                                 }
                             }
-                            if(newsStr.carName.indexOf(selectStr) > -1){
-                                newsStr["carName"] = changeStr(newsStr.carName);
+                            if(newsStr.name.indexOf(selectStr) > -1){
+                                newsStr["name"] = changeStr(newsStr.name);
                             }
-                            // if(newsStr.senderName.indexOf(selectStr) > -1){
-                            //     newsStr["senderName"] = changeStr(newsStr.senderName);
-                            // }
-                            // if(newsStr.receiverName.indexOf(selectStr) > -1){
-                            //     newsStr["receiverName"] = changeStr(newsStr.receiverName);
-                            // }
-                            if(newsStr.carName.indexOf(selectStr)>-1 ){
+                            if(newsStr.name.indexOf(selectStr)>-1 ){
                                 newArray1.push(newsStr);
                             }
                         }
@@ -97,9 +93,24 @@ layui.config({
         }
     });
 
-
-
-
+    //添加停车信息
+    $(".newsAdd_btn").click(function(){
+        var index = layui.layer.open({
+            title : "添加停车信息",
+            type : 2,
+            content : "admin_add_park.jsp",
+            success : function(layero, index){
+                layui.layer.tips('点击此处返回文章列表', '.layui-layer-setwin .layui-layer-close', {
+                    tips: 3
+                });
+            }
+        })
+        //改变窗口大小时，重置弹窗的高度，防止超出可视区域（如F12调出debug的操作）
+        $(window).resize(function(){
+            layui.layer.full(index);
+        })
+        layui.layer.full(index);
+    })
 
 
 
@@ -124,31 +135,20 @@ layui.config({
         form.render('checkbox');
     })
 
-    //是否展示
-    form.on('switch(isShow)', function(data){
-        var index = layer.msg('修改中，请稍候',{icon: 16,time:false,shade:0.8});
-        setTimeout(function(){
-            layer.close(index);
-            layer.msg("展示状态修改成功！");
-        },2000);
-    })
 
-    //操作
-    $("body").on("click",".news_edit",function(){  //编辑
-        layer.alert('您点击了文章编辑按钮，由于是纯静态页面，所以暂时不存在编辑内容，后期会添加，敬请谅解。。。',{icon:6, title:'文章编辑'});
-    })
 
-    $("body").on("click",".news_collect",function(){  //收藏.
 
+    //删除
+    $("body").on("click",".news_del",function(){
         var _this = $(this);
 
-        layer.confirm('审核此信息？',{icon:3, title:'提示信息'},function(index){
+        layer.confirm('删除此信息？',{icon:3, title:'提示信息'},function(index){
 
             //_this.parents("tr").remove();
             for(var i=0;i<newsData.length;i++){
                 if(newsData[i].id == _this.attr("data-id")){
                     $.ajax({
-                        url : baseUrl+"carout/orderPass",
+                        url : baseUrl+"park//parkDelete",
                         type : "get",
                         data:{id:newsData[i].id  },
                         dataType : "json",
@@ -156,52 +156,16 @@ layui.config({
                             linksData = data.data;
                             //alert(data);
                             if(data.code=="200"){
-                                layer.msg("审核成功");
+                                layer.msg("删除成功");
                                 window.location.reload();
+                            }else if(data.code=="202"){
+                                layer.msg("删除失败，此停车位正在使用");
                             }else{
-                                layer.msg("审核失败");
+                                layer.msg("删除失败");
                             }
                         },
                         error:function () {
-                            layer.msg("操作失败>_<检查一下网络吧");
-                        }
-                    });
-                    // newsData.splice(i,1);
-                    newsList(newsData);
-                }
-            }
-
-            layer.close(index);
-            //$(this).html("<i class='iconfont icon-star'></i> 已审核");
-        });
-
-    });
-
-    $("body").on("click",".news_del",function(){  //删除
-        var _this = $(this);
-
-        layer.confirm('不通过此信息？',{icon:3, title:'提示信息'},function(index){
-
-            //_this.parents("tr").remove();
-            for(var i=0;i<newsData.length;i++){
-                if(newsData[i].id == _this.attr("data-id")){
-                    $.ajax({
-                        url : baseUrl+"carout/orderBan",
-                        type : "get",
-                        data:{id:newsData[i].id  },
-                        dataType : "json",
-                        success : function(data){
-                            linksData = data.data;
-                            //alert(data);
-                            if(data.code=="200"){
-                                layer.msg("不通过成功");
-                                window.location.reload();
-                            }else{
-                                layer.msg("不通过失败");
-                            }
-                        },
-                        error:function () {
-                            layer.msg("操作失败>_<检查一下网络吧");
+                            layer.msg("删除失败>_<检查一下网络吧");
                         }
                     });
                     // newsData.splice(i,1);
@@ -227,34 +191,21 @@ layui.config({
                 for(var i=0;i<currData.length;i++){
                     dataHtml += '<tr>'
                         +'<td><input type="checkbox" name="checked" lay-skin="primary" lay-filter="choose"></td>'
-                        +'<td align="left">'+currData[i].carName+'</td>'
-                        +'<td>'+currData[i].senderName+'</td>';
-                    if(currData[i].receiver_id=="0")
-                        dataHtml+='<td>'+'无人接单'+'</td>';
-                    else
-                        dataHtml+='<td>'+currData[i].receiverName+'</td>';
+                        +'<td align="left">'+currData[i].id+'</td>'
+                        +'<td>'+currData[i].name+'</td>'
+                        +'<td>'+currData[i].price_per_day+'</td>';
+
 
                     if(currData[i].status == "0"){
-                        dataHtml += '<td style="color:#f00">'+'未审核'+'</td>';
-                    }else if(currData[i].status == "1"){
-                        dataHtml += '<td>'+'未完成'+'</td>';
-                    }else if(currData[i].status == "2"){
-                        dataHtml += '<td>'+'已租入'+'</td>';
-                    }else if(currData[i].status == "3"){
-                        dataHtml += '<td>'+'审核不通过'+'</td>';
+                        dataHtml += '<td >'+'未租出'+'</td>';
+                    }else {
+                        dataHtml += '<td>'+'已租出'+'</td>';
                     }
-                    if(currData[i].status == "0"){
                         dataHtml += '<td>'
-                            +  '<a class="layui-btn layui-btn-normal layui-btn-mini news_collect" data-id="'+data[i].id+'"><i class="layui-icon">&#xe600;</i> 通过</a>'
-                            +  '<a class="layui-btn layui-btn-danger layui-btn-mini news_del" data-id="'+data[i].id+'"><i class="layui-icon">&#xe640;</i> 不通过</a>'
+                            +  '<a class="layui-btn layui-btn-danger layui-btn-mini news_del" data-id="'+data[i].id+'"><i class="layui-icon">&#xe640;</i> 删除</a>'
                             +'</td>'
                             +'</tr>';
-                    }else{
-                        dataHtml += '<td>'
-                            +  '<a class="layui-btn layui-bg-gray layui-btn-mini " data-id="'+data[i].id+'"><i class="layui-icon">&#xe600;</i> 已审核</a>'
-                            +'</td>'
-                            +'</tr>';
-                    }
+
 
                 }
             }else{
@@ -278,4 +229,4 @@ layui.config({
             }
         })
     }
-})
+});

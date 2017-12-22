@@ -95,8 +95,10 @@ public class ParkOrderController {
                 ParkOrderBean parkOrderBean=parkOrderService.getParkOrderByid(id);
                 ParkBean parkBean=parkService.getParkById(parkOrderBean.getParkid());
                 int days= (int) ((parkOrderBean.getEnddate().getTime()-parkOrderBean.getStartdate().getTime())/(1000*3600*24))+1;
+                //System.out.println("DAYS:"+days);
                 int spend=days*parkBean.getPrice_per_day();
                 int yue=userService.getUserById(parkOrderBean.getUserid()).getMoney()-spend;
+                //System.out.println("余额是："+yue);
                 UserBean userBean=new UserBean();
                 userBean.setMoney(yue);
                 userService.updateUserById(parkOrderBean.getUserid(),userBean);
@@ -116,7 +118,7 @@ public class ParkOrderController {
 
     /**
      * 通过userid来得到orders
-     * 这里用了个比较消耗时间的方法，但是表不打我就偷个懒不在controller开新的方法了
+     * 这里用了个比较消耗时间的方法，但是表不大我就偷个懒不在controller开新的方法了
      * Code=200 取出成功
      * code=404 data=-1异常
      * @param userid
@@ -135,6 +137,11 @@ public class ParkOrderController {
             {
                 if(parkOrderBean.getUserid()==userid)
                 {
+                    UserService userService=new UserService();
+                    ParkService parkService=new ParkService();
+                    parkOrderBean.setUserName(userService.getUserById(parkOrderBean.getUserid()).getUserName());
+                    if(parkService.getParkById(parkOrderBean.getParkid())!=null)
+                        parkOrderBean.setParkName(parkService.getParkById(parkOrderBean.getParkid()).getName());
                     ordersOut.add(parkOrderBean);
                 }
             }
@@ -162,6 +169,15 @@ public class ParkOrderController {
          ParkOrderService parkOrderService=new ParkOrderService();
         try {
             List<ParkOrderBean> parkOrderBeans=parkOrderService.getAllParkOrder();
+            for(ParkOrderBean parkOrderBean:parkOrderBeans)
+            {
+                UserService userService=new UserService();
+                ParkService parkService=new ParkService();
+                parkOrderBean.setUserName(userService.getUserById(parkOrderBean.getUserid()).getUserName());
+                if(parkService.getParkById(parkOrderBean.getParkid())!=null)
+                    parkOrderBean.setParkName(parkService.getParkById(parkOrderBean.getParkid()).getName());
+
+            }
             jsonMsg.setCode("200");
             jsonMsg.setData(parkOrderBeans);
         } catch (SQLException e) {

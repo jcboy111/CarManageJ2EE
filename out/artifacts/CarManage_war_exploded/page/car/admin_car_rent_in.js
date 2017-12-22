@@ -14,7 +14,7 @@ layui.config({
     var baseUrl = getRootPath_web();
     //加载页面数据
     var newsData = '';
-    $.get(baseUrl+"carout/orderTraversal", function(data){
+    $.get(baseUrl+"carin/orderTraversal", function(data){
         var newArray = [];
         //单击首页“待审核文章”加载的信息
         if($(".top_tab li.layui-this cite",parent.document).text() == "待审核文章"){
@@ -49,7 +49,7 @@ layui.config({
             var index = layer.msg('查询中，请稍候',{icon: 16,time:false,shade:0.8});
             setTimeout(function(){
                 $.ajax({
-                    url :  baseUrl+"carout/orderTraversal",
+                    url :  baseUrl+"park/parkTraversal",
                     type : "get",
                     dataType : "json",
                     success : function(data){
@@ -72,16 +72,10 @@ layui.config({
                                     return dataStr;
                                 }
                             }
-                            if(newsStr.carName.indexOf(selectStr) > -1){
-                                newsStr["carName"] = changeStr(newsStr.carName);
+                            if(newsStr.name.indexOf(selectStr) > -1){
+                                newsStr["name"] = changeStr(newsStr.name);
                             }
-                            // if(newsStr.senderName.indexOf(selectStr) > -1){
-                            //     newsStr["senderName"] = changeStr(newsStr.senderName);
-                            // }
-                            // if(newsStr.receiverName.indexOf(selectStr) > -1){
-                            //     newsStr["receiverName"] = changeStr(newsStr.receiverName);
-                            // }
-                            if(newsStr.carName.indexOf(selectStr)>-1 ){
+                            if(newsStr.name.indexOf(selectStr)>-1 ){
                                 newArray1.push(newsStr);
                             }
                         }
@@ -140,40 +134,40 @@ layui.config({
 
     $("body").on("click",".news_collect",function(){  //收藏.
 
-        var _this = $(this);
+            var _this = $(this);
 
-        layer.confirm('审核此信息？',{icon:3, title:'提示信息'},function(index){
+            layer.confirm('审核此信息？',{icon:3, title:'提示信息'},function(index){
 
-            //_this.parents("tr").remove();
-            for(var i=0;i<newsData.length;i++){
-                if(newsData[i].id == _this.attr("data-id")){
-                    $.ajax({
-                        url : baseUrl+"carout/orderPass",
-                        type : "get",
-                        data:{id:newsData[i].id  },
-                        dataType : "json",
-                        success : function(data){
-                            linksData = data.data;
-                            //alert(data);
-                            if(data.code=="200"){
-                                layer.msg("审核成功");
-                                window.location.reload();
-                            }else{
-                                layer.msg("审核失败");
+                //_this.parents("tr").remove();
+                for(var i=0;i<newsData.length;i++){
+                    if(newsData[i].id == _this.attr("data-id")){
+                        $.ajax({
+                            url : baseUrl+"carin/orderPass",
+                            type : "get",
+                            data:{id:newsData[i].id  },
+                            dataType : "json",
+                            success : function(data){
+                                linksData = data.data;
+                                //alert(data);
+                                if(data.code=="200"){
+                                    layer.msg("审核成功");
+                                    window.location.reload();
+                                }else{
+                                    layer.msg("审核失败");
+                                }
+                            },
+                            error:function () {
+                                layer.msg("操作失败>_<检查一下网络吧");
                             }
-                        },
-                        error:function () {
-                            layer.msg("操作失败>_<检查一下网络吧");
-                        }
-                    });
-                    // newsData.splice(i,1);
-                    newsList(newsData);
+                        });
+                        // newsData.splice(i,1);
+                        newsList(newsData);
+                    }
                 }
-            }
 
-            layer.close(index);
-            //$(this).html("<i class='iconfont icon-star'></i> 已审核");
-        });
+                layer.close(index);
+                //$(this).html("<i class='iconfont icon-star'></i> 已审核");
+            });
 
     });
 
@@ -186,7 +180,7 @@ layui.config({
             for(var i=0;i<newsData.length;i++){
                 if(newsData[i].id == _this.attr("data-id")){
                     $.ajax({
-                        url : baseUrl+"carout/orderBan",
+                        url : baseUrl+"carin/orderBan",
                         type : "get",
                         data:{id:newsData[i].id  },
                         dataType : "json",
@@ -227,12 +221,12 @@ layui.config({
                 for(var i=0;i<currData.length;i++){
                     dataHtml += '<tr>'
                         +'<td><input type="checkbox" name="checked" lay-skin="primary" lay-filter="choose"></td>'
-                        +'<td align="left">'+currData[i].carName+'</td>'
-                        +'<td>'+currData[i].senderName+'</td>';
+                        +'<td align="left">'+currData[i].car_id+'</td>'
+                        +'<td>'+currData[i].sender_id+'</td>';
                     if(currData[i].receiver_id=="0")
                         dataHtml+='<td>'+'无人接单'+'</td>';
                     else
-                        dataHtml+='<td>'+currData[i].receiverName+'</td>';
+                        dataHtml+='<td>'+currData[i].receiver_id+'</td>';
 
                     if(currData[i].status == "0"){
                         dataHtml += '<td style="color:#f00">'+'未审核'+'</td>';
