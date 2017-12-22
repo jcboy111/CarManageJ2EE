@@ -22,12 +22,12 @@
 
     <table class="layui-table">
         <colgroup>
-            <col width="10">
-            <col width="30%">
-            <col width="30%">
-            <col width="9%">
-            <col width="40%">
-            <col width="9%">
+            <col width="1%">
+            <col width="10%">
+            <col width="20%">
+            <col width="10%">
+            <col width="5%">
+            <col width="15%">
             <col width="9%">
             <col width="5%">
         </colgroup>
@@ -35,6 +35,7 @@
         <tr>
             <th><input type="checkbox" name="" lay-skin="primary" lay-filter="allChoose" id="allChoose"></th>
             <th style="text-align:left;">停车位ID</th><%----%>
+            <th style="text-align:left;">停车位名称</th><%----%>
             <th>开始日期</th><%--name--%>
             <th>订单号</th><%--price_per_day--%>
             <th>订单状态</th>

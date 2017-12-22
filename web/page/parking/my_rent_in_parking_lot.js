@@ -107,6 +107,7 @@ layui.config({
                     dataHtml += '<tr>'
                         + '<td><input type="checkbox" name="checked" lay-skin="primary" lay-filter="choose"></td>'
                         + '<td align="left" class="parkingLotOrderId">' + currData[i].parkid + '</td>'
+                        + '<td align="left">' + currData[i].parkName + '</td>'
                         + '<td >' + currData[i].startdate + '</td>';
                     dataHtml += '<td>' + currData[i].id + '</td>';
                     if(currData[i].status===0){
