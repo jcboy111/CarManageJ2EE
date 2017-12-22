@@ -36,11 +36,11 @@
             <col width="9%">
             <col width="9%">
             <col width="15%">--%>
-            <col width="10">
-            <col width="30%">
-            <col width="30%">
+            <col width="3%">
+            <col width="10%">
+            <col width="20%">
             <col width="9%">
-            <col width="40%">
+            <col width="9%">
             <col width="9%">
             <col width="9%">
             <col width="5%">
@@ -48,12 +48,16 @@
         <thead>
         <tr>
             <th><input type="checkbox" name="" lay-skin="primary" lay-filter="allChoose" id="allChoose"></th>
-            <th style="text-align:left;">车辆编号</th>
+            <th style="text-align:left;">订单ID</th>
+            <th style="text-align:left;">车辆名称</th>
+
+            <th style="text-align:left;">车辆ID</th>
             <%--car_id--%>
-            <th>发布人</th>
+            <th>发布人ID</th>
             <%--sender_id--%>
-            <th>审核状态</th>
-            <%--status--%>
+
+            <th>车辆出租状态码</th>
+            <th>发布人姓名</th>
             <th>操作</th>
         </tr>
         </thead>

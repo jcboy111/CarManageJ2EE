@@ -320,6 +320,4 @@ public class UserManageController {
         }
         return jsonMsg;
     }
-
-
 }

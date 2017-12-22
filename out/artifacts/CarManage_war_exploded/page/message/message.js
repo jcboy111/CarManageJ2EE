@@ -52,7 +52,7 @@ layui.config({
             msgHtml += '  <td class="msg_time">'+data[i].askTime+'</td>';
             msgHtml += '  <td class="msg_reply">'+msgReply+'</td>';
             msgHtml += '  <td class="msg_opr">';
-            msgHtml += '    <a class="layui-btn layui-btn-mini layui-btn-normal msg_collect"><i class="layui-icon">&#xe600;</i> 收藏</a>';
+            /*msgHtml += '    <a class="layui-btn layui-btn-mini layui-btn-normal msg_collect"><i class="layui-icon">&#xe600;</i> 收藏</a>';*/
             msgHtml += '    <a class="layui-btn layui-btn-mini reply_msg"><i class="layui-icon">&#xe611;</i> 回复</a>';
             msgHtml += '  </td>';
             msgHtml += '</tr>';
@@ -61,6 +61,8 @@ layui.config({
     })
 
     //操作
+    //收藏
+/*
     $("body").on("click",".msg_collect",function(){  //收藏
         if($(this).text().indexOf("已收藏") > 0){
             layer.msg("取消收藏成功！");
@@ -70,6 +72,7 @@ layui.config({
             $(this).html("<i class='iconfont icon-star'></i> 已收藏");
         }
     })
+*/
 
     //回复
     $("body").on("click",".reply_msg,.msgHtml .user_info h2,.msgHtml .msg_info>img",function(){
