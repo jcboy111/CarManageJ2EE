@@ -32,7 +32,7 @@ layui.config({
 
     //加载页面数据
     var carsData = '';
-    $.get(baseUrl + "carout/passedOrder", function (data) {
+    $.get(baseUrl + "msg/msgTraversal", function (data) {
         var carsData = data.data;
         //执行加载数据的方法
         newsList(carsData);
@@ -143,15 +143,8 @@ layui.config({
                     dataHtml += '<tr>'
                         + '<td><input type="checkbox" name="checked" lay-skin="primary" lay-filter="choose"></td>'
                         +'<td>'+currData[i].id+'</td>'
-                        +'<td>'+currData[i].carName+'</td>'
-                        + '<td align="left" class="car_id">' + currData[i].car_id + '</td>'
-                        + '<td >' + currData[i].sender_id + '</td>';
-                    dataHtml += '<td>' + currData[i].status + '</td>'+'<td>'+currData[i].senderName+'</td>';
-                    dataHtml +=
-                        '<td>'
-                        + '<a class="layui-btn layui-btn-mini cars_buy"><i class="iconfont icon-edit"></i> 租用</a>'
-                        + '</td>'
-                        + '</tr>';
+                        +'<td>'+currData[i].msg+'</td>'
+                        + '<td >' + currData[i].time + '</td>';
                 }
             } else {
                 dataHtml = '<tr><td colspan="8">暂无数据</td></tr>';

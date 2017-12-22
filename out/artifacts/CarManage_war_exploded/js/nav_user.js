@@ -55,4 +55,14 @@ var navs = [{
     "icon": "icon-computer",
     "href": "page/parking/parkingLot.jsp",
     "spread": false
+}, {
+    "title": "留言",
+    "icon": "icon-computer",
+    "href": "page/message/message.html",
+    "spread": false
+}, {
+    "title": "来自管理员的公告",
+    "icon": "icon-computer",
+    "href": "page/message/user_broadcast.jsp",
+    "spread": false
 }]

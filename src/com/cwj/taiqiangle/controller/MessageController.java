@@ -87,6 +87,4 @@ public class MessageController {
         }
         return jsonMsg;
     }
-
-
 }

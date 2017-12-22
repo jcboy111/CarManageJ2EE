@@ -103,13 +103,15 @@ layui.config({
                 for (var i = 0; i < currData.length; i++) {
                     dataHtml += '<tr>'
                         + '<td><input type="checkbox" name="checked" lay-skin="primary" lay-filter="choose"></td>'
-                        + '<td align="left">' + currData[i].car_id + '</td>';/*车辆ID*/
+                        + '<td align="left">' + currData[i].car_id + '</td>'/*车辆ID*/
+                    + '<td align="left">' + currData[i].carName + '</td>';
 
                     dataHtml +='<td>'+currData[i].id+'</td>';/*订单ID*/
+
                     if(currData[i].status==2){
-                        dataHtml+=+ '<td >' + currData[i].sender_id + '</td>';
+                        dataHtml+= '<td >被ID为'+currData[i].receiver_id+' 的用户：' + currData[i].receiverName + ' 租用了</td>';
                     } else {
-                        dataHtml+='<td><i>还没有被租用</i></td>';
+                        dataHtml+='<td><i>还没有被任何用户租用</i></td>';
                     }
 
                     /*dataHtml += '<td>' + currData[i].status + '</td>';*/
@@ -122,11 +124,20 @@ layui.config({
                     } else{
                         dataHtml+='<td>审核失败</td>';
                     }
-                    dataHtml +=
-                        '<td>'
-                        + '<a class="layui-btn layui-btn-mini cars_delete"><i class="iconfont icon-edit"></i> 删除</a>'
-                        + '</td>'
-                        + '</tr>';
+
+                    if(currData[i].status==2){
+                        dataHtml+=   '<td>'
+                            + '<a class="layui-btn layui-btn-mini"> 删除</a>'
+                            + '</td>'
+                            + '</tr>';
+                    } else{
+                        dataHtml +=
+                            '<td>'
+                            + '<a class="layui-btn layui-btn-mini cars_delete"><i class="iconfont icon-edit"></i> 删除</a>'
+                            + '</td>'
+                            + '</tr>';
+                    }
+
                 }
             } else {
                 dataHtml = '<tr><td colspan="8">暂无数据</td></tr>';

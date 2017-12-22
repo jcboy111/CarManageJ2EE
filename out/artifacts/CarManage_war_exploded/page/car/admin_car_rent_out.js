@@ -49,7 +49,7 @@ layui.config({
             var index = layer.msg('查询中，请稍候',{icon: 16,time:false,shade:0.8});
             setTimeout(function(){
                 $.ajax({
-                    url :  baseUrl+"park/parkTraversal",
+                    url :  baseUrl+"carout/orderTraversal",
                     type : "get",
                     dataType : "json",
                     success : function(data){
@@ -72,10 +72,16 @@ layui.config({
                                     return dataStr;
                                 }
                             }
-                            if(newsStr.name.indexOf(selectStr) > -1){
-                                newsStr["name"] = changeStr(newsStr.name);
+                            if(newsStr.carName.indexOf(selectStr) > -1){
+                                newsStr["carName"] = changeStr(newsStr.carName);
                             }
-                            if(newsStr.name.indexOf(selectStr)>-1 ){
+                            // if(newsStr.senderName.indexOf(selectStr) > -1){
+                            //     newsStr["senderName"] = changeStr(newsStr.senderName);
+                            // }
+                            // if(newsStr.receiverName.indexOf(selectStr) > -1){
+                            //     newsStr["receiverName"] = changeStr(newsStr.receiverName);
+                            // }
+                            if(newsStr.carName.indexOf(selectStr)>-1 ){
                                 newArray1.push(newsStr);
                             }
                         }
@@ -221,12 +227,12 @@ layui.config({
                 for(var i=0;i<currData.length;i++){
                     dataHtml += '<tr>'
                         +'<td><input type="checkbox" name="checked" lay-skin="primary" lay-filter="choose"></td>'
-                        +'<td align="left">'+currData[i].car_id+'</td>'
-                        +'<td>'+currData[i].sender_id+'</td>';
+                        +'<td align="left">'+currData[i].carName+'</td>'
+                        +'<td>'+currData[i].senderName+'</td>';
                     if(currData[i].receiver_id=="0")
                         dataHtml+='<td>'+'无人接单'+'</td>';
                     else
-                        dataHtml+='<td>'+currData[i].receiver_id+'</td>';
+                        dataHtml+='<td>'+currData[i].receiverName+'</td>';
 
                     if(currData[i].status == "0"){
                         dataHtml += '<td style="color:#f00">'+'未审核'+'</td>';
