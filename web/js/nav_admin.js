@@ -8,29 +8,14 @@
 var navs = [{
     "title": "后台首页",
     "icon": "icon-computer",
-    "href": "page/main.html",
-    "spread": false
-}, {
-    "title": "注册用户管理",
-    "icon": "icon-computer",
-    "href": "page/main.html",
+    "href": "page/muban/CarIndexMuBan/index.html",
     "spread": false
 }, {
     "title": "停车位信息管理",
     "icon": "icon-computer",
     "href": "page/car/admin_car_park.jsp",
     "spread": false
-}, {
-    "title": "停车位订单审核",
-    "icon": "icon-computer",
-    "href": "page/main.html",
-    "spread": false
-}, {
-    "title": "新闻动态管理",
-    "icon": "icon-computer",
-    "href": "page/main.html",
-    "spread": false
-}, {
+} , {
     "title": "车辆求租信息审核",
     "icon": "icon-computer",
     "href": "page/car/admin_car_rent_in.jsp",
@@ -41,39 +26,8 @@ var navs = [{
     "href": "page/car/admin_car_rent_out.jsp",
     "spread": false
 }, {
-
-    "title": "车辆及车位租赁信息",
-    "icon": "&#xe61c;",
-    "href": "",
-    "spread": false,
-    "children": [
-        {
-            "title": "车辆求租信息",
-            "icon": "&#xe631;",
-            "href": "page/car/car_rent_in.jsp",
-            "spread": false
-        },
-        {
-            "title": "车辆出租信息",
-            "icon": "&#xe631;",
-            "href": "page/car/car_rent_out.jsp",
-            "spread": false
-        },
-        {
-            "title": "停车位信息",
-            "icon": "&#xe631;",
-            "href": "page/car/car_rent_out.jsp",
-            "spread": false
-        }
-    ]
-}, {
-    "title": "留言管理",
+    "title": "管理员广播",
     "icon": "&#xe631;",
-    "href": "page/car/car_rent_out.jsp",
-    "spread": false
-}, {
-    "title": "系统基本参数",
-    "icon": "&#xe631;",
-    "href": "page/car/car_rent_out.jsp",
+    "href": "page/broadcast/admin_broadcast.jsp",
     "spread": false
 }]
