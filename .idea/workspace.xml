@@ -7,30 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1007eb6-ddad-498e-8ab0-b2f2c3c4ae0d" name="Default" comment="补充实现了右上角的个人资料和修改密码">
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/message/user_broadcast.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/message/user_broadcast.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/page/message/user_broadcast.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/carmanage.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/message/user_broadcast.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/message/user_broadcast.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/message/user_broadcast.jsp" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/classes/com/cwj/taiqiangle/controller/CarOutController.class" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/WEB-INF/classes/com/cwj/taiqiangle/controller/CarOutController.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/js/nav_user.js" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/js/nav_user.js" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/car/admin_car_rent_out.js" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/car/admin_car_rent_out.js" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/car/admin_car_rent_out.jsp" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/car/admin_car_rent_out.jsp" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/car/car_rent_in.js" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/car/car_rent_in.js" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/car/car_rent_in.jsp" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/car/car_rent_in.jsp" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/car/my_rent_in_cars.js" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/car/my_rent_in_cars.js" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/car/my_rent_in_cars.jsp" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/car/my_rent_in_cars.jsp" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/car/my_rent_out_car_list.js" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/car/my_rent_out_car_list.js" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/car/my_rent_out_car_list.jsp" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/car/my_rent_out_car_list.jsp" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/message/message.html" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/message/message.html" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/message/message.js" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/message/message.js" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/parking/my_rent_in_parking_lot.js" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/parking/my_rent_in_parking_lot.js" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/parking/my_rent_in_parking_lot.jsp" afterPath="$PROJECT_DIR$/out/artifacts/CarManage_war_exploded/page/parking/my_rent_in_parking_lot.jsp" />
-      <change beforePath="$PROJECT_DIR$/out/production/CarManage/com/cwj/taiqiangle/controller/CarOutController.class" afterPath="$PROJECT_DIR$/out/production/CarManage/com/cwj/taiqiangle/controller/CarOutController.class" />
-      <change beforePath="$PROJECT_DIR$/src/com/cwj/taiqiangle/controller/MessageController.java" afterPath="$PROJECT_DIR$/src/com/cwj/taiqiangle/controller/MessageController.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/cwj/taiqiangle/controller/UserManageController.java" afterPath="$PROJECT_DIR$/src/com/cwj/taiqiangle/controller/UserManageController.java" />
-      <change beforePath="$PROJECT_DIR$/web/js/nav_user.js" afterPath="$PROJECT_DIR$/web/js/nav_user.js" />
-      <change beforePath="$PROJECT_DIR$/web/page/message/message.html" afterPath="$PROJECT_DIR$/web/page/message/message.html" />
-      <change beforePath="$PROJECT_DIR$/web/page/message/message.js" afterPath="$PROJECT_DIR$/web/page/message/message.js" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -307,70 +288,7 @@
             <path>
               <item name="CarManageJ2EE3" type="b2602c69:ProjectViewProjectNode" />
               <item name="CarManageJ2EE3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CarManageJ2EE3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CarManageJ2EE3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="taiqiangle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CarManageJ2EE3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CarManageJ2EE3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="taiqiangle" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CarManageJ2EE3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CarManageJ2EE3" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CarManageJ2EE3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CarManageJ2EE3" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CarManageJ2EE3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CarManageJ2EE3" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="json" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CarManageJ2EE3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CarManageJ2EE3" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="page" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CarManageJ2EE3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CarManageJ2EE3" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="page" type="462c0819:PsiDirectoryNode" />
-              <item name="car" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CarManageJ2EE3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CarManageJ2EE3" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="page" type="462c0819:PsiDirectoryNode" />
-              <item name="message" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CarManageJ2EE3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CarManageJ2EE3" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="page" type="462c0819:PsiDirectoryNode" />
-              <item name="parking" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CarManageJ2EE3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CarManageJ2EE3" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="test-ChenJie" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -686,14 +604,7 @@
       <workItem from="1513821226420" duration="197000" />
       <workItem from="1513822581089" duration="15987000" />
       <workItem from="1513844338463" duration="347000" />
-      <workItem from="1513919289254" duration="2147000" />
-    </task>
-    <task id="LOCAL-00009" summary="做了一个Git3测试">
-      <created>1513301220070</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1513301220070</updated>
+      <workItem from="1513919289254" duration="2244000" />
     </task>
     <task id="LOCAL-00010" summary="没关系">
       <created>1513302894922</created>
@@ -1031,11 +942,18 @@
       <option name="project" value="LOCAL" />
       <updated>1513918750982</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="增加了普通用户的留言和广播模块">
+      <created>1513921473194</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1513921473196</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155709000" />
+    <option name="totallyTimeSpent" value="155806000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -1153,7 +1071,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="修改index.html" />
     <MESSAGE value="修复了这个bug" />
     <MESSAGE value="实现了cookie登陆" />
     <MESSAGE value="实现了cookie登陆，修复了bug。在后台增加了一个类叫做UserAllKinds用来根据一个账号的名字来判断这个账号是哪种类型的。" />
@@ -1178,7 +1095,8 @@
     <MESSAGE value="可以修改用户的邮箱和个人描述" />
     <MESSAGE value="补充实现了右上角的个人资料和修改密码" />
     <MESSAGE value="优化了用户界面" />
-    <option name="LAST_COMMIT_MESSAGE" value="优化了用户界面" />
+    <MESSAGE value="增加了普通用户的留言和广播模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加了普通用户的留言和广播模块" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
