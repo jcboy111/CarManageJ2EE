@@ -1,10 +1,3 @@
 # CarManageJ2EE
-因为经常要修改idea中tomcat的端口号码，所以，我把代码修改了。
-自动会获取当前的baseURL, http://localhost:xxxx/
-
- tomcat configuration里面，的deploment要设置成"/",
- 这样访问网页就直接是localhost:xxxx/index.html.不过，
- 我觉得这是一个坑，后面还要改。
- 
-
-
+JavaEE项目源码-实现租车&车位管理的管理员+用户模式的WEB系统
+技术：SpringMVC+Mysql+LayUI
